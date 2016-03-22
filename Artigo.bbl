@@ -1,0 +1,18 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.3 }
+
+\bibitem[Ayala 2008]{Ayala.2008}
+\abntrefinfo{Ayala}{AYALA}{2008}
+{AYALA, G. A.~A.
+\emph{Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um
+  Sistema Térmico}.
+Disserta\c{c}\~{a}o (Mestrado) --- Pontífice Universidade Catóilica do Rio de
+  Janeiro - PUC-Rio, 04 2008.
+Dispon{\'\i}vel em:
+  \url{http://www.maxwell.vrac.puc-rio.br/12366/12366\_1.PDF}.}
+
+\end{thebibliography}
