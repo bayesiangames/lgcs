@@ -1,0 +1,355 @@
+% ------------------------------------------------------------------------
+% Artigo 
+% ------------------------------------------------------------------------
+
+% Carga de parâmetros
+
+
+\documentclass[
+	% -- opções da classe memoir --
+	article,			        % indica que é um artigo acadêmico
+	11pt,				          % tamanho da fonte
+	oneside,			        % para impressão apenas no verso. Oposto a twoside
+	a4paper,			        % tamanho do papel. 
+	english,			        % idioma adicional para hifenização
+	brazil,				        % o último idioma é o principal do documento
+	sumario=tradicional
+]{abntex2}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{lmodern}			    % Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		  % Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}   		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl}  		  	% Lista de simbolos
+\usepackage{color}				    % Controle das cores
+\usepackage{graphicx}			    % Inclusão de gráficos
+\usepackage{microtype} 			  % para melhorias de justificação
+%\usepackage{draftwatermark}
+
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+
+% ---
+		
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}  % Citações padrão ABNT
+\usepackage{everypage}
+\AddEverypageHook{DRAFT VERSION}
+
+% ---
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Jogos cooperativos na\\ gestão da cadeia de suprimentos}
+
+\author{João B. G. Brito, \emph{Esp.}   \\   
+    \href{mailto:jbgb@uol.com.br}{jbgb@uol.com.br} 
+  \and {Michel J. Anzanello, \emph{Phd}} \\
+    \href{mailto:michel.anzanello@gmail.com}{michel.anzanello@gmail.com}
+}
+
+\date{\today}
+
+\instituicao{
+    Escola de Engenharia de Produção \\
+    Universidade Federal do Rio Grande do Sul -- UFRGS \\
+  Logística e Gestão da Cadeia de Suprimentos - 2015
+}
+
+\local{Av. Osvaldo Aranha, 99  5º andar, CEP: 90035-190, Porto Alegre/RS}
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\@title},
+	    pdfcreator={\@author},
+  	pdfkeywords={Teoria dos jogos cooperativos}
+                {Gestão da cadeia de suprimentos}
+                {Shapley value}
+                {Per capita nucleolus}
+                {Nucleolus}, 
+   	 colorlinks=true,       	  % false: boxed links; true: colored links
+     	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      	% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ---
+% Altera as margens padrões
+% ---
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+% ---
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Espaçamento simples
+\SingleSpacing
+
+% ----
+% Início do documento
+% ----
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+
+%---
+%
+% Se desejar escrever o artigo em duas colunas, descomente a linha abaixo
+% e a linha com o texto ``FIM DE ARTIGO EM DUAS COLUNAS''.
+%
+%---
+% página de titulo
+\maketitle
+
+% resumo em português
+\begin{resumoumacoluna}
+% Contextualização: 
+% Gap:
+% Proposta: 
+% Metodologia
+% Resultados
+% Conclusão 
+No ambiente de uma cadeia de suprimentos (CS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com um algorítmo que maximiza a satisfação dos insatisfeitos (\emph{nucleolus}) e outro que pondera a participação nos custos de cada parceiro (\emph{Shapley value}). Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que o \emph{nucleolus} e \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
+
+ \vspace{\onelineskip}
+ 
+ \noindent
+ \textbf{Palavras-chave}: Teoria dos jogos cooperativos. Gestão da cadeia de suprimentos. Nucleolus. Shapley value.
+\end{resumoumacoluna}
+
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% \twocolumn[    		    
+% ]      		% FIM DE ARTIGO EM DUAS COLUNAS
+% ----------------------------------------------------------
+% Introdução
+% ----------------------------------------------------------
+\section*{Introdução}
+\addcontentsline{toc}{section}{Introdução}
+
+% ----------------------------------------------------------
+% Seção de explicações
+% ----------------------------------------------------------
+
+\section{Gestão da cadeia de suprimentos}
+$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+\section{Teoria dos jogos cooperativos}
+
+\section{\emph{Nucleolus}}
+
+\subsection{Conceito}
+
+\subsection{Aplicação}
+
+\subsection{Resultados}
+
+\section{\emph{Shapley value}}
+
+\subsection{Conceito}
+
+\subsection{Aplicação}
+
+\subsection{Resultados}
+
+\section{Análise comparativa}
+
+% ---
+% Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
+% ---
+\bookmarksetup{startatroot}% 
+% ---
+
+% ---
+% Conclusão
+% ---
+\section*{Conclusão}
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ---
+% Título e resumo em língua estrangeira
+% ---
+
+% \twocolumn[    		% INICIO DE ARTIGO EM DUAS COLUNAS
+
+% ]  				        % FIM DE ARTIGO EM DUAS COLUNAS
+% ---
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{references}
+
+\end{document}
+
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Há diversas soluções prontas para glossário em LaTeX. 
+% Consulte o manual do abnTeX2 para obter sugestões.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+% ---
+% Inicia os apêndices
+% ---
+\begin{apendicesenv}
+
+% ----------------------------------------------------------
+\chapter{}
+% ----------------------------------------------------------
+
+\end{apendicesenv}
+% ---
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+\cftinserthook{toc}{AAA}
+% ---
+% Inicia os anexos
+% ---
+%\anexos
+\begin{anexosenv}
+
+% ---
+\chapter{}
+% ---
+
+\end{anexosenv}
