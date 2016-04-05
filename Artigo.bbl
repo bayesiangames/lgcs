@@ -5,6 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.3 }
 
+\bibitem[Arrow 2012]{Arrow.2012}
+\abntrefinfo{Arrow}{ARROW}{2012}
+{ARROW, K.~J. \emph{Social choice and individual values}. [S.l.]: Yale
+  university press, 2012. v.~12.}
+
 \bibitem[Ayala 2008]{Ayala.2008}
 \abntrefinfo{Ayala}{AYALA}{2008}
 {AYALA, G. A.~A.
@@ -14,5 +19,111 @@ Disserta\c{c}\~{a}o (Mestrado) --- Pontífice Universidade Catóilica do Rio de
   Janeiro - PUC-Rio, 04 2008.
 Dispon{\'\i}vel em:
   \url{http://www.maxwell.vrac.puc-rio.br/12366/12366\_1.PDF}.}
+
+\bibitem[Bezerra et al. 2009]{Bezerra.2009}
+\abntrefinfo{Bezerra et al.}{BEZERRA et al.}{2009}
+{BEZERRA, F.~A.; GRANDE, J.~F.; SILVA, A.~J. da. Análise e caracterização de
+  modelos de custos que utilizam o valor de shapley para alocação de custos
+  entre departamentos.
+\emph{Gestão \& Produção}, SciELO - Scientific Electronic Library Online,
+  São Paulo, Brasil, v.~16, p. 74--84, 03 2009.
+ISSN 0104-530X.
+Dispon{\'\i}vel em:
+  \url{http://www.scielo.br/scielo.php?script=sci\_arttext&pid=S0104-530X2009000100008&nrm=iso}.}
+
+\bibitem[Cachon e Netessine 2004]{Cachon.2004}
+\abntrefinfo{Cachon e Netessine}{CACHON; NETESSINE}{2004}
+{CACHON, G.~P.; NETESSINE, S. Handbook of quantitative supply chain analysis:
+  Modeling in the e-business era.
+In:  \underline{\ \ \ \ \ \ \ \ }. Boston, MA: Springer US, 2004. cap. Game
+  Theory in Supply Chain Analysis, p. 13--65.
+ISBN 978-1-4020-7953-5.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/978-1-4020-7953-5\_2}.}
+
+\bibitem[Cano-Berlanga et al. 2015]{Dobos.2010}
+\abntrefinfo{Cano-Berlanga et al.}{CANO-BERLANGA et al.}{2015}
+{CANO-BERLANGA, S.; GIMENEZ-GOMEZ, J.-M.; VILELLA, C. Cooperation in supply
+  chains: A cooperative game theoretic analysis.
+\emph{Working Paper No. 06; CREIP; Spain}, 2015.}
+
+\bibitem[Cao e Zhang 2012]{Cao.2012}
+\abntrefinfo{Cao e Zhang}{CAO; ZHANG}{2012}
+{CAO, M.; ZHANG, Q. \emph{Supply Chain Collaboration: Roles of
+  Interorganizational Systems, Trust, and Collaborative Culture}. [S.l.]:
+  Springer London, 2012.
+ISBN 9781447145905.}
+
+\bibitem[Chen e Paulraj 2004]{Chen.2004}
+\abntrefinfo{Chen e Paulraj}{CHEN; PAULRAJ}{2004}
+{CHEN, I.~J.; PAULRAJ, A. Towards a theory of supply chain management: the
+  constructs and measurements.
+\emph{Journal of Operations Management}, Elsevier Science, v.~22, 2004.}
+
+\bibitem[Drechsel 2010]{Drechsel.2010}
+\abntrefinfo{Drechsel}{DRECHSEL}{2010}
+{DRECHSEL, J. \emph{Cooperative Lot Sizing Games in Supply Chains}. Springer
+  Berlin Heidelberg, 2010.
+ISBN 9783642137259. Dispon{\'\i}vel em:
+  \url{http://www.springer.com/us/book/9783642137242}.}
+
+\bibitem[Fiani 2006]{Fiani.2006}
+\abntrefinfo{Fiani}{FIANI}{2006}
+{FIANI, R. \emph{Teoria Dos Jogos}. [S.l.]: Elsevier Brasil, 2006.
+ISBN 9788535220735.}
+
+\bibitem[Figueiredo 1994]{Figueiredo.1994}
+\abntrefinfo{Figueiredo}{FIGUEIREDO}{1994}
+{FIGUEIREDO, R.~S. Teoria dos jogos: conceitos, formalização matemática e
+  aplicação à distribuição de custo conjunto.
+\emph{Gestão \& Produção}, SciELO - Scientific Electronic Library Online,
+  São Paulo, Brasil, v.~1, p. 273--289, 12 1994.
+ISSN 0104-530X.
+Dispon{\'\i}vel em:
+  \url{http://www.scielo.br/scielo.php?script=sci\_arttext&pid=S0104-530X1994000300005&nrm=iso}.}
+
+\bibitem[Kogan e Tapiero 2007]{kogan.2007}
+\abntrefinfo{Kogan e Tapiero}{KOGAN; TAPIERO}{2007}
+{KOGAN, K.; TAPIERO, C.~S. \emph{Supply Chain Games: Operations Management and
+  Risk Valuation}. Springer US, 2007.
+ISBN 9780387727769. Dispon{\'\i}vel em:
+  \url{http://www.springer.com/us/book/9780387727752}.}
+
+\bibitem[Maschler et al. 1979]{Maschler.1979}
+\abntrefinfo{Maschler et al.}{MASCHLER et al.}{1979}
+{MASCHLER, M.; PELEG, B.; SHAPLEY, L. Geometric properties of the kernel,
+  nucleolus, and related solution concepts.
+\emph{Mathematics of Operations Research}, INFORMS, v.~4, 11 1979.}
+
+\bibitem[McCain 2013]{Mccain.2013}
+\abntrefinfo{McCain}{MCCAIN}{2013}
+{MCCAIN, R. \emph{Value Solutions in Cooperative Games}. [S.l.]: World
+  Scientific Publishing Company, 2013.
+ISBN 9789814417402.}
+
+\bibitem[Moreira 2002]{Moreira.2002}
+\abntrefinfo{Moreira}{MOREIRA}{2002}
+{MOREIRA, R.~C. Teoria dos jogos cooperativos: Conceitos fundamentais. In:
+  \emph{Simpósio brasileiro de pesquisa operacional - SBPO}. Instituto Militar
+  de Engenharia - IME, 2002. Mini-Curso B. Dispon{\'\i}vel em:
+  \url{http://ws2.din.uem.br/~ademir/sbpo/sbpo2002/minic/minic00.htm}.}
+
+\bibitem[Neumann e Morgenstern 1947]{Neumann.1947}
+\abntrefinfo{Neumann e Morgenstern}{NEUMANN; MORGENSTERN}{1947}
+{NEUMANN, J. von; MORGENSTERN, O. \emph{Theory of Games and Economic Behavior}.
+  [S.l.]: Princeton University Press, 1947.}
+
+\bibitem[Roth 1988]{Alvin.1988}
+\abntrefinfo{Roth}{ROTH}{1988}
+{ROTH, A.~E. \emph{The Shapley value: essays in honor of Lloyd S. Shapley}. New
+  York, USA: Cambridge University Press, 1988.
+ISBN 9780521361774.}
+
+\bibitem[Young 1994]{Young.1994}
+\abntrefinfo{Young}{YOUNG}{1994}
+{YOUNG, H.~P. Cost allocation.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Handbook of Game Theory with Economic
+  Applications}. Amsterdam, Holanda: Elsevier North Holland, 1994. v.~2, cap.
+  Equitable core solutions.
+ISBN 9780444894274.}
 
 \end{thebibliography}
