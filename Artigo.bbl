@@ -24,27 +24,27 @@
 \bibitem[Ayala 2008]{Ayala.2008}
 \abntrefinfo{Ayala}{AYALA}{2008}
 {AYALA, G. A.~A.
-\emph{Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um
-  Sistema Térmico}.
-Disserta\c{c}\~{a}o (Mestrado) --- Pontífice Universidade Catóilica do Rio de
-  Janeiro - PUC-Rio, 04 2008.
+\emph{Aplica\c{c}{\~a}o de Teoria de Jogos à Aloca\c{c}{\~a}o de Capacidade
+  Firme em um Sistema T{\'e}rmico}.
+Disserta\c{c}\~{a}o (Mestrado) --- Pont{\'i}fice Universidade Cat{\'o}ilica do
+  Rio de Janeiro - PUC-Rio, 04 2008.
 Dispon{\'\i}vel em:
   \url{http://www.maxwell.vrac.puc-rio.br/12366/12366\_1.PDF}.}
 
 \bibitem[Bezerra et al. 2009]{Bezerra.2009}
 \abntrefinfo{Bezerra et al.}{BEZERRA et al.}{2009}
-{BEZERRA, F.~A.; GRANDE, J.~F.; SILVA, A.~J. da. Análise e caracterização de
-  modelos de custos que utilizam o valor de shapley para alocação de custos
-  entre departamentos.
-\emph{Gestão \& Produção}, SciELO - Scientific Electronic Library Online,
-  São Paulo, Brasil, v.~16, p. 74--84, 03 2009.
+{BEZERRA, F.~A.; GRANDE, J.~F.; SILVA, A.~J. da. An{\'a}lise e
+  caracteriza\c{c}{\~a}o de modelos de custos que utilizam o valor de shapley
+  para aloca\c{c}{\~a}o de custos entre departamentos.
+\emph{Gest{\~a}o \& Produ\c{c}{\~a}o}, SciELO - Scientific Electronic Library
+  Online, S{\~a}o Paulo, Brasil, v.~16, p. 74--84, 03 2009.
 ISSN 0104-530X.
 Dispon{\'\i}vel em:
   \url{http://www.scielo.br/scielo.php?script=sci\_arttext&pid=S0104-530X2009000100008&nrm=iso}.}
 
-\bibitem[Brink e Pintér 2015]{Brink.2015}
-\abntrefinfo{Brink e Pintér}{BRINK; PINTéR}{2015}
-{BRINK, R. van~den; PINTéR, M. On axiomatizations of the shapley value for
+\bibitem[Brink e Pint{\'e}r 2015]{Brink.2015}
+\abntrefinfo{Brink e Pint{\'e}r}{BRINK; PINT{\'E}R}{2015}
+{BRINK, R. van~den; PINT{\'E}R, M. On axiomatizations of the shapley value for
   assignment games.
 \emph{Journal of Mathematical Economics}, v.~60, p. 110--114, 10 2015.
 ISSN 0304-4068.}
@@ -85,16 +85,16 @@ ISBN 9780857297662.}
 ISBN 9781475748710.}
 
 \bibitem[Dobos e Pint{\'e}r 2010]{Dobos.2010b}
-\abntrefinfo{Dobos e Pint{\'e}r}{DOBOS; PINT{\'E}R}{2010}
+\abntrefinfo{Dobos e Pint{\'e}r}{DOBOS; PINT{\'E}R}{2010a}
 {DOBOS, I.; PINT{\'E}R, M. Cooperation in an hmms-type supply chain: A
   management application of cooperative game theory= kooper{\'a}ci{\'o} egy
   hmms-t{\'\i}pus{\'u} ell{\'a}t{\'a}si l{\'a}ncban: A kooperat{\'\i}v
   j{\'a}t{\'e}kelm{\'e}let egy menedzsment alkalmaz{\'a}sa.
 V{\'a}llalatgazdas{\'a}gtan Int{\'e}zet, 2010.}
 
-\bibitem[Dobos e Pintér 2010]{Dobos.2010a}
-\abntrefinfo{Dobos e Pintér}{DOBOS; PINTéR}{2010}
-{DOBOS, I.; PINTéR, M. Cooperation in supply chains: A cooperative game
+\bibitem[Dobos e Pint{\'e}r 2010]{Dobos.2010a}
+\abntrefinfo{Dobos e Pint{\'e}r}{DOBOS; PINT{\'E}R}{2010b}
+{DOBOS, I.; PINT{\'E}R, M. Cooperation in supply chains: A cooperative game
   theoretic analysis.
 Budapest, Hungary, 09 2010.
 ISSN 1786--3031.}
@@ -119,17 +119,22 @@ ISBN 9788535220735.}
 
 \bibitem[Figueiredo 1994]{Figueiredo.1994}
 \abntrefinfo{Figueiredo}{FIGUEIREDO}{1994}
-{FIGUEIREDO, R.~S. Teoria dos jogos: conceitos, formalização matemática e
-  aplicação à distribuição de custo conjunto.
-\emph{Gestão \& Produção}, SciELO - Scientific Electronic Library Online,
-  São Paulo, Brasil, v.~1, p. 273--289, 12 1994.
+{FIGUEIREDO, R.~S. Teoria dos jogos: conceitos, formaliza\c{c}{\~a}o
+  matem{\'a}tica e aplica\c{c}{\~a}o à distribui\c{c}{\~a}o de custo conjunto.
+\emph{Gest{\~a}o \& Produ\c{c}{\~a}o}, SciELO - Scientific Electronic Library
+  Online, S{\~a}o Paulo, Brasil, v.~1, p. 273--289, 12 1994.
 ISSN 0104-530X.
 Dispon{\'\i}vel em:
   \url{http://www.scielo.br/scielo.php?script=sci\_arttext&pid=S0104-530X1994000300005&nrm=iso}.}
 
-\bibitem[Guajardo e Jörnsten 2015]{Guajardo.2015}
-\abntrefinfo{Guajardo e Jörnsten}{GUAJARDO; JöRNSTEN}{2015}
-{GUAJARDO, M.; JöRNSTEN, K. Common mistakes in computing the nucleolus.
+\bibitem[Gim{\'e}nez-G{\'o}mez 2014]{Gimenez.2014}
+\abntrefinfo{Gim{\'e}nez-G{\'o}mez}{GIM{\'E}NEZ-G{\'O}MEZ}{2014}
+{GIM{\'E}NEZ-G{\'O}MEZ, J.-M. A way to play claims problems.
+\emph{Group Decision and Negotiation}, Springer, v.~23, 05 2014.}
+
+\bibitem[Guajardo e J{\"o}rnsten 2015]{Guajardo.2015}
+\abntrefinfo{Guajardo e J{\"o}rnsten}{GUAJARDO; J{\"O}RNSTEN}{2015}
+{GUAJARDO, M.; J{\"O}RNSTEN, K. Common mistakes in computing the nucleolus.
 \emph{European Journal of Operational Research}, Elsevier Science, v.~241, 03
   2015.}
 
@@ -167,8 +172,8 @@ ISBN 9789814417402.}
 \bibitem[Moreira 2002]{Moreira.2002}
 \abntrefinfo{Moreira}{MOREIRA}{2002}
 {MOREIRA, R.~C. Teoria dos jogos cooperativos: Conceitos fundamentais. In:
-  \emph{Simpósio brasileiro de pesquisa operacional - SBPO}. Instituto Militar
-  de Engenharia - IME, 2002. Mini-Curso B. Dispon{\'\i}vel em:
+  \emph{Simp{\'o}sio brasileiro de pesquisa operacional - SBPO}. Instituto
+  Militar de Engenharia - IME, 2002. Mini-Curso B. Dispon{\'\i}vel em:
   \url{http://ws2.din.uem.br/~ademir/sbpo/sbpo2002/minic/minic00.htm}.}
 
 \bibitem[Neumann e Morgenstern 1947]{Neumann.1947}
@@ -176,9 +181,9 @@ ISBN 9789814417402.}
 {NEUMANN, J. von; MORGENSTERN, O. \emph{Theory of Games and Economic Behavior}.
   [S.l.]: Princeton University Press, 1947.}
 
-\bibitem[Peleg e Sudhölter 2007]{Peleg.2007}
-\abntrefinfo{Peleg e Sudhölter}{PELEG; SUDHöLTER}{2007}
-{PELEG, B.; SUDHöLTER, P. \emph{Introduction to the Theory of Cooperative
+\bibitem[Peleg e Sudh{\"o}lter 2007]{Peleg.2007}
+\abntrefinfo{Peleg e Sudh{\"o}lter}{PELEG; SUDH{\"O}LTER}{2007}
+{PELEG, B.; SUDH{\"O}LTER, P. \emph{Introduction to the Theory of Cooperative
   Games}. [S.l.]: Springer Berlin Heidelberg, 2007.
 ISBN 9783540729457.}
 

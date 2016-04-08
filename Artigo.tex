@@ -277,7 +277,7 @@ Seguem referências para adicionar:\\
   \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
   \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
   \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
-  \item A Way to Play Claims Problems \cite{Giménez-Gómez.2014}
+  \item A Way to Play Claims Problems \cite{Gimenez.2014}
   \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
   \item 
 \end{itemize}
@@ -466,6 +466,61 @@ $\because$
 \hlkwd{library}\hlstd{(GameTheory)}
 \hlkwd{library}\hlstd{(ggplot2)}
 \hlkwd{library}\hlstd{(scales)}
+\hlkwd{library}\hlstd{(ggmap)}
+
+\hlkwd{citation}\hlstd{(}\hlkwc{package} \hlstd{=} \hlstr{"GameTheory"}\hlstd{)}
+\end{alltt}
+\begin{verbatim}
+## 
+## To cite GameTheory in publications use:
+## 
+##   Cano-Berlanga S. and Gimenez-Gomez J. M. and Vilella C. (2015).
+##   Working Paper No. 06; CREIP; Spain, March 2015 .
+## 
+## A BibTeX entry for LaTeX users is
+## 
+##   @Article{,
+##     title = {Enjoying cooperative games: The R package GameTheory},
+##     journal = {Working Paper No. 06; CREIP; Spain},
+##     year = {March 2015},
+##     author = {S. Cano-Berlanga and J. M. Gimenez-Gomez and C. Vilella},
+##   }
+## 
+## We have invested a lot of time and effort in creating GameTheory,
+## please cite it when using it for data analysis.
+\end{verbatim}
+\begin{alltt}
+\hlkwd{ggmap}\hlstd{(}\hlkwd{get_map}\hlstd{(}\hlkwc{location} \hlstd{=} \hlkwd{c}\hlstd{(}\hlkwc{lon} \hlstd{=} \hlopt{-}\hlnum{51.01476}\hlstd{,} \hlkwc{lat} \hlstd{=} \hlopt{-}\hlnum{29.64444}\hlstd{),}
+              \hlkwc{zoom} \hlstd{=} \hlnum{16}\hlstd{,}
+              \hlkwc{maptype} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"terrain"}\hlstd{),}
+              \hlkwc{language} \hlstd{=} \hlstr{"pt-BR"}\hlstd{))}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{ggmap}\hlstd{(}\hlkwd{get_map}\hlstd{(}\hlstr{"Sao Paulo, SP, Brasil"}\hlstd{,}
+              \hlkwc{zoom} \hlstd{=} \hlnum{5}\hlstd{,}
+              \hlkwc{maptype} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"terrain"}\hlstd{),}
+              \hlkwc{language} \hlstd{=} \hlstr{"pt-BR"}\hlstd{))}
+\end{alltt}
+\end{kframe}\begin{figure}
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-3-1} 
+
+}
+
+\caption[Itinerário para rateio de custo]{Itinerário para rateio de custo}\label{fig:unnamed-chunk-3}
+\end{figure}
+
+
+\end{knitrout}
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
 \hlcom{# Define os custos de coalisoes}
 \hlstd{coalisoesAgentes} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlnum{5}\hlstd{,} \hlnum{8}\hlstd{,} \hlnum{5}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{14}\hlstd{)}
 
@@ -516,11 +571,11 @@ $\because$
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[h]
 
-{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-3-1} 
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-5-1} 
 
 }
 
-\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-3}
+\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-5}
 \end{figure}
 
 

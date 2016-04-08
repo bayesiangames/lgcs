@@ -236,7 +236,7 @@ Seguem referências para adicionar:\\
   \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
   \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
   \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
-  \item A Way to Play Claims Problems \cite{Giménez-Gómez.2014}
+  \item A Way to Play Claims Problems \cite{Gimenez.2014}
   \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
   \item 
 \end{itemize}
@@ -426,6 +426,7 @@ library(ggplot2)
 library(scales)
 library(ggmap)
 
+citation(package = "GameTheory")
 
 
 ggmap(get_map(location = c(lon = -51.01476, lat = -29.64444), 
@@ -433,10 +434,18 @@ ggmap(get_map(location = c(lon = -51.01476, lat = -29.64444),
               maptype = c("terrain"),
               language = "pt-BR"))
 
+@
+
+<<echo=TRUE, warning=FALSE, results='markup', message=FALSE, highlight=TRUE, error=FALSE, fig.show='hold', fig.align='center', fig.cap="Itinerário para rateio de custo">>=
+
 ggmap(get_map("Sao Paulo, SP, Brasil", 
               zoom = 5,
               maptype = c("terrain"),
               language = "pt-BR"))
+
+@
+
+<<echo=TRUE, warning=FALSE, results='markup', message=FALSE, highlight=TRUE, error=FALSE, fig.show='hide'>>=
 
 
 # Define os custos de coalisoes
