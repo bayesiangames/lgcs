@@ -227,6 +227,17 @@ Seguem referências para adicionar:\\
   \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
   \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
   \item Collective Rationality: Equilibrium in Cooperative Games \cite{Weirich.2009}
+  \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
+  \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
+  \item Bayesian learning in negotiation \cite{Zeng.1998}
+  \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
+  \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
+  \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory= Kooper{\'a}ci{\'o} egy HMMS-t{\'\i}pus{\'u} ell{\'a}t{\'a}si l{\'a}ncban: A kooperat{\'\i}v j{\'a}t{\'e}kelm{\'e}let egy menedzsment alkalmaz{\'a}sa \cite{Dobos.2010b}
+  \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
+  \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
+  \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
+  \item A Way to Play Claims Problems \cite{Giménez-Gómez.2014}
+  \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
   \item 
 \end{itemize}
 
@@ -238,7 +249,7 @@ Seguem referências para adicionar:\\
 
 A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cadados membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
 
-Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
+Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
 
 \subsection{Calculo de um jogo cooperativo}
 
@@ -412,6 +423,21 @@ $\because$
 # Carrega pacotes de trabalho
 library(GameTheory)
 library(ggplot2)
+library(scales)
+library(ggmap)
+
+
+
+ggmap(get_map(location = c(lon = -51.01476, lat = -29.64444), 
+              zoom = 16,
+              maptype = c("terrain"),
+              language = "pt-BR"))
+
+ggmap(get_map("Sao Paulo, SP, Brasil", 
+              zoom = 5,
+              maptype = c("terrain"),
+              language = "pt-BR"))
+
 
 # Define os custos de coalisoes
 coalisoesAgentes <- c(5, 8, 5, 10, 10, 10, 14)
@@ -433,17 +459,24 @@ valorShapley <- summary(shapleyValue)
 
 @
 
-<<echo=FALSE, warning=FALSE, results='hide', message=FALSE, highlight=FALSE, error=FALSE, fig.show='hold', fig.align='center', fig.cap="Gráfico 1", fig.pos='h', fig.height=3, fig.width=6>>=
+<<echo=FALSE, warning=FALSE, results='hide', message=FALSE, highlight=FALSE, error=FALSE, fig.show='hold', fig.align='center', fig.cap="Cálculo do valor de Shapley", fig.pos='h', fig.height=3, fig.width=6>>=
 
 # Exibe grafico com os resultados
 ggplot(data = valorShapley, 
-       aes(x = nomesAgentes, y = valorShapley[,1], fill = nomesAgentes)) +
-       geom_bar(stat="identity") +
-       theme_minimal() +
-       theme(legend.position="none") +
+       aes(x = nomesAgentes, 
+           y = valorShapley[,1], 
+           fill = nomesAgentes)) +
+       geom_bar(width = 0.9, stat = "identity") +
+       theme_gray(base_size = 11, base_family = "") +
+       theme(legend.position="none", 
+             panel.grid.minor = element_blank(), 
+             axis.line = element_line(size = 0.3, 
+                                      colour = "black")) +
        labs(title = "Resultado do cálculo do valor de Shapley", 
-            x = "Nomes dos agentes", 
-            y = "Valor de Shapley")
+            x = "Nomes dos agenteslibrary(ggmap)", 
+            y = "Valor de Shapley") +
+       scale_y_continuous(expand = c(0, 0), labels = waiver()) + 
+       scale_x_discrete(expand = c(0, 0))
 @
 
 \subsection{Conceito}

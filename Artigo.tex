@@ -252,18 +252,34 @@ No ambiente de uma cadeia de suprimentos (CS) as decisões de cada organização
 Seguem referências para adicionar:\\
 
 \begin{itemize}
-  \item Social choice and individual values\cite{Figueiredo.1994}
-  \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts\cite{Maschler.1979}
-  \item Theory of games and economic behavior\cite{Neumann.1947}
-  \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico\cite{Ayala.2008}
-  \item Game Theory in Supply Chain Analysis\cite{Cachon.2004}
-  \item Aircraft Landing Fees: A Game Theory Approach\cite{Littlechild.1977}
-  \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais\cite{Moreira.2002}
-  \item Teoria Dos Jogos\cite{Fiani.2006}
-  \item Supply Chain Games: Operations Management and Risk Valuation\cite{kogan.2007}
-  \item Value Solutions in Cooperative Games\cite{Mccain.2013} 
-  \item The Shapley value: essays in honor of Lloyd S. Shapley\cite{Alvin.1988}
-  \item Social choice and individual values\cite{Arrow.2012}
+  \item Social choice and individual values \cite{Figueiredo.1994}
+  \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
+  \item Theory of games and economic behavior \cite{Neumann.1947}
+  \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
+  \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
+  \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
+  \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
+  \item Teoria Dos Jogos \cite{Fiani.2006}
+  \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
+  \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
+  \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
+  \item Social choice and individual values \cite{Arrow.2012}
+  \item Lloyd Shapley's Matching and Game Theory \cite{Serrano.2013}
+  \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
+  \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
+  \item Collective Rationality: Equilibrium in Cooperative Games \cite{Weirich.2009}
+  \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
+  \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
+  \item Bayesian learning in negotiation \cite{Zeng.1998}
+  \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
+  \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
+  \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory= Kooper{\'a}ci{\'o} egy HMMS-t{\'\i}pus{\'u} ell{\'a}t{\'a}si l{\'a}ncban: A kooperat{\'\i}v j{\'a}t{\'e}kelm{\'e}let egy menedzsment alkalmaz{\'a}sa \cite{Dobos.2010b}
+  \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
+  \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
+  \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
+  \item A Way to Play Claims Problems \cite{Giménez-Gómez.2014}
+  \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
+  \item 
 \end{itemize}
 
 % ----------------------------------------------------------
@@ -274,7 +290,7 @@ Seguem referências para adicionar:\\
 
 A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cadados membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
 
-Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
+Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
 
 \subsection{Calculo de um jogo cooperativo}
 
@@ -449,7 +465,7 @@ $\because$
 \hlcom{# Carrega pacotes de trabalho}
 \hlkwd{library}\hlstd{(GameTheory)}
 \hlkwd{library}\hlstd{(ggplot2)}
-
+\hlkwd{library}\hlstd{(scales)}
 \hlcom{# Define os custos de coalisoes}
 \hlstd{coalisoesAgentes} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlnum{5}\hlstd{,} \hlnum{8}\hlstd{,} \hlnum{5}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{14}\hlstd{)}
 
@@ -504,7 +520,7 @@ $\because$
 
 }
 
-\caption[Gráfico 1]{Gráfico 1}\label{fig:unnamed-chunk-3}
+\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-3}
 \end{figure}
 
 

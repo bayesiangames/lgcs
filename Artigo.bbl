@@ -10,6 +10,17 @@
 {ARROW, K.~J. \emph{Social choice and individual values}. [S.l.]: Yale
   university press, 2012. v.~12.}
 
+\bibitem[Aumann 1960]{Aumann.1960}
+\abntrefinfo{Aumann}{AUMANN}{1960}
+{AUMANN, R.~J. Linearity of unrestrictedly transferable utilities.
+\emph{Naval Research Logistics (NRL)}, John Wiley and Sons, v.~7, 1960.}
+
+\bibitem[Aumann e Maschler 1985]{Aumann.1985}
+\abntrefinfo{Aumann e Maschler}{AUMANN; MASCHLER}{1985}
+{AUMANN, R.~J.; MASCHLER, M. Game theoretic analysis of a bankruptcy problem
+  from the talmud.
+\emph{Journal of Economic Theory}, Elsevier Science, v.~36, 1985.}
+
 \bibitem[Ayala 2008]{Ayala.2008}
 \abntrefinfo{Ayala}{AYALA}{2008}
 {AYALA, G. A.~A.
@@ -31,6 +42,13 @@ ISSN 0104-530X.
 Dispon{\'\i}vel em:
   \url{http://www.scielo.br/scielo.php?script=sci\_arttext&pid=S0104-530X2009000100008&nrm=iso}.}
 
+\bibitem[Brink e Pintér 2015]{Brink.2015}
+\abntrefinfo{Brink e Pintér}{BRINK; PINTéR}{2015}
+{BRINK, R. van~den; PINTéR, M. On axiomatizations of the shapley value for
+  assignment games.
+\emph{Journal of Mathematical Economics}, v.~60, p. 110--114, 10 2015.
+ISSN 0304-4068.}
+
 \bibitem[Cachon e Netessine 2004]{Cachon.2004}
 \abntrefinfo{Cachon e Netessine}{CACHON; NETESSINE}{2004}
 {CACHON, G.~P.; NETESSINE, S. Handbook of quantitative supply chain analysis:
@@ -39,12 +57,6 @@ In:  \underline{\ \ \ \ \ \ \ \ }. Boston, MA: Springer US, 2004. cap. Game
   Theory in Supply Chain Analysis, p. 13--65.
 ISBN 978-1-4020-7953-5.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/978-1-4020-7953-5\_2}.}
-
-\bibitem[Cano-Berlanga et al. 2015]{Dobos.2010}
-\abntrefinfo{Cano-Berlanga et al.}{CANO-BERLANGA et al.}{2015}
-{CANO-BERLANGA, S.; GIMENEZ-GOMEZ, J.-M.; VILELLA, C. Cooperation in supply
-  chains: A cooperative game theoretic analysis.
-\emph{Working Paper No. 06; CREIP; Spain}, 2015.}
 
 \bibitem[Cao e Zhang 2012]{Cao.2012}
 \abntrefinfo{Cao e Zhang}{CAO; ZHANG}{2012}
@@ -59,12 +71,46 @@ ISBN 9781447145905.}
   constructs and measurements.
 \emph{Journal of Operations Management}, Elsevier Science, v.~22, 2004.}
 
+\bibitem[Christou 2012]{Christou.2012}
+\abntrefinfo{Christou}{CHRISTOU}{2012}
+{CHRISTOU, I.~T. \emph{Quantitative Methods in Supply Chain Management: Models
+  and Algorithms}. New York, USA: Springer London Dordrecht Heidelberg, 2012.
+ISBN 9780857297662.}
+
+\bibitem[Curiel 1997]{Curiel.2013}
+\abntrefinfo{Curiel}{CURIEL}{1997}
+{CURIEL, I. \emph{Cooperative Game Theory and Applications: Cooperative Games
+  Arising from Combinatorial Optimization Problems}. [S.l.]: Springer
+  Science+Business Media Dordrecht, 1997. v.~16.
+ISBN 9781475748710.}
+
+\bibitem[Dobos e Pint{\'e}r 2010]{Dobos.2010b}
+\abntrefinfo{Dobos e Pint{\'e}r}{DOBOS; PINT{\'E}R}{2010}
+{DOBOS, I.; PINT{\'E}R, M. Cooperation in an hmms-type supply chain: A
+  management application of cooperative game theory= kooper{\'a}ci{\'o} egy
+  hmms-t{\'\i}pus{\'u} ell{\'a}t{\'a}si l{\'a}ncban: A kooperat{\'\i}v
+  j{\'a}t{\'e}kelm{\'e}let egy menedzsment alkalmaz{\'a}sa.
+V{\'a}llalatgazdas{\'a}gtan Int{\'e}zet, 2010.}
+
+\bibitem[Dobos e Pintér 2010]{Dobos.2010a}
+\abntrefinfo{Dobos e Pintér}{DOBOS; PINTéR}{2010}
+{DOBOS, I.; PINTéR, M. Cooperation in supply chains: A cooperative game
+  theoretic analysis.
+Budapest, Hungary, 09 2010.
+ISSN 1786--3031.}
+
 \bibitem[Drechsel 2010]{Drechsel.2010}
 \abntrefinfo{Drechsel}{DRECHSEL}{2010}
 {DRECHSEL, J. \emph{Cooperative Lot Sizing Games in Supply Chains}. Springer
   Berlin Heidelberg, 2010.
 ISBN 9783642137259. Dispon{\'\i}vel em:
   \url{http://www.springer.com/us/book/9783642137242}.}
+
+\bibitem[Driessen 2013]{Driessen.2013}
+\abntrefinfo{Driessen}{DRIESSEN}{2013}
+{DRIESSEN, T. S.~H. \emph{Cooperative Games, Solutions and Applications}.
+  [S.l.]: Springer Netherlands, 2013.
+ISBN 9789401577878.}
 
 \bibitem[Fiani 2006]{Fiani.2006}
 \abntrefinfo{Fiani}{FIANI}{2006}
@@ -81,12 +127,30 @@ ISSN 0104-530X.
 Dispon{\'\i}vel em:
   \url{http://www.scielo.br/scielo.php?script=sci\_arttext&pid=S0104-530X1994000300005&nrm=iso}.}
 
+\bibitem[Guajardo e Jörnsten 2015]{Guajardo.2015}
+\abntrefinfo{Guajardo e Jörnsten}{GUAJARDO; JöRNSTEN}{2015}
+{GUAJARDO, M.; JöRNSTEN, K. Common mistakes in computing the nucleolus.
+\emph{European Journal of Operational Research}, Elsevier Science, v.~241, 03
+  2015.}
+
+\bibitem[Hart e Mas-Colell 2012]{Hart.2012}
+\abntrefinfo{Hart e Mas-Colell}{HART; MAS-COLELL}{2012}
+{HART, S.; MAS-COLELL, A. \emph{Cooperation: Game-Theoretic Approaches}.
+  [S.l.]: Springer Berlin Heidelberg, 2012.
+ISBN 9783642604546.}
+
 \bibitem[Kogan e Tapiero 2007]{kogan.2007}
 \abntrefinfo{Kogan e Tapiero}{KOGAN; TAPIERO}{2007}
 {KOGAN, K.; TAPIERO, C.~S. \emph{Supply Chain Games: Operations Management and
   Risk Valuation}. Springer US, 2007.
 ISBN 9780387727769. Dispon{\'\i}vel em:
   \url{http://www.springer.com/us/book/9780387727752}.}
+
+\bibitem[Littlechild e Thompson 1977]{Littlechild.1977}
+\abntrefinfo{Littlechild e Thompson}{LITTLECHILD; THOMPSON}{1977}
+{LITTLECHILD, S.~C.; THOMPSON, G.~F. Aircraft landing fees: A game theory
+  approach.
+\emph{The Bell Journal of Economics}, The RAND Corporation, v.~8, 1977.}
 
 \bibitem[Maschler et al. 1979]{Maschler.1979}
 \abntrefinfo{Maschler et al.}{MASCHLER et al.}{1979}
@@ -96,7 +160,7 @@ ISBN 9780387727769. Dispon{\'\i}vel em:
 
 \bibitem[McCain 2013]{Mccain.2013}
 \abntrefinfo{McCain}{MCCAIN}{2013}
-{MCCAIN, R. \emph{Value Solutions in Cooperative Games}. [S.l.]: World
+{MCCAIN, R.~A. \emph{Value Solutions in Cooperative Games}. [S.l.]: World
   Scientific Publishing Company, 2013.
 ISBN 9789814417402.}
 
@@ -112,11 +176,29 @@ ISBN 9789814417402.}
 {NEUMANN, J. von; MORGENSTERN, O. \emph{Theory of Games and Economic Behavior}.
   [S.l.]: Princeton University Press, 1947.}
 
+\bibitem[Peleg e Sudhölter 2007]{Peleg.2007}
+\abntrefinfo{Peleg e Sudhölter}{PELEG; SUDHöLTER}{2007}
+{PELEG, B.; SUDHöLTER, P. \emph{Introduction to the Theory of Cooperative
+  Games}. [S.l.]: Springer Berlin Heidelberg, 2007.
+ISBN 9783540729457.}
+
 \bibitem[Roth 1988]{Alvin.1988}
 \abntrefinfo{Roth}{ROTH}{1988}
 {ROTH, A.~E. \emph{The Shapley value: essays in honor of Lloyd S. Shapley}. New
   York, USA: Cambridge University Press, 1988.
 ISBN 9780521361774.}
+
+\bibitem[Serrano 2013]{Serrano.2013}
+\abntrefinfo{Serrano}{SERRANO}{2013}
+{SERRANO, R. Lloyd shapley's matching and game theory.
+\emph{The Scandinavian Journal of Economics}, Wiley Online Library, v.~115,
+  n.~3, p. 599--618, 2013.}
+
+\bibitem[Weirich 2009]{Weirich.2009}
+\abntrefinfo{Weirich}{WEIRICH}{2009}
+{WEIRICH, P. \emph{Collective Rationality: Equilibrium in Cooperative Games}.
+  [S.l.]: Oxford University Press, 2009.
+ISBN 9780199741458.}
 
 \bibitem[Young 1994]{Young.1994}
 \abntrefinfo{Young}{YOUNG}{1994}
@@ -125,5 +207,11 @@ In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Handbook of Game Theory with Economic
   Applications}. Amsterdam, Holanda: Elsevier North Holland, 1994. v.~2, cap.
   Equitable core solutions.
 ISBN 9780444894274.}
+
+\bibitem[Zeng e Sycara 1998]{Zeng.1998}
+\abntrefinfo{Zeng e Sycara}{ZENG; SYCARA}{1998}
+{ZENG, D.; SYCARA, K. Bayesian learning in negotiation.
+\emph{International Journal of Human-Computer Studies}, Elsevier Science,
+  v.~48, n.~1, p. 125--141, 1998.}
 
 \end{thebibliography}
