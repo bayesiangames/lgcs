@@ -8,7 +8,7 @@ inicializa <- function(){
 
   # carrega/Instala os pacotes de trabalho
   source("instala.pacotes.R")
-  pacotes <- c("GameTheory")
+  pacotes <- c("GameTheory", "ggplot2", "scales", "ggmap")
   instala.pacotes(pacotes)
 }
 # Fim

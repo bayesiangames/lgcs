@@ -279,7 +279,15 @@ Seguem referências para adicionar:\\
   \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
   \item A Way to Play Claims Problems \cite{Gimenez.2014}
   \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
-  \item 
+  \item O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1 \cite{Faveret.2015}
+  \item Coopera\c{c}{\~a}o e Conflito \cite{Fiani.2011}
+  \item Teoria dos Jogos\cite{Fiani.2015}
+  \item A Teoria dos Jogos Aplicada ao Processo Penal \cite{Rosa.2014}
+  \item Teoria dos Jogos \cite{Bierman.2010}
+  \item Teoria dos Jogos \cite{Tavares.2009}
+  \item Prática na Teoria. Aplicações da Teoria dos Jogos e da Evolução aos Negócios \cite{Marinho.2011}
+  \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
+  \item Game Theory || Cooperative Games with Transferable Utility \cite{Peters.2008}
 \end{itemize}
 
 % ----------------------------------------------------------
@@ -291,6 +299,7 @@ Seguem referências para adicionar:\\
 A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cadados membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
 
 Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
+
 
 \subsection{Calculo de um jogo cooperativo}
 
@@ -307,7 +316,7 @@ Alguns conceitos são necessários para desenvolvimento da teoria dos jogos coop
 
 Shapley axiomas para $\varphi(v)$
 \begin{enumerate}
-  \item Eficiência: $\sum_{i \in N} \varphi_i(v) - v(N)$
+  \item Eficiência: $\sum_{i \in N} \varphi_i(v) - v(N)$. Toda a alocação 
   \item Simetria: Se $i$ e $j$ são tal que $v(S \cup \{i\}) = v(S \cup \{j\})$ para cada coalisão $S$ não contenha $i$ e $j$, então $\varphi_i (v) = \varphi_j (v)$
   \item 
 \end{enumerate}
@@ -319,17 +328,30 @@ Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
   \varphi _{i} = \sum_{S \subset N} \frac{(|s| - 1)!(n - |s|)!}{n!}[v(S)-v(S - i)]
 \end{equation}
 
-Definição do jogo começa pela apuração dos vetores de custo.
+Consideramos 
 
-Temos então:
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[!h]
+
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-2-1} 
+
+}
+
+\caption[Itinerários]{Itinerários}\label{fig:unnamed-chunk-2}
+\end{figure}
+
+
+\end{knitrout}
+
 
 \begin{table}[!h]
   \centering
-  \label{my-label}
-  \begin{tabular}{llll}
-    $v(\emptyset) = \emptyset$ & $v(1) = 5$ & $v(1, 2) = 10$ & $v(1, 2, 3) = 14$ \\
-    $v(N) = 14$                & $v(2) = 8$ & $v(1, 3) = 10$ &                   \\
-                               & $v(3) = 5$ & $v(2, 3) = 10$ &                  
+  \caption{Tabela de combinações de agentes e custo}
+  \label{Tab1}
+  \begin{tabular}{@{}cccccccccc@{}}
+  \toprule
+    $S$    & $\emptyset$ & $\{1\}$ & $\{2\}$ & $\{3\}$ & $\{1,2\}$ & $\{1,3\}$ & $\{2,3\}$ &     $\{1,2,3\}$ & $N$  \\ \midrule
+    $v(S)$ & $0$         & $5$     & $8$     & $5$     & $10$      & $10$      & $10$      &     $14$        & $14$ \\ \bottomrule
   \end{tabular}
 \end{table}
 
@@ -459,123 +481,48 @@ $\because$
  \sum_{i = 1}^{3}x_i = 14 = c(N)
 \end{equation}
 
+
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
-\begin{alltt}
-\hlcom{# Carrega pacotes de trabalho}
-\hlkwd{library}\hlstd{(GameTheory)}
-\hlkwd{library}\hlstd{(ggplot2)}
-\hlkwd{library}\hlstd{(scales)}
-\hlkwd{library}\hlstd{(ggmap)}
-
-\hlkwd{citation}\hlstd{(}\hlkwc{package} \hlstd{=} \hlstr{"GameTheory"}\hlstd{)}
-\end{alltt}
 \begin{verbatim}
-## 
-## To cite GameTheory in publications use:
-## 
-##   Cano-Berlanga S. and Gimenez-Gomez J. M. and Vilella C. (2015).
-##   Working Paper No. 06; CREIP; Spain, March 2015 .
-## 
-## A BibTeX entry for LaTeX users is
-## 
-##   @Article{,
-##     title = {Enjoying cooperative games: The R package GameTheory},
-##     journal = {Working Paper No. 06; CREIP; Spain},
-##     year = {March 2015},
-##     author = {S. Cano-Berlanga and J. M. Gimenez-Gomez and C. Vilella},
-##   }
-## 
-## We have invested a lot of time and effort in creating GameTheory,
-## please cite it when using it for data analysis.
-\end{verbatim}
-\begin{alltt}
-\hlkwd{ggmap}\hlstd{(}\hlkwd{get_map}\hlstd{(}\hlkwc{location} \hlstd{=} \hlkwd{c}\hlstd{(}\hlkwc{lon} \hlstd{=} \hlopt{-}\hlnum{51.01476}\hlstd{,} \hlkwc{lat} \hlstd{=} \hlopt{-}\hlnum{29.64444}\hlstd{),}
-              \hlkwc{zoom} \hlstd{=} \hlnum{16}\hlstd{,}
-              \hlkwc{maptype} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"terrain"}\hlstd{),}
-              \hlkwc{language} \hlstd{=} \hlstr{"pt-BR"}\hlstd{))}
-\end{alltt}
-\end{kframe}
-\end{knitrout}
+# Define os custos de coalisoes
+coalisoesAgentes <- c(5, 8, 5, 10, 10, 10, 14)
 
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
-\begin{alltt}
-\hlkwd{ggmap}\hlstd{(}\hlkwd{get_map}\hlstd{(}\hlstr{"Sao Paulo, SP, Brasil"}\hlstd{,}
-              \hlkwc{zoom} \hlstd{=} \hlnum{5}\hlstd{,}
-              \hlkwc{maptype} \hlstd{=} \hlkwd{c}\hlstd{(}\hlstr{"terrain"}\hlstd{),}
-              \hlkwc{language} \hlstd{=} \hlstr{"pt-BR"}\hlstd{))}
-\end{alltt}
-\end{kframe}\begin{figure}
+# Nomes dos agentes/jogadores
+nomesAgentes <- c("[1] Sapiranga","[2] Porto Alegre","[3] Campo Bom")
+
+# Define jogo com tres jogadores/agentes
+definicaoJogo   <- DefineGame(3, coalisoesAgentes)
+
+# Demonstra as coalisoes e respectivos custos
+summary(definicaoJogo)
+
+# Calcula o Shapley Value
+shapleyValue <- ShapleyValue(x = definicaoJogo, Names = nomesAgentes)
+
+# Guarda o resultado
+valorShapley <- summary(shapleyValue)
+\end{verbatim}
+\end{kframe}\begin{figure}[h]
 
 {\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-3-1} 
 
 }
 
-\caption[Itinerário para rateio de custo]{Itinerário para rateio de custo}\label{fig:unnamed-chunk-3}
+\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-3}
 \end{figure}
 
 
 \end{knitrout}
 
 \begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
-\begin{alltt}
-\hlcom{# Define os custos de coalisoes}
-\hlstd{coalisoesAgentes} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlnum{5}\hlstd{,} \hlnum{8}\hlstd{,} \hlnum{5}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{10}\hlstd{,} \hlnum{14}\hlstd{)}
-
-\hlcom{# Nomes dos agentes/jogadores}
-\hlstd{nomesAgentes} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"[1] Sapiranga"}\hlstd{,}\hlstr{"[2] Porto Alegre"}\hlstd{,}\hlstr{"[3] Campo Bom"}\hlstd{)}
-
-\hlcom{# Define jogo com tres jogadores/agentes}
-\hlstd{definicaoJogo}   \hlkwb{<-} \hlkwd{DefineGame}\hlstd{(}\hlnum{3}\hlstd{, coalisoesAgentes)}
-
-\hlcom{# Demonstra as coalisoes e respectivos custos}
-\hlkwd{summary}\hlstd{(definicaoJogo)}
-\end{alltt}
-\begin{verbatim}
-## 
-## Characteristic form of the game 
-## 
-## Number of agents: 3 
-## 
-## Coaliton Value(s) 
-## 
-##     v(i)
-## 1      5
-## 2      8
-## 3      5
-## 12    10
-## 13    10
-## 23    10
-## 123   14
-\end{verbatim}
-\begin{alltt}
-\hlcom{# Calcula o Shapley Value}
-\hlstd{shapleyValue} \hlkwb{<-} \hlkwd{ShapleyValue}\hlstd{(}\hlkwc{x} \hlstd{= definicaoJogo,} \hlkwc{Names} \hlstd{= nomesAgentes)}
-\hlcom{# Guarda o resultado}
-\hlstd{valorShapley} \hlkwb{<-} \hlkwd{summary}\hlstd{(shapleyValue)}
-\end{alltt}
-\begin{verbatim}
-## 
-## Shapley Value for the given game 
-## 
-##                  Shapley Value
-## [1] Sapiranga         4.166667
-## [2] Porto Alegre      5.666667
-## [3] Campo Bom         4.166667
-\end{verbatim}
-\end{kframe}
-\end{knitrout}
-
-\begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[h]
 
-{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-5-1} 
+{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-4-1} 
 
 }
 
-\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-5}
+\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-4}
 \end{figure}
 
 

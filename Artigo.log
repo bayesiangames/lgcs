@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  8 APR 2016 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  13 APR 2016 01:31
 entering extended mode
 **./Artigo.tex
 (Artigo.tex
@@ -1328,107 +1328,118 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ] [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 299.
+(Font)              <10.95> on input line 308.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 306.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 315.
+ [3]
+Package color Info: Redefining color shadecolor on input line 334.
+
+<figure/unnamed-chunk-2-1.pdf, id=173, 289.08pt x 289.08pt>
+File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-2-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 336.
+(pdftex.def)             Requested size: 289.07928pt x 289.09251pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 340.
+(Font)              <7> on input line 362.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 340.
- [3]pdfTeX warning (ext4): destination with the same identifier (name{equation.
-0.2.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.360   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.370   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.2.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.380   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.2.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.390   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.2.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.400   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.2.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.410   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.2.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.420   \begin{equation}
-                        
-Package color Info: Redefining color shadecolor on input line 463.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 466.
+(Font)              <5> on input line 362.
  [4pdfTeX warning (ext4): destination with the same identifier (name{equation.0
 .2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 \end{kframe}
-                  ]
-Package color Info: Redefining color shadecolor on input line 502.
+l.398   \end{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.0.2.3}) has been already used, duplicate ignored
 
-<figure/unnamed-chunk-3-1.pdf, id=167, 505.89pt x 505.89pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.398   \end{equation}
+                       <./figure/unnamed-chunk-2-1.pdf>]pdfTeX warning (ext4): 
+destination with the same identifier (name{equation.0.2.2}) has been already us
+ed, duplicate ignored
+<to be read again> 
+                   \relax 
+l.402   \begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.0.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.412   \begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.0.2.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.422   \begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.0.2.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.432   \begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.0.2.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.442   \begin{equation}
+                        
+Package color Info: Redefining color shadecolor on input line 486.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{equation.0
+.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.506 \end{kframe}
+                  \begin{figure}[h]]
+<figure/unnamed-chunk-3-1.pdf, id=207, 433.62pt x 216.81pt>
 File: figure/unnamed-chunk-3-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-3-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-3-1.pdf used on input line 511.
-(pdftex.def)             Requested size: 426.0pt x 426.00995pt.
-Package color Info: Redefining color shadecolor on input line 522.
- [5] [6 <./figure/unnamed-chunk-3-1.pdf>]
-Package color Info: Redefining color shadecolor on input line 572.
-
-<figure/unnamed-chunk-5-1.pdf, id=185, 433.62pt x 216.81pt>
-File: figure/unnamed-chunk-5-1.pdf Graphic file (type pdf)
-
-<use figure/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-5-1.pdf used on input line 574.
+Package pdftex.def Info: figure/unnamed-chunk-3-1.pdf used on input line 508.
 (pdftex.def)             Requested size: 426.0pt x 213.01158pt.
- (Artigo.bbl (Artigo.brf)
+Package color Info: Redefining color shadecolor on input line 519.
+
+<figure/unnamed-chunk-4-1.pdf, id=208, 433.62pt x 216.81pt>
+File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 521.
+(pdftex.def)             Requested size: 426.0pt x 213.01158pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(Artigo.bbl (Artigo.brf)
 \tf@brf=\write5
 \openout5 = `Artigo.brf'.
 
 
 bibitemlist
-[7 <./figure/unnamed-chunk-5-1.pdf>] [8] [9]) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
+[6 <./figure/unnamed-chunk-3-1.pdf>] [7 <./figure/unnamed-chunk-4-1.pdf>]
+[8] [9]) [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
  (Artigo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
 Package rerunfilecheck Info: File `Artigo.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 635.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 582.
  ) 
 Here is how much of TeX's memory you used:
- 14483 strings out of 493634
- 212139 string characters out of 3143747
- 369345 words of memory out of 3000000
- 17419 multiletter control sequences out of 15000+200000
- 93618 words of font info for 133 fonts, out of 3000000 for 9000
+ 14573 strings out of 493634
+ 213655 string characters out of 3143747
+ 367868 words of memory out of 3000000
+ 17491 multiletter control sequences out of 15000+200000
+ 93407 words of font info for 135 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 39i,12n,35p,1142b,599s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
+ 39i,12n,35p,1142b,612s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
+iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
 .enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program 
 Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fon
@@ -1447,13 +1458,12 @@ ic/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Artigo.pdf (10 pages, 1044058 bytes).
+mtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.p
+fb>
+Output written on Artigo.pdf (10 pages, 720140 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 29819 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 28800 words of extra memory for PDF output out of 29859 (max. 10000000)
 
