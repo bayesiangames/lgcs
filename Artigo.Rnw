@@ -294,29 +294,73 @@ Consideramos
 
 coordUFRGS <- geocode("UFRGS")
 coordUFMS <- geocode("UFMS")
-coordUnB <-  geocode("UnB")
+coordUFRJ <-  geocode("UFRJ")
 coordAsuncion <-  geocode("Asuncion")
+coordUFPR <- geocode("UFPR")
 
 
-df <- data.frame(longitude = c(coordUFRGS[,1],
-                               coordUnB[,1],
+df <- data.frame(longitude = c(coordUFPR[,1],
+                               coordUFRGS[,1],
+                               coordUFPR[,1],
+                               coordUFRJ[,1],
+                               coordUFPR[,1],
                                coordUFMS[,1],
+                               coordUFPR[,1],
                                coordAsuncion[,1],
-                               coordUFRGS[,1]),
-                 latitude =  c(coordUFRGS[,2],
-                               coordUnB[,2],
+                               coordUFPR[,1],
+                               coordUFRGS[,1],
+                               coordAsuncion[,1],
+                               coordUFMS[,1],
+                               coordUFRJ[,1],
+                               coordUFRGS[,1]
+                               ),
+                 latitude =  c(coordUFPR[,2],
+                               coordUFRGS[,2],
+                               coordUFPR[,2],
+                               coordUFRJ[,2],
+                               coordUFPR[,2],
                                coordUFMS[,2],
+                               coordUFPR[,2],
                                coordAsuncion[,2],
-                               coordUFRGS[,2]))
+                               coordUFPR[,2],
+                               coordUFRGS[,2],
+                               coordAsuncion[,2],
+                               coordUFMS[,2],
+                               coordUFRJ[,2],
+                               coordUFRGS[,2]
+                              )
+                 )
 
-map <- get_googlemap('Parana', 
+ggmap(get_googlemap('Parana', 
                      markers = df, 
                      path = df, 
                      zoom = 5, 
                      maptype = c("roadmap"),
-                     language = "pt-BR")
-
-ggmap(map)
+                     language = "pt-BR")) + labs(x = "Longitude", y = "Latitude") + 
+                     annotate("text",
+                              x = -55.6, 
+                              y = -28.4,
+                              label = "5", 
+                              color = "Red",
+                              size = 3.5) +
+                     annotate("text",
+                              x = -57.0, 
+                              y = -22.5,
+                              label = "5", 
+                              color = "Red",
+                              size = 3.5) +
+                     annotate("text",
+                              x = -48.5, 
+                              y = -20.5,
+                              label = "5", 
+                              color = "Red",
+                              size = 3.5) +
+                     annotate("text",
+                              x = -46.6, 
+                              y = -27.5,
+                              label = "5", 
+                              color = "Red",
+                              size = 3.5)
 @
 
 
