@@ -185,12 +185,12 @@ Sys.setenv(TEXINPUTS = getwd(), BIBINPUTS = getwd(), BSTINPUTS = getwd());
 % Metodologia
 % Resultados
 % Conclusão 
-No ambiente de uma cadeia de suprimentos (CS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com um algorítmo que maximiza a satisfação dos insatisfeitos (\emph{nucleolus}) e outro que pondera a participação nos custos de cada parceiro (\emph{Shapley value}). Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que o \emph{nucleolus} e \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
+No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com um algorítmo que maximiza a satisfação dos insatisfeitos (\emph{nucleolus}) e outro que pondera a participação nos custos de cada parceiro (\emph{Shapley value}). Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que o \emph{nucleolus} e \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
 
  \vspace{\onelineskip}
  
  \noindent
- \textbf{Palavras-chave}: Teoria dos jogos cooperativos. Gestão da cadeia de suprimentos. Nucleolus. Shapley value.
+ \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimiza\c{c}{\~a}o. Teoria dos Jogos. Shapley value. Nucleolus.
 \end{resumoumacoluna}
 
 % ---
@@ -211,42 +211,25 @@ No ambiente de uma cadeia de suprimentos (CS) as decisões de cada organização
 Seguem referências para adicionar:\\
 
 \begin{itemize}
-  \item Social choice and individual values \cite{Figueiredo.1994}
-  \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
-  \item Theory of games and economic behavior \cite{Neumann.1947}
-  \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
-  \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
-  \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
-  \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
-  \item Teoria Dos Jogos \cite{Fiani.2006}
-  \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
-  \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
-  \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
-  \item Social choice and individual values \cite{Arrow.2012}
-  \item Lloyd Shapley's Matching and Game Theory \cite{Serrano.2013}
-  \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
-  \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
   \item Collective Rationality: Equilibrium in Cooperative Games \cite{Weirich.2009}
   \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
-  \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
-  \item Bayesian learning in negotiation \cite{Zeng.1998}
+  \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
+  \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
+  \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
   \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
   \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
   \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory= Kooper{\'a}ci{\'o} egy HMMS-t{\'\i}pus{\'u} ell{\'a}t{\'a}si l{\'a}ncban: A kooperat{\'\i}v j{\'a}t{\'e}kelm{\'e}let egy menedzsment alkalmaz{\'a}sa \cite{Dobos.2010b}
-  \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
   \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
   \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
   \item A Way to Play Claims Problems \cite{Gimenez.2014}
   \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
   \item O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1 \cite{Faveret.2015}
   \item Coopera\c{c}{\~a}o e Conflito \cite{Fiani.2011}
-  \item Teoria dos Jogos\cite{Fiani.2015}
   \item A Teoria dos Jogos Aplicada ao Processo Penal \cite{Rosa.2014}
   \item Teoria dos Jogos \cite{Bierman.2010}
   \item Teoria dos Jogos \cite{Tavares.2009}
   \item Prática na Teoria. Aplicações da Teoria dos Jogos e da Evolução aos Negócios \cite{Marinho.2011}
   \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
-  \item Game Theory || Cooperative Games with Transferable Utility \cite{Peters.2008}
 \end{itemize}
 
 % ----------------------------------------------------------
@@ -260,9 +243,22 @@ A chave da cooperação entre empresas está em conseguir a unidade de motivaç�
 Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
 
 
-\subsection{Calculo de um jogo cooperativo}
+\subsection{Conceitos sobre teoria dos jogos cooperativos}
 
-Alguns conceitos são necessários para desenvolvimento da teoria dos jogos cooperativos.
+\texttt{}
+
+\begin{itemize}
+  \item Teoria dos Jogos\cite{Fiani.2015}
+  \item Teoria Dos Jogos \cite{Fiani.2006}
+  \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
+  \item Game Theory  Cooperative Games with Transferable Utility \cite{Peters.2008}
+  \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
+  \item Social choice and individual values \cite{Figueiredo.1994}
+  \item Theory of games and economic behavior \cite{Neumann.1947}
+  \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
+  \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
+  \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
+\end{itemize}
 
 \begin{equation}
   \label{eq:conceitoTJC}
@@ -271,26 +267,9 @@ Alguns conceitos são necessários para desenvolvimento da teoria dos jogos coop
   \right\}
 \end{equation}
 
-\section{\emph{Shapley value}}
 
-Shapley axiomas para $\varphi(v)$
-\begin{enumerate}
-  \item Eficiência: $\sum_{i \in N} \varphi_i(v) - v(N)$. Toda a alocação 
-  \item Simetria: Se $i$ e $j$ são tal que $v(S \cup \{i\}) = v(S \cup \{j\})$ para cada coalisão $S$ não contenha $i$ e $j$, então $\varphi_i (v) = \varphi_j (v)$
-  \item 
-\end{enumerate}
-
-Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
-
-\begin{equation}
-  \label{eq:shaVal}
-  \varphi _{i} = \sum_{S \subset N} \frac{(|s| - 1)!(n - |s|)!}{n!}[v(S)-v(S - i)]
-\end{equation}
-
-Consideramos 
 
 <<echo=FALSE, warning=FALSE, results='markup', message=FALSE, highlight=TRUE, error=FALSE, fig.align='center', fig.show='hold', fig.pos='!h', fig.cap="Itinerários", fig.height=4, fig.width=4>>=
-
 
 coordUFRGS <- geocode("UFRGS")
 coordUFMS <- geocode("UFMS")
@@ -374,6 +353,25 @@ ggmap(get_googlemap('Parana',
     $v(S)$ & $0$         & $5$     & $8$     & $5$     & $10$      & $10$      & $10$      &     $14$        & $14$ \\ \bottomrule
   \end{tabular}
 \end{table}
+
+
+\section{\emph{Shapley value}}
+
+Shapley axiomas para $\varphi(v)$
+\begin{enumerate}
+  \item Eficiência: $\sum_{i \in N} \varphi_i(v) - v(N)$. Toda a alocação 
+  \item Simetria: Se $i$ e $j$ são tal que $v(S \cup \{i\}) = v(S \cup \{j\})$ para cada coalisão $S$ não contenha $i$ e $j$, então $\varphi_i (v) = \varphi_j (v)$
+  \item 
+\end{enumerate}
+
+Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
+
+\begin{equation}
+  \label{eq:shaVal}
+  \varphi _{i} = \sum_{S \subset N} \frac{(|s| - 1)!(n - |s|)!}{n!}[v(S)-v(S - i)]
+\end{equation}
+
+Consideramos 
 
 Para $i = 1$.
 
@@ -501,8 +499,9 @@ $\because$
  \sum_{i = 1}^{3}x_i = 14 = c(N)
 \end{equation}
 
+\subsubsection{Código em R}
 
-<<echo=TRUE, warning=FALSE, results='hide', message=FALSE, highlight=FALSE, error=FALSE, fig.show='hold', fig.align='center', fig.cap="Cálculo do valor de Shapley", fig.pos='h', fig.height=3, fig.width=6>>=
+<<echo=TRUE, warning=FALSE, results='hide', message=FALSE, highlight=FALSE, error=FALSE, fig.show='hide', background="gray95">>=
 
 # Define os custos de coalisoes
 coalisoesAgentes <- c(5, 8, 5, 10, 10, 10, 14)
@@ -513,11 +512,12 @@ nomesAgentes <- c("[1] Sapiranga","[2] Porto Alegre","[3] Campo Bom")
 # Define jogo com tres jogadores/agentes
 definicaoJogo   <- DefineGame(3, coalisoesAgentes)
 
-# Demonstra as coalisoes e respectivos custos
+# Demonstra as coalisoes e res  pectivos custos
 summary(definicaoJogo)
 
 # Calcula o Shapley Value
-shapleyValue <- ShapleyValue(x = definicaoJogo, Names = nomesAgentes)
+shapleyValue <- ShapleyValue(x = definicaoJogo, 
+                             Names = nomesAgentes)
 
 # Guarda o resultado
 valorShapley <- summary(shapleyValue)
@@ -546,7 +546,6 @@ ggplot(data = valorShapley,
 
 \subsection{Conceito}
 
-teste
 
 \subsection{Aplicação}
 

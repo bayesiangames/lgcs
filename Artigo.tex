@@ -226,12 +226,12 @@
 % Metodologia
 % Resultados
 % Conclusão 
-No ambiente de uma cadeia de suprimentos (CS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com um algorítmo que maximiza a satisfação dos insatisfeitos (\emph{nucleolus}) e outro que pondera a participação nos custos de cada parceiro (\emph{Shapley value}). Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que o \emph{nucleolus} e \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
+No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com um algorítmo que maximiza a satisfação dos insatisfeitos (\emph{nucleolus}) e outro que pondera a participação nos custos de cada parceiro (\emph{Shapley value}). Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que o \emph{nucleolus} e \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
 
  \vspace{\onelineskip}
  
  \noindent
- \textbf{Palavras-chave}: Teoria dos jogos cooperativos. Gestão da cadeia de suprimentos. Nucleolus. Shapley value.
+ \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimiza\c{c}{\~a}o. Teoria dos Jogos. Shapley value. Nucleolus.
 \end{resumoumacoluna}
 
 % ---
@@ -288,6 +288,7 @@ Seguem referências para adicionar:\\
   \item Prática na Teoria. Aplicações da Teoria dos Jogos e da Evolução aos Negócios \cite{Marinho.2011}
   \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
   \item Game Theory || Cooperative Games with Transferable Utility \cite{Peters.2008}
+  .\cite{Cuney-2010}
 \end{itemize}
 
 % ----------------------------------------------------------
@@ -483,7 +484,7 @@ $\because$
 
 
 \begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\definecolor{shadecolor}{rgb}{0.949, 0.949, 0.949}\color{fgcolor}\begin{kframe}
 \begin{verbatim}
 # Define os custos de coalisoes
 coalisoesAgentes <- c(5, 8, 5, 10, 10, 10, 14)
@@ -494,25 +495,16 @@ nomesAgentes <- c("[1] Sapiranga","[2] Porto Alegre","[3] Campo Bom")
 # Define jogo com tres jogadores/agentes
 definicaoJogo   <- DefineGame(3, coalisoesAgentes)
 
-# Demonstra as coalisoes e respectivos custos
+# Demonstra as coalisoes e res  pectivos custos
 summary(definicaoJogo)
 
 # Calcula o Shapley Value
-shapleyValue <- ShapleyValue(x = definicaoJogo, Names = nomesAgentes)
-
+shapleyValue <- ShapleyValue(x = definicaoJogo, 
+                             Names = nomesAgentes)
 # Guarda o resultado
 valorShapley <- summary(shapleyValue)
 \end{verbatim}
-\end{kframe}\begin{figure}[h]
-
-{\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-3-1} 
-
-}
-
-\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-3}
-\end{figure}
-
-
+\end{kframe}
 \end{knitrout}
 
 \begin{knitrout}
@@ -530,7 +522,6 @@ valorShapley <- summary(shapleyValue)
 
 \subsection{Conceito}
 
-teste
 
 \subsection{Aplicação}
 
