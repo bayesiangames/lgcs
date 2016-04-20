@@ -26,6 +26,14 @@ Disserta\c{c}\~{a}o (Mestrado) --- Pont{\'i}fice Universidade Cat{\'o}ilica do
 Dispon{\'\i}vel em:
   \url{http://www.maxwell.vrac.puc-rio.br/12366/12366\_1.PDF}.}
 
+\bibitem[Barron 2007]{Barron.2007}
+\abntrefinfo{Barron}{BARRON}{2007}
+{BARRON, E.~N. Game theory (an introduction).
+In:  \underline{\ \ \ \ \ \ \ \ }. 2. ed. [S.l.]: John Wiley \& Sons, 2007.
+  (Wiley Series in Operations Research and Management Science, v.
+  10.1002/9781118032398), cap.~5.
+ISBN 9781118533895.}
+
 \bibitem[Berni e Fernandez 2014]{Paula.2014}
 \abntrefinfo{Berni e Fernandez}{BERNI; FERNANDEZ}{2014}
 {BERNI, D. de A.; FERNANDEZ, B. P.~M. \emph{Teoria dos Jogos: Crenas, Desejos e
@@ -173,9 +181,9 @@ ISBN 9783642604546.}
 
 \bibitem[{Jornal Globo}]{Mesquita.2012}
 \abntrefinfo{{Jornal Globo}}{{Jornal Globo}}{}
-{{Jornal Globo}. \emph{Entrevista com Bruce Bueno de Mesquita}. Rede Globo,
-  São Paulo: [s.n.].
-, 2 de ago de 2012, Programa de TV, acesso em: \today.
+{{Jornal Globo}. \emph{Entrevista com Bruce Bueno de Mesquita}. São Paulo,
+  Brasil: [s.n.].
+2 de agosto de 2012, Programa de TV, acesso em: \today.
 Dispon{\'\i}vel em: \url{https://www.youtube.com/watch?v=Bki4WlM4YQI}.}
 
 \bibitem[Kahle e Wickham 2013]{Kahle.2013}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  20 APR 2016 02:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  20 APR 2016 20:02
 entering extended mode
 **./Artigo.tex
 (Artigo.tex
@@ -1249,37 +1249,37 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 220.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 219.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 220.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 219.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 220
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 219
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 220
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 219
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 220.
+(Font)              <12> on input line 219.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 220.
+(Font)              <8> on input line 219.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 220.
-LaTeX Font Info:    Try loading font information for U+msa on input line 220.
+(Font)              <6> on input line 219.
+LaTeX Font Info:    Try loading font information for U+msa on input line 219.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1287,7 +1287,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 220.
+LaTeX Font Info:    Try loading font information for U+msb on input line 219.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1295,7 +1295,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 229.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 228.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1305,7 +1305,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 229.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 228.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
@@ -1315,7 +1315,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 255.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 254.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
@@ -1324,88 +1324,97 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]
 
-Package hyperref Warning: Suppressing empty link on input line 266.
+Package hyperref Warning: Suppressing empty link on input line 265.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 276.
+(Font)              <10.95> on input line 275.
 [2]
-Package color Info: Redefining color shadecolor on input line 323.
+Package color Info: Redefining color shadecolor on input line 322.
  <figure/unnamed-chunk-2-1.pdf, id=124, 289.08pt x 289.08pt>
 File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 325.
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 324.
 (pdftex.def)             Requested size: 289.07928pt x 289.09251pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 349.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 348.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 351.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 350.
  [3 <./figure/unnamed-chunk-2-1.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 373.
+(Font)              <7> on input line 372.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 373.
+(Font)              <5> on input line 372.
 
 [4pdfTeX warning (ext4): destination with the same identifier (name{equation.0.
 4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.468 \end{equation}
+l.467 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.468 \end{equation}
+l.467 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.468 \end{equation}
+l.467 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.468 \end{equation}
+l.467 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.468 \end{equation}
+l.467 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.468 \end{equation}
+l.467 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.0.4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.468 \end{equation}
+l.467 \end{equation}
                     ]
-Package color Info: Redefining color shadecolor on input line 516.
+Package color Info: Redefining color shadecolor on input line 515.
  [5pdfTeX warning (ext4): destination with the same identifier (name{equation.0
 .4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.536 \end{kframe}
+l.535 \end{kframe}
                   ]
-Package color Info: Redefining color shadecolor on input line 540.
+Package color Info: Redefining color shadecolor on input line 539.
 
 <figure/unnamed-chunk-4-1.pdf, id=206, 433.62pt x 216.81pt>
 File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 542.
+Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 541.
 (pdftex.def)             Requested size: 426.0pt x 213.01158pt.
  [6 <./figure/unnamed-chunk-4-1.pdf>]
+! Undefined control sequence.
+l.571 ... cooperative game in search theory \citet
+                                                  {Hohzaki.2009}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 (Artigo.bbl (Artigo.brf)
 \tf@brf=\write5
 \openout5 = `Artigo.brf'.
@@ -1413,27 +1422,27 @@ Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 542.
 
 bibitemlist
 [7] [8] [9]) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 598.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 598.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 605.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 605.
  (Artigo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 598.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 598.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 605.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 605.
 Package rerunfilecheck Info: File `Artigo.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 598.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 605.
  ) 
 Here is how much of TeX's memory you used:
- 14622 strings out of 493634
- 214404 string characters out of 3143747
- 369593 words of memory out of 3000000
- 17526 multiletter control sequences out of 15000+200000
+ 14631 strings out of 493634
+ 214557 string characters out of 3143747
+ 369744 words of memory out of 3000000
+ 17534 multiletter control sequences out of 15000+200000
  97069 words of font info for 143 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 39i,12n,35p,1151b,619s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,35p,1151b,616s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -1457,9 +1466,9 @@ s/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts
 mtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.p
 fb>
-Output written on Artigo.pdf (10 pages, 690853 bytes).
+Output written on Artigo.pdf (10 pages, 691692 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
  30819 words of extra memory for PDF output out of 35830 (max. 10000000)
 
