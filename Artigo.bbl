@@ -5,11 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.3 }
 
-\bibitem[Arrow 2012]{Arrow.2012}
-\abntrefinfo{Arrow}{ARROW}{2012}
-{ARROW, K.~J. \emph{Social choice and individual values}. [S.l.]: Yale
-  university press, 2012. v.~12.}
-
 \bibitem[Aumann 1960]{Aumann.1960}
 \abntrefinfo{Aumann}{AUMANN}{1960}
 {AUMANN, R.~J. Linearity of unrestrictedly transferable utilities.
@@ -133,7 +128,7 @@ ISBN 9781519451712.}
 
 \bibitem[Fiani 2006]{Fiani.2006}
 \abntrefinfo{Fiani}{FIANI}{2006}
-{FIANI, R. \emph{Teoria Dos Jogos}. S{\~a}o Paulo, Brasil: Elsevier Brasil,
+{FIANI, R. \emph{Teoria dos Jogos}. S{\~a}o Paulo, Brasil: Elsevier Brasil,
   2006.
 ISBN 9788535220735.}
 
@@ -175,6 +170,20 @@ Dispon{\'\i}vel em:
 {HART, S.; MAS-COLELL, A. \emph{Cooperation: Game-Theoretic Approaches}.
   [S.l.]: Springer Berlin Heidelberg, 2012.
 ISBN 9783642604546.}
+
+\bibitem[{Jornal Globo}]{Mesquita.2012}
+\abntrefinfo{{Jornal Globo}}{{Jornal Globo}}{}
+{{Jornal Globo}. \emph{Entrevista com Bruce Bueno de Mesquita}. Rede Globo,
+  São Paulo: [s.n.].
+, 2 de ago de 2012, Programa de TV, acesso em: \today.
+Dispon{\'\i}vel em: \url{https://www.youtube.com/watch?v=Bki4WlM4YQI}.}
+
+\bibitem[Kahle e Wickham 2013]{Kahle.2013}
+\abntrefinfo{Kahle e Wickham}{KAHLE; WICKHAM}{2013}
+{KAHLE, D.; WICKHAM, H. ggmap: Spatial visualization with ggplot2.
+\emph{The R Journal}, v.~5, n.~1, p. 144--161, 2013.
+Dispon{\'\i}vel em:
+  \url{http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf}.}
 
 \bibitem[Kogan e Tapiero 2007]{kogan.2007}
 \abntrefinfo{Kogan e Tapiero}{KOGAN; TAPIERO}{2007}
@@ -233,6 +242,13 @@ In:  \underline{\ \ \ \ \ \ \ \ }. [S.l.: s.n.], 2008. v.
   10.1007/978-3-540-69291-1, cap.~10.
 ISBN 978-3-540-69290-4,978-3-540-69291-1.}
 
+\bibitem[{R Development Core Team} 2016]{R.2016}
+\abntrefinfo{{R Development Core Team}}{{R Development Core Team}}{2016}
+{{R Development Core Team}. \emph{R: A Language and Environment for Statistical
+  Computing}.
+Vienna, Austria, 2016. {ISBN} 3-900051-07-0. Dispon{\'\i}vel em:
+  \url{http://www.R-project.org}.}
+
 \bibitem[Rosa 2014]{Rosa.2014}
 \abntrefinfo{Rosa}{ROSA}{2014}
 {ROSA, A.~M. da. \emph{A Teoria dos Jogos Aplicada ao Processo Penal}. 1. ed.
@@ -244,6 +260,12 @@ ISBN 9789898305824.}
 {ROTH, A.~E. \emph{The Shapley value: essays in honor of Lloyd S. Shapley}. New
   York, USA: Cambridge University Press, 1988.
 ISBN 9780521361774.}
+
+\bibitem[Schmeidler 1969]{Schmeidler.1969}
+\abntrefinfo{Schmeidler}{SCHMEIDLER}{1969}
+{SCHMEIDLER, D. The nucleolus of a characteristic function game.
+\emph{SIAM Journal on Applied Mathematics}, Society for Industrial and Applied
+  Mathematics, v.~17, 11 1969.}
 
 \bibitem[Serrano 2013]{Serrano.2013}
 \abntrefinfo{Serrano}{SERRANO}{2013}
@@ -262,6 +284,19 @@ ISBN 9788521616498.}
 {WEIRICH, P. \emph{Collective Rationality: Equilibrium in Cooperative Games}.
   [S.l.]: Oxford University Press, 2009.
 ISBN 9780199741458.}
+
+\bibitem[Wickham 2009]{Wickham.2009}
+\abntrefinfo{Wickham}{WICKHAM}{2009}
+{WICKHAM, H. \emph{ggplot2: Elegant Graphics for Data Analysis}.
+  Springer-Verlag New York, 2009.
+ISBN 978-0-387-98140-6. Dispon{\'\i}vel em:
+  \url{http://had.co.nz/ggplot2/book}.}
+
+\bibitem[Wickham 2015]{Wickham.2015}
+\abntrefinfo{Wickham}{WICKHAM}{2015}
+{WICKHAM, H. \emph{scales: Scale Functions for Visualization}.
+[S.l.], 2015. R package version 0.3.0. Dispon{\'\i}vel em:
+  \url{https://CRAN.R-project.org/package=scales}.}
 
 \bibitem[Young 1994]{Young.1994}
 \abntrefinfo{Young}{YOUNG}{1994}

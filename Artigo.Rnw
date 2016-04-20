@@ -208,57 +208,29 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
 \section*{Introdução}
 \addcontentsline{toc}{section}{Introdução}
 
-Seguem referências para adicionar:\\
+\texttt{\color{red}...criar seção...}
 
-\begin{itemize}
-  \item Collective Rationality: Equilibrium in Cooperative Games \cite{Weirich.2009}
-  \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
-  \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
-  \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
-  \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
-  \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
-  \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
-  \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory= Kooper{\'a}ci{\'o} egy HMMS-t{\'\i}pus{\'u} ell{\'a}t{\'a}si l{\'a}ncban: A kooperat{\'\i}v j{\'a}t{\'e}kelm{\'e}let egy menedzsment alkalmaz{\'a}sa \cite{Dobos.2010b}
-  \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
-  \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
-  \item A Way to Play Claims Problems \cite{Gimenez.2014}
-  \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
-  \item O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1 \cite{Faveret.2015}
-  \item Coopera\c{c}{\~a}o e Conflito \cite{Fiani.2011}
-  \item A Teoria dos Jogos Aplicada ao Processo Penal \cite{Rosa.2014}
-  \item Teoria dos Jogos \cite{Bierman.2010}
-  \item Teoria dos Jogos \cite{Tavares.2009}
-  \item Prática na Teoria. Aplicações da Teoria dos Jogos e da Evolução aos Negócios \cite{Marinho.2011}
-  \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
-\end{itemize}
+  \begin{itemize}
+    \item Theory of games and economic behavior \cite{Neumann.1947}
+    \item Social choice and individual values \cite{Figueiredo.1994}
+    \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
+    \item Teoria Dos Jogos \cite{Fiani.2006}
+    \item Bayesian learning in negotiation \cite{Zeng.1998}
+    \item Teoria dos Jogos \cite{Tavares.2009}
+    \item Teoria dos Jogos \cite{Bierman.2010}
+    \item Coopera\c{c}{\~a}o e Conflito \cite{Fiani.2011}
+    \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
+    \item A Way to Play Claims Problems \cite{Gimenez.2014}
+    \item Teoria dos Jogos \cite{Fiani.2015}
+    \item Entrevista com Bruce Bueno de Mesquita \cite{Mesquita.2012}
+  \end{itemize}
 
 % ----------------------------------------------------------
-% Seção de explicações
+% Seção conexão entre teoria dos jogos até cooperativos
 % ----------------------------------------------------------
-
-\section{Teoria dos jogos cooperativos na cadeia de suprimentos}
+\section{Teoria dos jogos cooperativos}
 
 A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cadados membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
-
-Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
-
-
-\subsection{Conceitos sobre teoria dos jogos cooperativos}
-
-\texttt{}
-
-\begin{itemize}
-  \item Teoria dos Jogos\cite{Fiani.2015}
-  \item Teoria Dos Jogos \cite{Fiani.2006}
-  \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
-  \item Game Theory  Cooperative Games with Transferable Utility \cite{Peters.2008}
-  \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
-  \item Social choice and individual values \cite{Figueiredo.1994}
-  \item Theory of games and economic behavior \cite{Neumann.1947}
-  \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
-  \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
-  \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
-\end{itemize}
 
 \begin{equation}
   \label{eq:conceitoTJC}
@@ -267,7 +239,44 @@ Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da 
   \right\}
 \end{equation}
 
+\texttt{\color{red}...seguem referências para seção...}
 
+  \begin{itemize}
+    \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
+    \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
+    \item Game Theory Cooperative Games with Transferable Utility \cite{Peters.2008}
+  \end{itemize}
+  
+% ----------------------------------------------------------
+% Seção conexão entre teoria dos jogos e cadeia de suprimentos
+% ----------------------------------------------------------
+\section{Gerenciamento da Cadeia de suprimentos}
+
+Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
+
+  \begin{itemize}
+    \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
+    \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
+    \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
+    \item A Teoria dos Jogos Aplicada ao Processo Penal \cite{Rosa.2014}
+    \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
+    \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
+    \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
+    \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
+    \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
+    \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory \cite{Dobos.2010b}
+  \end{itemize}
+
+% ----------------------------------------------------------
+% Estudo de caso
+% ----------------------------------------------------------
+\section{Estudo de caso}
+
+  \texttt{\color{red}...linguagem e pacotes da seção...}
+  \begin{itemize}
+    \item R: A Language and Environment for Statistical Computing \cite{R.2016}
+    \item ggmap: Spatial Visualization with ggplot2 \cite{Kahle.2013}
+  \end{itemize}
 
 <<echo=FALSE, warning=FALSE, results='markup', message=FALSE, highlight=TRUE, error=FALSE, fig.align='center', fig.show='hold', fig.pos='!h', fig.cap="Itinerários", fig.height=4, fig.width=4>>=
 
@@ -276,7 +285,6 @@ coordUFMS <- geocode("UFMS")
 coordUFRJ <-  geocode("UFRJ")
 coordAsuncion <-  geocode("Asuncion")
 coordUFPR <- geocode("UFPR")
-
 
 df <- data.frame(longitude = c(coordUFPR[,1],
                                coordUFRGS[,1],
@@ -342,7 +350,6 @@ ggmap(get_googlemap('Parana',
                               size = 3.5)
 @
 
-
 \begin{table}[!h]
   \centering
   \caption{Tabela de combinações de agentes e custo}
@@ -354,8 +361,12 @@ ggmap(get_googlemap('Parana',
   \end{tabular}
 \end{table}
 
-
+% ----------------------------------------------------------
+% Shapley value
+% ----------------------------------------------------------
 \section{\emph{Shapley value}}
+
+\subsection{\emph{Conceito}}
 
 Shapley axiomas para $\varphi(v)$
 \begin{enumerate}
@@ -499,7 +510,25 @@ $\because$
  \sum_{i = 1}^{3}x_i = 14 = c(N)
 \end{equation}
 
-\subsubsection{Código em R}
+\texttt{\color{red}...seguem referências para seção...}
+  
+  \begin{itemize}
+    \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
+    \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
+    \item Lloyd Shapley's Matching and Game Theory \cite{Serrano.2013}
+    \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
+    \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
+  \end{itemize}
+
+\subsection{Código em R}
+
+  \texttt{\color{red}...linguagem e pacotes da seção...}
+
+  \begin{itemize}
+    \item R: A Language and Environment for Statistical Computing \cite{R.2016}
+    \item scales: Scale Functions for Visualization \cite{Wickham.2015}
+    \item ggplot2: Elegant Graphics for Data Analysis \cite{Wickham.2009}
+  \end{itemize}
 
 <<echo=TRUE, warning=FALSE, results='hide', message=FALSE, highlight=FALSE, error=FALSE, fig.show='hide', background="gray95">>=
 
@@ -544,21 +573,19 @@ ggplot(data = valorShapley,
        scale_x_discrete(expand = c(0, 0))
 @
 
-\subsection{Conceito}
-
-
-\subsection{Aplicação}
-
-\subsection{Resultados}
-
 \section{\emph{Nucleolus}}
 
-\subsection{Conceito}
-
-\subsection{Aplicação}
-
-\subsection{Resultados}
-
+\texttt{\color{red}...seguem referências para seção...}
+  
+  \begin{itemize}
+    \item The Nucleolus of a Characteristic Function Game \cite{Schmeidler.1969}
+    \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
+    \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
+    \item Collective Rationality: Equilibrium in Cooperative Games \cite{Weirich.2009}
+    \item Prática na Teoria. Aplicações da Teoria dos Jogos e da Evolução aos Negócios \cite{Marinho.2011}
+    \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
+    \item O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1 \cite{Faveret.2015}
+  \end{itemize}
 
 \section{Análise comparativa}
 
@@ -572,8 +599,6 @@ ggplot(data = valorShapley,
 % Conclusão
 % ---
 \section*{Conclusão}
-
-
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
