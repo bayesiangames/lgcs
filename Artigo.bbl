@@ -19,7 +19,7 @@
 \bibitem[Ayala 2008]{Ayala.2008}
 \abntrefinfo{Ayala}{AYALA}{2008}
 {AYALA, G. A.~A.
-\emph{Aplica\c{c}{\~a}o de Teoria de Jogos à Aloca\c{c}{\~a}o de Capacidade
+\emph{Aplica\c{c}{\~a}o de Teoria de Jogos \`a Aloca\c{c}{\~a}o de Capacidade
   Firme em um Sistema T{\'e}rmico}.
 Disserta\c{c}\~{a}o (Mestrado) --- Pont{\'i}fice Universidade Cat{\'o}ilica do
   Rio de Janeiro - PUC-Rio, 04 2008.
@@ -33,6 +33,19 @@ In:  \underline{\ \ \ \ \ \ \ \ }. 2. ed. [S.l.]: John Wiley \& Sons, 2007.
   (Wiley Series in Operations Research and Management Science, v.
   10.1002/9781118032398), cap.~5.
 ISBN 9781118533895.}
+
+\bibitem[Beghin e Karp 1991]{Beghin.1991}
+\abntrefinfo{Beghin e Karp}{BEGHIN; KARP}{1991}
+{BEGHIN, J.~C.; KARP, L.~S. Estimation of price policies in senegal an
+  empirical test of cooperative game theory.
+\emph{Journal of Development Economics}, Elsevier Science, v.~35, 1991.}
+
+\bibitem[Bekman e Neto 2009]{Otto.2009}
+\abntrefinfo{Bekman e Neto}{BEKMAN; NETO}{2009}
+{BEKMAN, O.~R.; NETO, P. L. O.~C. An\'alise estat\'{\i}stica da decis\~ao.
+In:  \underline{\ \ \ \ \ \ \ \ }. 2. ed. S\~ao Paulo, Brasil: Blucher, 2009.
+  cap. Introdu\c{c}\~ao \`a teoria dos jogos, p. 122--140.
+ISBN 978-85-212-0468-8.}
 
 \bibitem[Berni e Fernandez 2014]{Paula.2014}
 \abntrefinfo{Berni e Fernandez}{BERNI; FERNANDEZ}{2014}
@@ -72,6 +85,12 @@ In:  \underline{\ \ \ \ \ \ \ \ }. Boston, MA: Springer US, 2004. cap. Game
   Theory in Supply Chain Analysis, p. 13--65.
 ISBN 978-1-4020-7953-5.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/978-1-4020-7953-5\_2}.}
+
+\bibitem[Cao e Yang 2010]{KaitianCao.2010}
+\abntrefinfo{Cao e Yang}{CAO; YANG}{2010}
+{CAO, K.; YANG, Z. A novel cooperative spectrum sensing method based on
+  cooperative game theory.
+\emph{Journal of Electronics (China)}, SP Science Press, v.~27, 03 2010.}
 
 \bibitem[Cao e Zhang 2012]{Cao.2012}
 \abntrefinfo{Cao e Zhang}{CAO; ZHANG}{2012}
@@ -127,11 +146,28 @@ ISBN 9783642137259. Dispon{\'\i}vel em:
   [S.l.]: Springer Netherlands, 2013.
 ISBN 9789401577878.}
 
+\bibitem[Duhigg 2012]{Duhigg.2012}
+\abntrefinfo{Duhigg}{DUHIGG}{2012}
+{DUHIGG, C. \emph{O poder do h{\'a}bito: Por que fazemos o que fazemos na vida
+  e nos neg{\'o}cios}. [S.l.]: Companhia das Letras, 2012.
+ISBN 9788539004256.}
+
+\bibitem[Eisert et al. 1999]{Eisert.1999}
+\abntrefinfo{Eisert et al.}{EISERT et al.}{1999}
+{EISERT, J.; WILKENS, M.; LEWENSTEIN, M. Quantum games and quantum strategies.
+\emph{Physical Review Letters}, APS, v.~83, n.~15, p.~3077, 1999.}
+
+\bibitem[\'eniz e Rafels 2004]{Albeniz.2004}
+\abntrefinfo{\'eniz e Rafels}{\'ENIZ; RAFELS}{2004}
+{\'ENIZ, F. J.~M. de A.; RAFELS, C. An intersection theorem in tu cooperative
+  game theory.
+\emph{International Journal of Game Theory}, Springer-Verlag, v.~33, 12 2004.}
+
 \bibitem[Faveret 2015]{Faveret.2015}
 \abntrefinfo{Faveret}{FAVERET}{2015}
-{FAVERET, D.~M. \emph{O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1}.
-  1. ed. S{\~a}o Paulo, Brasil: CreateSpace Independent Publishing Platform,
-  2015. 94~p.
+{FAVERET, D.~M. \emph{O Dilema do Prisioneiro desde Hegel at \'e Lacan: Tomo
+  1}. 1. ed. S{\~a}o Paulo, Brasil: CreateSpace Independent Publishing
+  Platform, 2015. 94~p.
 ISBN 9781519451712.}
 
 \bibitem[Fiani 2006]{Fiani.2006}
@@ -152,15 +188,34 @@ ISBN 9788535214338.}
   GRUPO ELSEVIER, 2015. 376~p.
 ISBN 9788535276657.}
 
+\bibitem[Figueiredo 2004]{JoseFigueiredo.2004}
+\abntrefinfo{Figueiredo}{FIGUEIREDO}{2004}
+{FIGUEIREDO, J. M. A.~F. Quantum games.
+\emph{Physica A: Statistical Mechanics and its Applications}, Elsevier Science,
+  v.~335, 2004.}
+
 \bibitem[Figueiredo 1994]{Figueiredo.1994}
 \abntrefinfo{Figueiredo}{FIGUEIREDO}{1994}
 {FIGUEIREDO, R.~S. Teoria dos jogos: conceitos, formaliza\c{c}{\~a}o
-  matem{\'a}tica e aplica\c{c}{\~a}o à distribui\c{c}{\~a}o de custo conjunto.
+  matem{\'a}tica e aplica\c{c}{\~a}o \`a distribui\c{c}{\~a}o de custo
+  conjunto.
 \emph{Gest{\~a}o \& Produ\c{c}{\~a}o}, SciELO - Scientific Electronic Library
   Online, S{\~a}o Paulo, Brasil, v.~1, p. 273--289, 12 1994.
 ISSN 0104-530X.
 Dispon{\'\i}vel em:
   \url{http://www.scielo.br/scielo.php?script=sci\_arttext&pid=S0104-530X1994000300005&nrm=iso}.}
+
+\bibitem[Flitney e Hollenberg 2007]{Flitney.2007}
+\abntrefinfo{Flitney e Hollenberg}{FLITNEY; HOLLENBERG}{2007}
+{FLITNEY, A.~P.; HOLLENBERG, L.~C. Nash equilibria in quantum games with
+  generalized two-parameter strategies.
+\emph{Physics Letters A}, Elsevier Science, v.~363, 2007.}
+
+\bibitem[Forte 1994]{Forte.1994}
+\abntrefinfo{Forte}{FORTE}{1994}
+{FORTE, F. A cooperative game approach to optimal saving theory: Toward a
+  constitution for savings.
+\emph{Public Choice}, Springer US, v.~81, 12 1994.}
 
 \bibitem[Gim{\'e}nez-G{\'o}mez 2014]{Gimenez.2014}
 \abntrefinfo{Gim{\'e}nez-G{\'o}mez}{GIM{\'E}NEZ-G{\'O}MEZ}{2014}
@@ -173,16 +228,63 @@ Dispon{\'\i}vel em:
 \emph{European Journal of Operational Research}, Elsevier Science, v.~241, 03
   2015.}
 
+\bibitem[Harsanyi 1968]{Harsanyi.1968}
+\abntrefinfo{Harsanyi}{HARSANYI}{1968}
+{HARSANYI, J.~C. Games with incomplete information played by ''bayesian''
+  players part ii. bayesian equilibrium points.
+\emph{Management Science}, INFORMS, University of Maryland, USA, v.~14, n.~5,
+  p. 320--334, 1968.}
+
 \bibitem[Hart e Mas-Colell 2012]{Hart.2012}
 \abntrefinfo{Hart e Mas-Colell}{HART; MAS-COLELL}{2012}
 {HART, S.; MAS-COLELL, A. \emph{Cooperation: Game-Theoretic Approaches}.
   [S.l.]: Springer Berlin Heidelberg, 2012.
 ISBN 9783642604546.}
 
-\bibitem[{Jornal Globo}]{Mesquita.2012}
-\abntrefinfo{{Jornal Globo}}{{Jornal Globo}}{}
-{{Jornal Globo}. \emph{Entrevista com Bruce Bueno de Mesquita}. São Paulo,
-  Brasil: [s.n.].
+\bibitem[Hohzaki 2009]{Hohzaki.2009}
+\abntrefinfo{Hohzaki}{HOHZAKI}{2009}
+{HOHZAKI, R. A cooperative game in search theory.
+\emph{Naval Research Logistics (NRL)}, John Wiley \& Sons, v.~56, 2009.}
+
+\bibitem[Hu et al. 2006]{Hu.2006}
+\abntrefinfo{Hu et al.}{HU et al.}{2006}
+{HU, Z. et al. Allocation of unit start-up costs using cooperative game theory.
+\emph{IEEE Transactions on Power Systems}, IEEE, v.~21, 05 2006.}
+
+\bibitem[Ichiishi 1990]{Ichiishi.1990}
+\abntrefinfo{Ichiishi}{ICHIISHI}{1990}
+{ICHIISHI, T. Comparative cooperative game theory.
+\emph{International Journal of Game Theory}, Springer-Verlag, v.~19, 1990.}
+
+\bibitem[Iqbal et al. 2015]{Azhar.2015}
+\abntrefinfo{Iqbal et al.}{IQBAL et al.}{2015}
+{IQBAL, A.; CHAPPELL, J.~M.; ABBOTT, D. Social optimality in quantum bayesian
+  games.
+\emph{Physica A: Statistical Mechanics and its Applications}, Elsevier Science,
+  v.~436, 10 2015.}
+
+\bibitem[Iqbal et al. 2014]{Iqbal.2014}
+\abntrefinfo{Iqbal et al.}{IQBAL et al.}{2014}
+{IQBAL, A. et al. A probabilistic approach to quantum bayesian games of
+  incomplete information.
+\emph{Quantum Information Processing}, Springer US, v.~13, 12 2014.}
+
+\bibitem[Iqbal e Toor 2002]{Iqbal.2002}
+\abntrefinfo{Iqbal e Toor}{IQBAL; TOOR}{2002}
+{IQBAL, A.; TOOR, A. Quantum cooperative games.
+\emph{Physics Letters A}, Elsevier Science, v.~293, 2002.}
+
+\bibitem[Jiao et al. 2011]{Jiao.2011}
+\abntrefinfo{Jiao et al.}{JIAO et al.}{2011}
+{JIAO, Y. et al. Quality of service provisioning in worldwide interoperability
+  for microwave access networks based on cooperative game theory.
+\emph{IET Communications}, The Institution of Engineering and Technology, v.~5,
+  2011.}
+
+\bibitem[{Jornal Globo} 2012]{Mesquita.2012}
+\abntrefinfo{{Jornal Globo}}{{Jornal Globo}}{2012}
+{{Jornal Globo}. \emph{Entrevista com Bruce Bueno de Mesquita}. S\~ao Paulo,
+  Brasil: [s.n.], 2012.
 2 de agosto de 2012, Programa de TV, acesso em: \today.
 Dispon{\'\i}vel em: \url{https://www.youtube.com/watch?v=Bki4WlM4YQI}.}
 
@@ -193,6 +295,18 @@ Dispon{\'\i}vel em: \url{https://www.youtube.com/watch?v=Bki4WlM4YQI}.}
 Dispon{\'\i}vel em:
   \url{http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf}.}
 
+\bibitem[Kahneman 2012]{Kahneman.2012}
+\abntrefinfo{Kahneman}{KAHNEMAN}{2012}
+{KAHNEMAN, D. \emph{R{\'a}pido e devagar: Duas formas de pensar}. [S.l.]:
+  Companhia das Letras, 2012.
+ISBN 9788539004010.}
+
+\bibitem[Kang et al. 2007]{Kang.2007}
+\abntrefinfo{Kang et al.}{KANG et al.}{2007}
+{KANG, D.-J.; KIM, B.~H.; HUR, D. Supplier bidding strategy based on
+  non-cooperative game theory concepts in single auction power pools.
+\emph{Electric Power Systems Research}, Elsevier Science, v.~77, 2007.}
+
 \bibitem[Kogan e Tapiero 2007]{kogan.2007}
 \abntrefinfo{Kogan e Tapiero}{KOGAN; TAPIERO}{2007}
 {KOGAN, K.; TAPIERO, C.~S. \emph{Supply Chain Games: Operations Management and
@@ -200,24 +314,49 @@ Dispon{\'\i}vel em:
 ISBN 9780387727769. Dispon{\'\i}vel em:
   \url{http://www.springer.com/us/book/9780387727752}.}
 
+\bibitem[Lemaire 1993]{Lemaire.1993}
+\abntrefinfo{Lemaire}{LEMAIRE}{1993}
+{LEMAIRE, J. Cooperative game theory and its insurance applications.
+\emph{Insurance: Mathematics and Economics}, Elsevier Science, v.~12, 1993.}
+
+\bibitem[Lima et al. 2008]{Lima.2008}
+\abntrefinfo{Lima et al.}{LIMA et al.}{2008}
+{LIMA, D.~A.; CONTRERAS, J.; PADILHA-FELTRIN, A. A cooperative game theory
+  analysis for transmission loss allocation.
+\emph{Electric Power Systems Research}, Elsevier Science, v.~78, 2008.}
+
 \bibitem[Littlechild e Thompson 1977]{Littlechild.1977}
 \abntrefinfo{Littlechild e Thompson}{LITTLECHILD; THOMPSON}{1977}
 {LITTLECHILD, S.~C.; THOMPSON, G.~F. Aircraft landing fees: A game theory
   approach.
 \emph{The Bell Journal of Economics}, The RAND Corporation, v.~8, 1977.}
 
+\bibitem[Lozano 2012]{Lozano.2012}
+\abntrefinfo{Lozano}{LOZANO}{2012}
+{LOZANO, S. Information sharing in dea: A cooperative game theory approach.
+\emph{European Journal of Operational Research}, Elsevier Science, v.~222,
+  2012.}
+
+\bibitem[Manuel et al. 2013]{Manuel.2013}
+\abntrefinfo{Manuel et al.}{MANUEL et al.}{2013}
+{MANUEL, C.; ARANGUENA, E.~G. \'alez; POZO, M. \'onica D. Cooperative game
+  theory in sports.
+\emph{International Game Theory Review}, World Scientific Publishing Company,
+  v.~15, 09 2013.}
+
 \bibitem[Marinho 2011]{Marinho.2011}
 \abntrefinfo{Marinho}{MARINHO}{2011}
-{MARINHO, R. \emph{Prática na Teoria. Aplicações da Teoria dos Jogos e da
-  Evolução aos Negócios}. Administracao. S{\~a}o Paulo, Brasil: Saraiva,
-  2011.
+{MARINHO, R. \emph{Pr \'atica na Teoria. Aplica\c{c}\~oes da Teoria dos Jogos e
+  da Evolu\c{c}\~ao aos Neg \'ocios}. Administracao. S{\~a}o Paulo, Brasil:
+  Saraiva, 2011.
 ISBN 9788502116825.}
 
 \bibitem[Maschler et al. 1979]{Maschler.1979}
 \abntrefinfo{Maschler et al.}{MASCHLER et al.}{1979}
 {MASCHLER, M.; PELEG, B.; SHAPLEY, L. Geometric properties of the kernel,
   nucleolus, and related solution concepts.
-\emph{Mathematics of Operations Research}, INFORMS, v.~4, 11 1979.}
+\emph{Mathematics of Operations Research}, INFORMS, University of Maryland,
+  USA, v.~4, 11 1979.}
 
 \bibitem[McCain 2013]{Mccain.2013}
 \abntrefinfo{McCain}{MCCAIN}{2013}
@@ -225,12 +364,43 @@ ISBN 9788502116825.}
   Scientific Publishing Company, 2013.
 ISBN 9789814417402.}
 
+\bibitem[Mlodinow 2013]{Mlodinow.2013}
+\abntrefinfo{Mlodinow}{MLODINOW}{2013}
+{MLODINOW, L. \emph{Subliminar: Como o inconsciente influencia nossas vidas}.
+  [S.l.]: Zahar, 2013.
+ISBN 9788537810538.}
+
+\bibitem[Mlodinow e Alfaro 2009]{Mlodinow.2009}
+\abntrefinfo{Mlodinow e Alfaro}{MLODINOW; ALFARO}{2009}
+{MLODINOW, L.; ALFARO, D. \emph{O andar do b\'ebado}. [S.l.]: Zahar, 2009.
+ISBN 9788537801550.}
+
 \bibitem[Moreira 2002]{Moreira.2002}
 \abntrefinfo{Moreira}{MOREIRA}{2002}
 {MOREIRA, R.~C. Teoria dos jogos cooperativos: Conceitos fundamentais. In:
   \emph{Simp{\'o}sio brasileiro de pesquisa operacional - SBPO}. Instituto
   Militar de Engenharia - IME, 2002. Mini-Curso B. Dispon{\'\i}vel em:
   \url{http://ws2.din.uem.br/~ademir/sbpo/sbpo2002/minic/minic00.htm}.}
+
+\bibitem[Morris 1994]{Morris.1994}
+\abntrefinfo{Morris}{MORRIS}{1994}
+{MORRIS, P. Introduction to game theory: N-person cooperative games.
+In:  \underline{\ \ \ \ \ \ \ \ }. [S.l.: s.n.], 1994. v.
+  10.1007/978-1-4612-4316-8, cap.~6.
+ISBN 978-0-387-94284-1,978-1-4612-4316-8.}
+
+\bibitem[Nash 1950]{Nash.1950}
+\abntrefinfo{Nash}{NASH}{1950}
+{NASH, J. Equilibrium points in n-person games.
+\emph{Proceedings of the National Academy of Sciences of the United States of
+  America}, v.~36, n.~1, p. 48--49, 1950.
+Dispon{\'\i}vel em: \url{http://www.calpoly.edu/~aamendes/GTweb/Nash.pdf}.}
+
+\bibitem[Nash 1953]{Nash.1953}
+\abntrefinfo{Nash}{NASH}{1953}
+{NASH, J. Two-person cooperative games.
+\emph{Econometrica: Journal of the Econometric Society}, JSTOR, p. 128--140,
+  1953.}
 
 \bibitem[Neumann e Morgenstern 1947]{Neumann.1947}
 \abntrefinfo{Neumann e Morgenstern}{NEUMANN; MORGENSTERN}{1947}
@@ -257,6 +427,19 @@ ISBN 978-3-540-69290-4,978-3-540-69291-1.}
 Vienna, Austria, 2016. {ISBN} 3-900051-07-0. Dispon{\'\i}vel em:
   \url{http://www.R-project.org}.}
 
+\bibitem[Rapoport 1974]{Rapoport.1974}
+\abntrefinfo{Rapoport}{RAPOPORT}{1974}
+{RAPOPORT, A. Game theory as a theory of a conflict resolution: A shapley value
+  for cooperative games with quarrelling.
+In:  \underline{\ \ \ \ \ \ \ \ }. [S.l.: s.n.], 1974. v.
+  10.1007/978-94-010-2161-6, cap.~9.
+ISBN 978-90-277-0489-4,978-94-010-2161-6.}
+
+\bibitem[Ray 2002]{Ray.2002}
+\abntrefinfo{Ray}{RAY}{2002}
+{RAY, I. Social and economic networks in cooperative game theory.
+\emph{The Economic Journal}, John Wiley \& Sons, v.~112, 2002.}
+
 \bibitem[Rosa 2014]{Rosa.2014}
 \abntrefinfo{Rosa}{ROSA}{2014}
 {ROSA, A.~M. da. \emph{A Teoria dos Jogos Aplicada ao Processo Penal}. 1. ed.
@@ -275,17 +458,58 @@ ISBN 9780521361774.}
 \emph{SIAM Journal on Applied Mathematics}, Society for Industrial and Applied
   Mathematics, v.~17, 11 1969.}
 
+\bibitem[Sechi et al. 2013]{Sechi.2013}
+\abntrefinfo{Sechi et al.}{SECHI et al.}{2013}
+{SECHI, G.~M.; ZUCCA, R.; ZUDDAS, P. Water costs allocation in complex systems
+  using a cooperative game theory approach.
+\emph{Water Resources Management}, Springer Netherlands, v.~27, 04 2013.}
+
+\bibitem[Seife 2012]{Seife.2012}
+\abntrefinfo{Seife}{SEIFE}{2012}
+{SEIFE, C. \emph{Os n\'umeros (n\~ao) mentem: Como a matem\'atica pode ser
+  usada para enganar voc\^e}. [S.l.]: Zahar, 2012.
+ISBN 9788537808719.}
+
 \bibitem[Serrano 2013]{Serrano.2013}
 \abntrefinfo{Serrano}{SERRANO}{2013}
 {SERRANO, R. Lloyd shapley's matching and game theory.
 \emph{The Scandinavian Journal of Economics}, Wiley Online Library, v.~115,
   n.~3, p. 599--618, 2013.}
 
+\bibitem[Silver]{Nate.2012}
+\abntrefinfo{Silver}{SILVER}{}
+{SILVER, N. \emph{O sinal e o ru\'{\i}do}. Rio de Janeiro, Brasil: Intrinseca.
+ISBN 978-85-8057-353-4.}
+
+\bibitem[Smol’yakov 2005]{yakov.2005}
+\abntrefinfo{Smol’yakov}{SMOL’YAKOV}{2005}
+{SMOL’YAKOV, E.~R. Axiomatization in cooperative game theory.
+\emph{Computational Mathematics and Modeling}, Springer, v.~16, 2005.}
+
+\bibitem[Song e Panayides 2002]{Song.2002}
+\abntrefinfo{Song e Panayides}{SONG; PANAYIDES}{2002}
+{SONG, D.-W.; PANAYIDES, P.~M. A conceptual application of cooperative game
+  theory to liner shipping strategic alliances.
+\emph{Maritime Policy \& Management}, Taylor and Francis Group, v.~29, 09
+  2002.}
+
+\bibitem[Sun et al. 2012]{Sun.2012}
+\abntrefinfo{Sun et al.}{SUN et al.}{2012}
+{SUN, X. et al. Using cooperative game theory to optimize the feature selection
+  problem.
+\emph{Neurocomputing}, Elsevier Science, v.~97, 11 2012.}
+
 \bibitem[Tavares 2009]{Tavares.2009}
 \abntrefinfo{Tavares}{TAVARES}{2009}
 {TAVARES, J.~M. \emph{Teoria dos Jogos}. 1. ed. S{\~a}o Paulo, Brasil: LTC -
   GRUPO GEN, 2009.
 ISBN 9788521616498.}
+
+\bibitem[Tijs e Otten 1993]{Tijs.1993}
+\abntrefinfo{Tijs e Otten}{TIJS; OTTEN}{1993}
+{TIJS, S.; OTTEN, G.-J. Compromise values in cooperative game theory.
+\emph{TOP - Official Journal of the Spanish Society of Statistics and
+  Operations Research}, v.~1, 12 1993.}
 
 \bibitem[Weirich 2009]{Weirich.2009}
 \abntrefinfo{Weirich}{WEIRICH}{2009}
@@ -305,6 +529,22 @@ ISBN 978-0-387-98140-6. Dispon{\'\i}vel em:
 {WICKHAM, H. \emph{scales: Scale Functions for Visualization}.
 [S.l.], 2015. R package version 0.3.0. Dispon{\'\i}vel em:
   \url{https://CRAN.R-project.org/package=scales}.}
+
+\bibitem[Wiese 2009]{Wiese.2009}
+\abntrefinfo{Wiese}{WIESE}{2009}
+{WIESE, H. Applying cooperative game theory to power relations.
+\emph{Quality \& Quantity}, Springer Netherlands, v.~43, 07 2009.}
+
+\bibitem[Xie e Ai 2006]{Xie.2006}
+\abntrefinfo{Xie e Ai}{XIE; AI}{2006}
+{XIE, J.; AI, S. Cooperative advertising, game theory and
+  manufacturer--retailer supply chains.
+\emph{Omega}, Elsevier Science, v.~34, 2006.}
+
+\bibitem[Yang et al. 2012]{Yang.2012}
+\abntrefinfo{Yang et al.}{YANG et al.}{2012}
+{YANG, D.; FANG, X.; XUE, G. Game theory in cooperative communications.
+\emph{IEEE Wireless Communications}, IEEE, v.~19, 2012.}
 
 \bibitem[Young 1994]{Young.1994}
 \abntrefinfo{Young}{YOUNG}{1994}

@@ -85,7 +85,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
-
+\usepackage{float}
 
 %\usepackage{draftwatermark}
 
@@ -263,6 +263,7 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
     \item A Way to Play Claims Problems \cite{Gimenez.2014}
     \item Teoria dos Jogos \cite{Fiani.2015}
     \item Entrevista com Bruce Bueno de Mesquita \cite{Mesquita.2012}
+    \item Análise Estatística da Descisão \cite[p.~122--140]{Otto.2009}
   \end{itemize}
 
 % ----------------------------------------------------------
@@ -279,12 +280,34 @@ A chave da cooperação entre empresas está em conseguir a unidade de motivaç�
   \right\}
 \end{equation}
 
-\texttt{\color{red}...seguem referências para seção...}
+\texttt{\color{red}...seguem referências para completar seção...}
 
   \begin{itemize}
     \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
     \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
     \item Game Theory Cooperative Games with Transferable Utility \cite{Peters.2008}
+    \item A cooperative game approach to optimal saving theory: Toward a constitution for savings \cite{Forte.1994}
+    \item Water Costs Allocation in Complex Systems Using a Cooperative Game Theory Approach \cite{Sechi.2013}
+    \item Cooperative Game Theory in Sports \cite{Manuel.2013}
+    \item Comparative cooperative game theory \cite{Ichiishi.1990}
+    \item An intersection theorem in TU cooperative game theory \cite{Albeniz.2004}
+    \item Axiomatization in cooperative game theory \cite{yakov.2005}
+    \item Applying cooperative game theory to power relations \cite{Wiese.2009}
+    \item Cooperative game theory and its insurance applications \cite{Lemaire.1993}
+    \item A novel cooperative spectrum sensing method based on cooperative game theory \cite{KaitianCao.2010}
+    \item A cooperative game theory analysis for transmission loss allocation \cite{Lima.2008}
+    \item Social and Economic Networks in Cooperative Game Theory \cite{Ray.2002}
+    \item Game theory in cooperative communications \cite{Yang.2012}
+    \item Allocation of Unit Start-Up Costs Using Cooperative Game Theory \cite{Hu.2006}
+    \item Compromise values in cooperative game theory \cite{Tijs.1993}
+    \item Cooperative advertising, game theory and manufacturer--retailer supply chains \cite{Xie.2006}
+    \item Estimation of price policies in Senegal An empirical test of cooperative game theory \cite{Beghin.1991}
+    \item Information sharing in DEA: A cooperative game theory approach \cite{Lozano.2012}
+    \item Quality of service provisioning in worldwide interoperability for microwave access networks based on cooperative game theory \cite{Jiao.2011}
+    \item A conceptual application of cooperative game theory to liner shipping strategic alliances \cite{Song.2002}
+    \item Using cooperative game theory to optimize the feature selection problem \cite{Sun.2012}
+    \item Game Theory as a Theory of a Conflict Resolution - A Shapley Value for Cooperative Games with Quarrelling \cite{Rapoport.1974}
+    \item Introduction to Game Theory - N-Person Cooperative Games \cite{Morris.1994}    
   \end{itemize}
   
 % ----------------------------------------------------------
@@ -295,6 +318,7 @@ A chave da cooperação entre empresas está em conseguir a unidade de motivaç�
 Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
 
   \begin{itemize}
+    \item Supplier bidding strategy based on non-cooperative game theory concepts in single auction power pools \cite{Kang.2007}
     \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
     \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
     \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
@@ -319,13 +343,13 @@ Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da 
   \end{itemize}
 
 \begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[!h]
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[H]
 
 {\centering \includegraphics[width=\maxwidth]{figure/unnamed-chunk-2-1} 
 
 }
 
-\caption[Itinerários]{Itinerários}\label{fig:unnamed-chunk-2}
+\caption[Custo dos itinerários]{Custo dos itinerários}\label{fig:unnamed-chunk-2}
 \end{figure}
 
 
@@ -349,13 +373,6 @@ Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da 
 
 \subsection{\emph{Conceito}}
 
-Shapley axiomas para $\varphi(v)$
-\begin{enumerate}
-  \item Eficiência: $\sum_{i \in N} \varphi_i(v) - v(N)$. Toda a alocação 
-  \item Simetria: Se $i$ e $j$ são tal que $v(S \cup \{i\}) = v(S \cup \{j\})$ para cada coalisão $S$ não contenha $i$ e $j$, então $\varphi_i (v) = \varphi_j (v)$
-  \item 
-\end{enumerate}
-
 Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
 
 \begin{equation}
@@ -363,7 +380,13 @@ Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
   \varphi _{i} = \sum_{S \subset N} \frac{(|s| - 1)!(n - |s|)!}{n!}[v(S)-v(S - i)]
 \end{equation}
 
-Consideramos 
+Shapley axiomas para $\varphi(v)$
+\begin{enumerate}
+  \item \textbf{Eficiência:} Toda aloca\c{c}\~ao \'e distribuída sem disperídio $\sum_{i \in N} \varphi_i(v) - v(N)$.
+  \item \textbf{Simetria:} Se $i$ e $j$ são tal que $v(S \cup \{i\}) = v(S \cup \{j\})$ para cada coalisão $S$ não contenha $i$ e $j$, então $\varphi_i (v) = \varphi_j (v)$
+  \item \textbf{Linearidade:} Se dois agentes em uma coaliz\~ao, descritos pelas fun\~oes de ganho $\phi_i(v)$ e $\phi_i(w)$, s\~ao combinados, ent\~ao os ganhos s\~ao correspondentes $\phi_i(v + w) = \phi_i(v) + \phi_i(w)$.
+  \item \textbf{Zero jogador:} Quando um jogador n\~ao contribui na coopera\c{c}\~ao sua aloca\c{c}\~ao \'e nula.
+\end{enumerate}
 
 Para $i = 1$.
 
@@ -491,7 +514,7 @@ $\because$
  \sum_{i = 1}^{3}x_i = 14 = c(N)
 \end{equation}
 
-\texttt{\color{red}...seguem referências para seção...}
+\texttt{\color{red}...seguem referências para completar seção...}
   
   \begin{itemize}
     \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
@@ -518,19 +541,40 @@ $\because$
 coalisoesAgentes <- c(5, 8, 5, 10, 10, 10, 14)
 
 # Nomes dos agentes/jogadores
-nomesAgentes <- c("[1] Sapiranga","[2] Porto Alegre","[3] Campo Bom")
+nomesAgentes <- c('[1] Origem - Assuncion','[2] Origem - UFMS','[3] Origem - UFRJ')
 
 # Define jogo com tres jogadores/agentes
 definicaoJogo   <- DefineGame(3, coalisoesAgentes)
 
 # Demonstra as coalisoes e res  pectivos custos
 summary(definicaoJogo)
-
+## 
+## Characteristic form of the game 
+## 
+## Number of agents: 3 
+## 
+## Coaliton Value(s) 
+## 
+##     v(i)
+## 1      5
+## 2      8
+## 3      5
+## 12    10
+## 13    10
+## 23    10
+## 123   14
 # Calcula o Shapley Value
 shapleyValue <- ShapleyValue(x = definicaoJogo, 
                              Names = nomesAgentes)
 # Guarda o resultado
-valorShapley <- summary(shapleyValue)
+shapleyValue <- summary(shapleyValue)
+## 
+## Shapley Value for the given game 
+## 
+##                        Shapley Value
+## [1] Origem - Assuncion      4.166667
+## [2] Origem - UFMS           5.666667
+## [3] Origem - UFRJ           4.166667
 \end{verbatim}
 \end{kframe}
 \end{knitrout}
@@ -542,7 +586,7 @@ valorShapley <- summary(shapleyValue)
 
 }
 
-\caption[Cálculo do valor de Shapley]{Cálculo do valor de Shapley}\label{fig:unnamed-chunk-4}
+\caption[Cálculo do Shapley Value]{Cálculo do Shapley Value}\label{fig:unnamed-chunk-4}
 \end{figure}
 
 
@@ -550,13 +594,13 @@ valorShapley <- summary(shapleyValue)
 
 \section{\emph{Nucleolus}}
 
-\texttt{\color{red}...seguem referências para seção...}
+\texttt{\color{red}...seguem referências para completar seção...}
   
   \begin{itemize}
     \item The Nucleolus of a Characteristic Function Game \cite{Schmeidler.1969}
     \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
     \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
-    \item Game Theory (An Introduction) \cite[p. 219--307]{Barron.2007}
+    \item Game Theory (An Introduction) \cite[p.~219--307]{Barron.2007}
     \item Collective Rationality: Equilibrium in Cooperative Games \cite{Weirich.2009}
     \item Prática na Teoria. Aplicações da Teoria dos Jogos e da Evolução aos Negócios \cite{Marinho.2011}
     \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
@@ -565,10 +609,10 @@ valorShapley <- summary(shapleyValue)
 
 \section{Análise comparativa}
 
-\texttt{\color{red}...seguem referências para seção...}
+\texttt{\color{red}...seguem referências para completar seção...}
 
   \begin{itemize}
-    \item A cooperative game in search theory \citet{Hohzaki.2009}
+    \item A cooperative game in search theory \cite{Hohzaki.2009}
 
   \end{itemize}
 
@@ -581,7 +625,37 @@ valorShapley <- summary(shapleyValue)
 % ---
 % Conclusão
 % ---
-\section*{Conclusão}
+\section{Conclusão}
+
+  \begin{itemize}
+    \item O andar do b\'ebado \cite{Mlodinow.2009}
+    \item Os n\'umeros (n\~ao) mentem: Como a matem\'atica pode ser usada para enganar voc\^e \cite{Seife.2012}
+    \item O sinal e o ru\'{\i}do \cite{Nate.2012}
+    \item R{\'a}pido e devagar: Duas formas de pensar \cite{Kahneman.2012}
+    \item Subliminar: Como o inconsciente influencia nossas vidas \cite{Mlodinow.2013}
+    \item O poder do h{\'a}bito: Por que fazemos o que fazemos na vida e nos neg{\'o}cios \cite{Duhigg.2012}
+    \item O sinal e o ru\'{\i}do \cite{Nate.2012}
+  \end{itemize}
+
+\section{*Trabalhos futuros}
+
+\texttt{\color{red}...seguem referências para completar seção...}
+
+  \begin{itemize}
+  
+    \item Games with incomplete information played by ''Bayesian'' players part II. Bayesian equilibrium points \cite{Harsanyi.1968}
+    
+    \item Equilibrium points in n-person games \cite{Nash.1950}
+    \item Two-person cooperative games \cite{Nash.1953}
+    \item Quantum games \cite{JoseFigueiredo.2004}
+    \item Quantum games and quantum strategies \cite{Eisert.1999}
+    \item Nash equilibria in quantum games with generalized two-parameter strategies \cite{Flitney.2007}
+    \item Quantum cooperative games \cite{Iqbal.2002},\cite{Dai.2004}
+    \item A probabilistic approach to quantum Bayesian games of incomplete information \cite{Iqbal.2014}
+    \item Social optimality in quantum Bayesian games \cite{Azhar.2015}
+    
+  \end{itemize}
+
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
