@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  21 APR 2016 20:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  21 APR 2016 21:15
 entering extended mode
 **./Artigo.tex
 (Artigo.tex
@@ -1323,7 +1323,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 254.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 253.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
@@ -1332,88 +1332,76 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 276.
+(Font)              <10.95> on input line 277.
  [2] [3]
 Package color Info: Redefining color shadecolor on input line 346.
 
-<figure/unnamed-chunk-2-1.pdf, id=202, 505.89pt x 505.89pt>
+<figure/unnamed-chunk-2-1.pdf, id=199, 505.89pt x 505.89pt>
 File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-2-1.pdf>
 Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 348.
 (pdftex.def)             Requested size: 426.0pt x 426.00995pt.
- [4]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 372.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 374.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.0.1
-}) has been already used, duplicate ignored
+ [4] [5pdfTeX warning (ext4): destination with the same identifier (name{figure
+.0.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.385   \item \textbf
-                     {Eficiência:} Toda aloca\c{c}\~ao \'e distribuída sem...
+                     {Efici\^encia:} Toda aloca\c{c}\~ao \'e distribuída se...
 pdfTeX warning (ext4): destination with the same identifier (name{table.0.1}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.385   \item \textbf
-                     {Eficiência:} Toda aloca\c{c}\~ao \'e distribuída sem...
+                     {Efici\^encia:} Toda aloca\c{c}\~ao \'e distribuída se...
  <./figure/unnamed-chunk-2-1.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 395.
+(Font)              <7> on input line 407.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 395.
+(Font)              <5> on input line 407.
 pdfTeX warning (ext4): destination with the same identifier (name{equation.0.4.
 2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.405   \begin{equation}
+l.417   \begin{equation}
                         pdfTeX warning (ext4): destination with the same identi
 fier (name{equation.0.4.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.435   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.4.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.465   \begin{equation}
+l.447   \begin{equation}
                          [6pdfTeX warning (ext4): destination with the same ide
 ntifier (name{equation.0.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.497 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{equation.0.4.1}) has been already used, duplicate ignored
+l.473   \end{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.0.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.497 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{equation.0.4.3}) has been already used, duplicate ignored
+l.473   \end{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.0.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.497 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{equation.0.4.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.497 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{equation.0.4.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.497 \end{equation}
-                    ]
-Package color Info: Redefining color shadecolor on input line 538.
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 544
+l.473   \end{equation}
+                      ]pdfTeX warning (ext4): destination with the same identif
+ier (name{equation.0.4.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.477   \begin{equation}
+                        pdfTeX warning (ext4): destination with the same identi
+fier (name{equation.0.4.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.487   \begin{equation}
+                        
+Package color Info: Redefining color shadecolor on input line 539.
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 545
 .
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1426,7 +1414,7 @@ Package microtype Info: Character `texttrademark ' is missing
 (microtype)             in font `TS1/lmtt/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (49.99513pt too wide) in paragraph at lines 544--544
+Overfull \hbox (49.99513pt too wide) in paragraph at lines 545--545
 []\T1/lmtt/m/n/10.95 nomesAgentes <- c(\TS1/lmtt/m/n/10.95 '\T1/lmtt/m/n/10.95 
 [1] Origem - Assuncion\TS1/lmtt/m/n/10.95 '\T1/lmtt/m/n/10.95 ,\TS1/lmtt/m/n/10
 .95 '\T1/lmtt/m/n/10.95 [2] Origem - UFMS\TS1/lmtt/m/n/10.95 '\T1/lmtt/m/n/10.9
@@ -1434,31 +1422,36 @@ Overfull \hbox (49.99513pt too wide) in paragraph at lines 544--544
  '\T1/lmtt/m/n/10.95 )[] 
  []
 
-[7]
-Package color Info: Redefining color shadecolor on input line 583.
- <figure/unnamed-chunk-4-1.pdf, id=296, 433.62pt x 216.81pt>
-File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
-
-<use figure/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 585.
-(pdftex.def)             Requested size: 426.0pt x 213.01158pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2
-}) has been already used, duplicate ignored
+[7pdfTeX warning (ext4): destination with the same identifier (name{equation.0.
+4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.600     \item T
-                 he Nucleolus of a Characteristic Function Game \cite{Schmei...
- <./figure/unnamed-chunk-4-1.pdf>]
+l.580 \end{kframe}
+                  ]
+Package color Info: Redefining color shadecolor on input line 584.
 
-Package hyperref Warning: Suppressing empty link on input line 633.
+<figure/unnamed-chunk-4-1.pdf, id=293, 433.62pt x 216.81pt>
+File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
+
+<use figure/unnamed-chunk-4-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 586.
+(pdftex.def)             Requested size: 426.0pt x 213.01158pt.
+ [8] [9pdfTeX warning (ext4): destination with the same identifier (name{figure
+.0.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.623   \end{itemize}
+                      <./figure/unnamed-chunk-4-1.pdf>]
+
+Package hyperref Warning: Suppressing empty link on input line 640.
 
 
-Package hyperref Warning: Suppressing empty link on input line 637.
+Package hyperref Warning: Suppressing empty link on input line 644.
 
-[9]
 
-LaTeX Warning: Citation `Dai.2004' on page 10 undefined on input line 653.
+LaTeX Warning: Citation `Dai.2004' on page 10 undefined on input line 657.
 
 (Artigo.bbl (Artigo.brf)
 \tf@brf=\write5
@@ -1466,12 +1459,12 @@ LaTeX Warning: Citation `Dai.2004' on page 10 undefined on input line 653.
 
 
 bibitemlist
-[10] [11] [12] [13] [14]) [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 679.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 679.
+[10] [11] [12] [13] [14] [15]) [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 681.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 681.
  (Artigo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 679.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 679.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 681.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 681.
 Package rerunfilecheck Info: File `Artigo.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1481,16 +1474,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 679.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 681.
  ) 
 Here is how much of TeX's memory you used:
- 15129 strings out of 493634
- 222454 string characters out of 3143747
- 377593 words of memory out of 3000000
- 17951 multiletter control sequences out of 15000+200000
- 101777 words of font info for 158 fonts, out of 3000000 for 9000
+ 15124 strings out of 493634
+ 222325 string characters out of 3143747
+ 378850 words of memory out of 3000000
+ 17946 multiletter control sequences out of 15000+200000
+ 95857 words of font info for 154 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 39i,12n,35p,1151b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,35p,1151b,659s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
 dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.en
@@ -1507,16 +1500,15 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts
 r8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.p
-fb>
-Output written on Artigo.pdf (15 pages, 738135 bytes).
+ic/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/symbols/msam7.pfb>
+Output written on Artigo.pdf (16 pages, 719319 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 31859 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 600 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 29331 words of extra memory for PDF output out of 29859 (max. 10000000)
 

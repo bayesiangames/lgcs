@@ -16,7 +16,7 @@ Sys.setenv(TEXINPUTS = getwd(), BIBINPUTS = getwd(), BSTINPUTS = getwd());
 
 \documentclass[
 	% -- opções da classe memoir --
-	article,			        % indica que é um artigo acadêmico
+	article,			        % indica que é um artigo acad\^emico
 	11pt,				          % tamanho da fonte
 	oneside,			        % para impressão apenas no verso. Oposto a twoside
 	a4paper,			        % tamanho do papel. 
@@ -97,7 +97,7 @@ Sys.setenv(TEXINPUTS = getwd(), BIBINPUTS = getwd(), BSTINPUTS = getwd());
 \local{Av. Osvaldo Aranha, 99 – 5º andar, CEP: 90035-190, Porto Alegre/RS}
 
 % ---
-% Configurações de aparência do PDF final
+% Configurações de apar\^encia do PDF final
 
 % alterando o aspecto da cor azul
 \definecolor{blue}{RGB}{41,5,195}
@@ -176,7 +176,7 @@ Sys.setenv(TEXINPUTS = getwd(), BIBINPUTS = getwd(), BSTINPUTS = getwd());
 % página de titulo
 \maketitle
 
-% resumo em português
+% resumo em portugu\^es
 \begin{resumoumacoluna}
 % Contextualização: 
 % Gap:
@@ -207,8 +207,7 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
 \section*{Introdução}
 \addcontentsline{toc}{section}{Introdução}
 
-\texttt{\color{red}...criar seção...}
-
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
     \item Theory of games and economic behavior \cite{Neumann.1947}
     \item Social choice and individual values \cite{Figueiredo.1994}
@@ -230,7 +229,9 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
 % ----------------------------------------------------------
 \section{Teoria dos jogos cooperativos}
 
-A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cadados membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
+A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequ\^encia ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
+
+Defini\c{c}\~ao de um jogo cooperativo.
 
 \begin{equation}
   \label{eq:conceitoTJC}
@@ -239,8 +240,7 @@ A chave da cooperação entre empresas está em conseguir a unidade de motivaç�
   \right\}
 \end{equation}
 
-\texttt{\color{red}...seguem referências para completar seção...}
-
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
     \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
     \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
@@ -248,7 +248,6 @@ A chave da cooperação entre empresas está em conseguir a unidade de motivaç�
     \item A cooperative game approach to optimal saving theory: Toward a constitution for savings \cite{Forte.1994}
     \item Water Costs Allocation in Complex Systems Using a Cooperative Game Theory Approach \cite{Sechi.2013}
     \item Cooperative Game Theory in Sports \cite{Manuel.2013}
-    \item Comparative cooperative game theory \cite{Ichiishi.1990}
     \item An intersection theorem in TU cooperative game theory \cite{Albeniz.2004}
     \item Axiomatization in cooperative game theory \cite{yakov.2005}
     \item Applying cooperative game theory to power relations \cite{Wiese.2009}
@@ -274,8 +273,9 @@ A chave da cooperação entre empresas está em conseguir a unidade de motivaç�
 % ----------------------------------------------------------
 \section{Gerenciamento da Cadeia de suprimentos}
 
-Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas)\cite{Bezerra.2009}.
+Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na exist\^encia de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
 
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
     \item Supplier bidding strategy based on non-cooperative game theory concepts in single auction power pools \cite{Kang.2007}
     \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
@@ -444,9 +444,9 @@ ggmap(get_googlemap('Parana',
 % ----------------------------------------------------------
 % Shapley value
 % ----------------------------------------------------------
-\section{\emph{Shapley value}}
+\section{Shapley value}
 
-\subsection{\emph{Conceito}}
+\subsection{Conceito}
 
 Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
 
@@ -457,11 +457,23 @@ Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
 
 Shapley axiomas para $\varphi(v)$
 \begin{enumerate}
-  \item \textbf{Eficiência:} Toda aloca\c{c}\~ao \'e distribuída sem disperídio $\sum_{i \in N} \varphi_i(v) - v(N)$.
+  \item \textbf{Efici\^encia:} Toda aloca\c{c}\~ao \'e distribuída sem disperídio $\sum_{i \in N} \varphi_i(v) - v(N)$.
   \item \textbf{Simetria:} Se $i$ e $j$ são tal que $v(S \cup \{i\}) = v(S \cup \{j\})$ para cada coalisão $S$ não contenha $i$ e $j$, então $\varphi_i (v) = \varphi_j (v)$
   \item \textbf{Linearidade:} Se dois agentes em uma coaliz\~ao, descritos pelas fun\~oes de ganho $\phi_i(v)$ e $\phi_i(w)$, s\~ao combinados, ent\~ao os ganhos s\~ao correspondentes $\phi_i(v + w) = \phi_i(v) + \phi_i(w)$.
   \item \textbf{Zero jogador:} Quando um jogador n\~ao contribui na coopera\c{c}\~ao sua aloca\c{c}\~ao \'e nula.
 \end{enumerate}
+
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \begin{itemize}
+    \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
+    \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
+    \item Lloyd Shapley's Matching and Game Theory \cite{Serrano.2013}
+    \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
+    \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
+  \end{itemize}
+
+
+\subsection{Aplica\c{c}\~ao no estudo de caso}
 
 Para $i = 1$.
 
@@ -589,20 +601,9 @@ $\because$
  \sum_{i = 1}^{3}x_i = 14 = c(N)
 \end{equation}
 
-\texttt{\color{red}...seguem referências para completar seção...}
-  
-  \begin{itemize}
-    \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
-    \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
-    \item Lloyd Shapley's Matching and Game Theory \cite{Serrano.2013}
-    \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
-    \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
-  \end{itemize}
+\subsection{Implementac{c}\~ao computacional para o estudo de caso}
 
-\subsection{Código em R}
-
-  \texttt{\color{red}...linguagem e pacotes da seção...}
-
+  \texttt{\color{red}...linguagem R e pacotes da seção...}
   \begin{itemize}
     \item R: A Language and Environment for Statistical Computing \cite{R.2016}
     \item scales: Scale Functions for Visualization \cite{Wickham.2015}
@@ -632,7 +633,7 @@ shapleyValue <- summary(shapleyValue)
 
 @
 
-<<echo=FALSE, warning=FALSE, results='hide', message=FALSE, highlight=FALSE, error=FALSE, fig.show='hold', fig.align='center', fig.cap='Cálculo do Shapley Value', fig.pos='h', fig.height=3, fig.width=6>>=
+<<echo=FALSE, warning=FALSE, results='hide', message=FALSE, highlight=FALSE, error=FALSE, fig.show='hold', fig.align='center', fig.cap='Cálculo do Shapley Value', fig.pos='H', fig.height=3, fig.width=6>>=
 
 # Exibe grafico com os resultados
 ggplot(data = shapleyValue, 
@@ -652,10 +653,11 @@ ggplot(data = shapleyValue,
        scale_x_discrete(expand = c(0, 0))
 @
 
-\section{\emph{Nucleolus}}
+\section{Nucleolus}
 
-\texttt{\color{red}...seguem referências para completar seção...}
-  
+\subsection{Conceito}
+
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
     \item The Nucleolus of a Characteristic Function Game \cite{Schmeidler.1969}
     \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
@@ -667,13 +669,17 @@ ggplot(data = shapleyValue,
     \item O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1 \cite{Faveret.2015}
   \end{itemize}
 
+\subsection{Aplica\c{c}\~ao no estudo de caso}
+
+\subsection{Implementac{c}\~ao computacional para o estudo de caso}
+
+
 \section{Análise comparativa}
 
-\texttt{\color{red}...seguem referências para completar seção...}
-
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
+    \item Comparative cooperative game theory \cite{Ichiishi.1990}
     \item A cooperative game in search theory \cite{Hohzaki.2009}
-
   \end{itemize}
 
 % ---
@@ -687,6 +693,7 @@ ggplot(data = shapleyValue,
 % ---
 \section{Conclusão}
 
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
     \item O andar do b\'ebado \cite{Mlodinow.2009}
     \item Os n\'umeros (n\~ao) mentem: Como a matem\'atica pode ser usada para enganar voc\^e \cite{Seife.2012}
@@ -699,12 +706,9 @@ ggplot(data = shapleyValue,
 
 \section{*Trabalhos futuros}
 
-\texttt{\color{red}...seguem referências para completar seção...}
-
+  \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
-  
     \item Games with incomplete information played by ''Bayesian'' players part II. Bayesian equilibrium points \cite{Harsanyi.1968}
-    
     \item Equilibrium points in n-person games \cite{Nash.1950}
     \item Two-person cooperative games \cite{Nash.1953}
     \item Quantum games \cite{JoseFigueiredo.2004}
@@ -713,9 +717,7 @@ ggplot(data = shapleyValue,
     \item Quantum cooperative games \cite{Iqbal.2002},\cite{Dai.2004}
     \item A probabilistic approach to quantum Bayesian games of incomplete information \cite{Iqbal.2014}
     \item Social optimality in quantum Bayesian games \cite{Azhar.2015}
-    
   \end{itemize}
-
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
@@ -732,12 +734,11 @@ ggplot(data = shapleyValue,
 % ---
 
 % ----------------------------------------------------------
-% Referências bibliográficas
+% Refer\^encias bibliográficas
 % ----------------------------------------------------------
 \bibliography{references}
 
 \end{document}
-
 
 % ----------------------------------------------------------
 % Glossário
@@ -749,11 +750,11 @@ ggplot(data = shapleyValue,
 %\glossary
 
 % ----------------------------------------------------------
-% Apêndices
+% Ap\^endices
 % ----------------------------------------------------------
 
 % ---
-% Inicia os apêndices
+% Inicia os ap\^endices
 % ---
 \begin{apendicesenv}
 
