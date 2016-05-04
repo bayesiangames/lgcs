@@ -41,27 +41,15 @@ Sys.setenv(TEXINPUTS = getwd(), BIBINPUTS = getwd(), BSTINPUTS = getwd());
 \usepackage{color}				    % Controle das cores
 \usepackage{graphicx}			    % Inclusão de gráficos
 \usepackage{microtype} 			  % para melhorias de justificação
-\usepackage[alf,abnt-etal-cite=1]{abntex2cite}
+\usepackage[alf,abnt-etal-cite=2,abnt-and-type=e]{abntex2cite}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{float}
-
-%\usepackage{draftwatermark}
-
-% ---
-		
-% ---
-% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
-% ---
-
-% ---
-		
-% ---
-% Pacotes de citações
-% ---
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
 \usepackage{everypage}
+\usepackage{fourier}
+\usepackage{multirow}
 \AddEverypageHook{DRAFT VERSION}
 
 % ---
@@ -184,12 +172,12 @@ Sys.setenv(TEXINPUTS = getwd(), BIBINPUTS = getwd(), BSTINPUTS = getwd());
 % Metodologia
 % Resultados
 % Conclusão 
-No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com um algorítmo que maximiza a satisfação dos insatisfeitos (\emph{nucleolus}) e outro que pondera a participação nos custos de cada parceiro (\emph{Shapley value}). Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que o \emph{nucleolus} e \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
+No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com oalgorítmo (\emph{Shapley value}) que pondera a participação nos custos de cada parceiro. Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que a aplicação do \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
 
  \vspace{\onelineskip}
  
  \noindent
- \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimiza\c{c}{\~a}o. Teoria dos Jogos. Shapley value. Nucleolus.
+ \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimiza\c{c}{\~a}o. Teoria dos Jogos. Shapley value.
 \end{resumoumacoluna}
 
 % ---
@@ -207,6 +195,25 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
 \section*{Introdução}
 \addcontentsline{toc}{section}{Introdução}
 
+Na profus\~ao do mundo profissional, organiza\c{c}\~oes deparam-se com decis\~oes dif\'{\i}ceis de serem tomadas, tanto pela import\^ancia de suas consequ\^encias, quanto pelos resultados, muitas vezes, incertos \cite{Bekman.2009}. \citeonline{Nate.2012} destaca que a incerteza\footnote{Incerteza é o risco dif\'{\i}cil de aferir \cite{Nate.2012}.} \'e usualmente interpretada como risco\footnote{Risco, conforme \citeonline{Knigth.1921}, é algo em que voc\^e pode colocar um pre\c{c}o.}, complementando que:
+
+\begin{citacao}
+  Podemos ter uma consci\^encia difusa dos dem\^onios que nos espreitam l\'a fora. Podemos at\'e estar bastante preocupados com eles. Mas, na realidade, n\~ao temos ideia de quantos s\~ao e de quando podem atacar \cite{Nate.2012}.
+\end{citacao}
+
+Para \citeonline{Davenport.2007} o uso de conceitos e ferramentas na redu\c{c}\~ao das incertezas e riscos reflete na intelig\^encia competitiva das empresas. Na busca do julgamento perfeito, \citeonline{Condorcet.1785} formaliza o primeiro m\'etodo de decis\~ao \'otima, utilizando probabilidade. 
+
+, constitui uma grande \'area de estudo multidisciplinar
+
+
+Pessoas em geral são racionais, com opini\~oes s\'olidas. Emo\c{c}\~oes como medo, apego e  \'odio explicam na maioria dos casos a irracionalidade das decis\~oes.
+
+\citeonline{Ayers.2006} define uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas a organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. 
+
+é uma área que recebe grande atenção da comunidade empresarial \citeonline{Huang.2012} teste.
+
+SCOR$^{\mbox{\scriptsize\textregistered}}$
+
   \texttt{\color{red}...seguem refer\^encias para completar seção...}
   \begin{itemize}
     \item Theory of games and economic behavior \cite{Neumann.1947}
@@ -221,7 +228,6 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
     \item A Way to Play Claims Problems \cite{Gimenez.2014}
     \item Teoria dos Jogos \cite{Fiani.2015}
     \item Entrevista com Bruce Bueno de Mesquita \cite{Mesquita.2012}
-    \item Análise Estatística da Descisão \cite[p.~122--140]{Otto.2009}
   \end{itemize}
 
 % ----------------------------------------------------------
@@ -718,6 +724,41 @@ ggplot(data = shapleyValue,
     \item A probabilistic approach to quantum Bayesian games of incomplete information \cite{Iqbal.2014}
     \item Social optimality in quantum Bayesian games \cite{Azhar.2015}
   \end{itemize}
+
+<<echo=FALSE, results='markup', engine='R'>>=
+
+library(games)
+data("war1800")
+f1 <- esc + war ~ s_wt_re1 + revis1 | 0 | balanc + revis1 | balanc
+m1 <- egame12(f1, data = war1800)
+latexTable(m1)
+
+@
+
+%% Tue May 03 19:55:28 2016
+%% remember to include \usepackage{multirow} in your preamble
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{lccc}
+\hline
+ & u1(\textasciitilde{}esc) & u1(esc,war) & u2(esc,war) \\
+\hline
+\multirow{2}{*}{(Intercept)} & $-$59.41751 & $-$97.78449 & 0.32603 \\
+ & (106.92792) & (189.70995) & (0.24433) \\[2pt]
+\multirow{2}{*}{s\_wt\_re1} & $-$0.74317 & \multirow{2}{*}{} & \multirow{2}{*}{} \\
+ & (0.27324) &  &  \\[2pt]
+\multirow{2}{*}{revis1} & $-$2.35345 & $-$5.14910 & \multirow{2}{*}{} \\
+ & (3.90113) & (7.49575) &  \\[2pt]
+\multirow{2}{*}{balanc} & \multirow{2}{*}{} & $-$29.08203 & $-$0.44008 \\
+ &  & (26.57864) & (0.37167) \\[2pt]
+\hline \hline
+Log-likelihood & $-$321.16094 \\
+ $N$ & 313\\
+\hline
+\end{tabular}
+\end{center}
+\end{table
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS

@@ -26,6 +26,12 @@ Disserta\c{c}\~{a}o (Mestrado) --- Pont{\'i}fice Universidade Cat{\'o}ilica do
 Dispon{\'\i}vel em:
   \url{http://www.maxwell.vrac.puc-rio.br/12366/12366\_1.PDF}.}
 
+\bibitem[Ayers 2006]{Ayers.2006}
+\abntrefinfo{Ayers}{AYERS}{2006}
+{AYERS, J.~B. \emph{Handbook of Supply Chain Management}. 2. ed. [S.l.]:
+  Auerbach Publications, 2006.
+ISBN 9781420013009.}
+
 \bibitem[Barron 2007]{Barron.2007}
 \abntrefinfo{Barron}{BARRON}{2007}
 {BARRON, E.~N. Game theory (an introduction).
@@ -40,7 +46,7 @@ ISBN 9781118533895.}
   empirical test of cooperative game theory.
 \emph{Journal of Development Economics}, Elsevier Science, v.~35, 1991.}
 
-\bibitem[Bekman e Neto 2009]{Otto.2009}
+\bibitem[Bekman e Neto 2009]{Bekman.2009}
 \abntrefinfo{Bekman e Neto}{BEKMAN; NETO}{2009}
 {BEKMAN, O.~R.; NETO, P. L. O.~C. An\'alise estat\'{\i}stica da decis\~ao.
 In:  \underline{\ \ \ \ \ \ \ \ }. 2. ed. S\~ao Paulo, Brasil: Blucher, 2009.
@@ -111,12 +117,25 @@ ISBN 9781447145905.}
   and Algorithms}. New York, USA: Springer London Dordrecht Heidelberg, 2012.
 ISBN 9780857297662.}
 
+\bibitem[Condorcet 1785]{Condorcet.1785}
+\abntrefinfo{Condorcet}{CONDORCET}{1785}
+{CONDORCET, M. J. A. N.~C. \emph{Essai sur l'application de l'analyse à la
+  probabilit\'e des d\'ecisions rendues \`a la pluralit\'e des voix}. Paris,
+  Fran\c{c}a: A Paris: de l'Imprimerie royale, 1785. Dispon{\'\i}vel em:
+  \url{http://www.e-rara.ch/zut/content/titleinfo/1175327}.}
+
 \bibitem[Curiel 1997]{Curiel.2013}
 \abntrefinfo{Curiel}{CURIEL}{1997}
 {CURIEL, I. \emph{Cooperative Game Theory and Applications: Cooperative Games
   Arising from Combinatorial Optimization Problems}. [S.l.]: Springer
   Science+Business Media Dordrecht, 1997. v.~16.
 ISBN 9781475748710.}
+
+\bibitem[Davenport e Harris 2007]{Davenport.2007}
+\abntrefinfo{Davenport e Harris}{DAVENPORT; HARRIS}{2007}
+{DAVENPORT, T.~H.; HARRIS, J.~G. \emph{Competing on Analytics}. [S.l.]: Harvard
+  Business Review Press, 2007.
+ISBN 9781422156308.}
 
 \bibitem[Dobos e Pint{\'e}r 2010]{Dobos.2010b}
 \abntrefinfo{Dobos e Pint{\'e}r}{DOBOS; PINT{\'E}R}{2010a}
@@ -217,6 +236,12 @@ Dispon{\'\i}vel em:
   constitution for savings.
 \emph{Public Choice}, Springer US, v.~81, 12 1994.}
 
+\bibitem[Fredendall 2001]{Fredendall.2001}
+\abntrefinfo{Fredendall}{FREDENDALL}{2001}
+{FREDENDALL, L.~D. \emph{Basics of Supply Chain Management}. [S.l.]: CRC Press,
+  2001.
+ISBN 9781420025767.}
+
 \bibitem[Gim{\'e}nez-G{\'o}mez 2014]{Gimenez.2014}
 \abntrefinfo{Gim{\'e}nez-G{\'o}mez}{GIM{\'E}NEZ-G{\'O}MEZ}{2014}
 {GIM{\'E}NEZ-G{\'O}MEZ, J.-M. A way to play claims problems.
@@ -250,6 +275,16 @@ ISBN 9783642604546.}
 \abntrefinfo{Hu et al.}{HU et al.}{2006}
 {HU, Z. et al. Allocation of unit start-up costs using cooperative game theory.
 \emph{IEEE Transactions on Power Systems}, IEEE, v.~21, 05 2006.}
+
+\bibitem[Huang 2012]{Huang.2012}
+\abntrefinfo{Huang}{HUANG}{2012}
+{HUANG, Y. Integrated supplier selection, pricing and inventory decisions in a
+  multi--level supply chain.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Decision--Making for Supply Chain
+  Integration}: Supply chain integration. 1. ed. New York, NY, USA:
+  Springer-Verlag London, 2012.  (Decision Engineering), cap.~3, p. 47--62.
+ISBN 978-1-4471-4033-7.
+Dispon{\'\i}vel em: \url{http://www.springer.com/us/book/9781447140320}.}
 
 \bibitem[Ichiishi 1990]{Ichiishi.1990}
 \abntrefinfo{Ichiishi}{ICHIISHI}{1990}
@@ -306,6 +341,11 @@ ISBN 9788539004010.}
 {KANG, D.-J.; KIM, B.~H.; HUR, D. Supplier bidding strategy based on
   non-cooperative game theory concepts in single auction power pools.
 \emph{Electric Power Systems Research}, Elsevier Science, v.~77, 2007.}
+
+\bibitem[Knight 1921]{Knigth.1921}
+\abntrefinfo{Knight}{KNIGHT}{1921}
+{KNIGHT, F.~H. \emph{Risk, Uncertainty and Profit}. New York, EUA: Houghton
+  Mifflin Company, 1921.}
 
 \bibitem[Kogan e Tapiero 2007]{kogan.2007}
 \abntrefinfo{Kogan e Tapiero}{KOGAN; TAPIERO}{2007}
@@ -407,6 +447,12 @@ Dispon{\'\i}vel em: \url{http://www.calpoly.edu/~aamendes/GTweb/Nash.pdf}.}
 {NEUMANN, J. von; MORGENSTERN, O. \emph{Theory of Games and Economic Behavior}.
   [S.l.]: Princeton University Press, 1947.}
 
+\bibitem[Panitz 2007]{Panitz.2007}
+\abntrefinfo{Panitz}{PANITZ}{2007}
+{PANITZ, C.~E. \emph{Dicion\'ario de Log\'{\i}stica: Gest\~ao de cadeia de
+  suprimentos e Opera{\c{c}}oes}. S\~ao Paulo, Brasil: Alternativa, 2007.
+ISBN 9788587658166.}
+
 \bibitem[Peleg e Sudh{\"o}lter 2007]{Peleg.2007}
 \abntrefinfo{Peleg e Sudh{\"o}lter}{PELEG; SUDH{\"O}LTER}{2007}
 {PELEG, B.; SUDH{\"O}LTER, P. \emph{Introduction to the Theory of Cooperative
@@ -476,9 +522,10 @@ ISBN 9788537808719.}
 \emph{The Scandinavian Journal of Economics}, Wiley Online Library, v.~115,
   n.~3, p. 599--618, 2013.}
 
-\bibitem[Silver]{Nate.2012}
-\abntrefinfo{Silver}{SILVER}{}
-{SILVER, N. \emph{O sinal e o ru\'{\i}do}. Rio de Janeiro, Brasil: Intrinseca.
+\bibitem[Silver 2012]{Nate.2012}
+\abntrefinfo{Silver}{SILVER}{2012}
+{SILVER, N. \emph{O sinal e o ru\'{\i}do}. Rio de Janeiro, Brasil:
+  Intr\'{\i}nseca, 2012.
 ISBN 978-85-8057-353-4.}
 
 \bibitem[Smol’yakov 2005]{yakov.2005}
