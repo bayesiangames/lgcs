@@ -7,7 +7,7 @@
 
 \documentclass[
 	% -- opções da classe memoir --
-	article,			        % indica que é um artigo acad\^emico
+	article,			        % indica que é um artigo acadêmico
 	11pt,				          % tamanho da fonte
 	oneside,			        % para impressão apenas no verso. Oposto a twoside
 	a4paper,			        % tamanho do papel. 
@@ -81,7 +81,7 @@
 \usepackage{color}				    % Controle das cores
 \usepackage{graphicx}			    % Inclusão de gráficos
 \usepackage{microtype} 			  % para melhorias de justificação
-\usepackage[alf,abnt-etal-cite=2,abnt-and-type=e]{abntex2cite}
+\usepackage[alf,abnt-etal-cite=3,abnt-and-type=e]{abntex2cite}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
@@ -125,7 +125,7 @@
 \local{Av. Osvaldo Aranha, 99  5º andar, CEP: 90035-190, Porto Alegre/RS}
 
 % ---
-% Configurações de apar\^encia do PDF final
+% Configurações de aparência do PDF final
 
 % alterando o aspecto da cor azul
 \definecolor{blue}{RGB}{41,5,195}
@@ -205,7 +205,7 @@
 % página de titulo
 \maketitle
 
-% resumo em portugu\^es
+% resumo em português
 \begin{resumoumacoluna}
 % Contextualização: 
 % Gap:
@@ -218,7 +218,7 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
  \vspace{\onelineskip}
  
  \noindent
- \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimiza\c{c}{\~a}o. Teoria dos Jogos. Shapley value.
+ \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimizaç{ã}o. Teoria dos Jogos. Shapley value.
 \end{resumoumacoluna}
 
 % ---
@@ -236,26 +236,42 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
 \section*{Introdução}
 \addcontentsline{toc}{section}{Introdução}
 
-Na profus\~ao do mundo profissional, organiza\c{c}\~oes deparam-se com decis\~oes dif\'{\i}ceis de serem tomadas, tanto pela import\^ancia de suas consequ\^encias, quanto pelos resultados, muitas vezes, incertos \cite{Bekman.2009}. \citeonline{Nate.2012} destaca que a incerteza\footnote{Incerteza é o risco dif\'{\i}cil de aferir \cite{Nate.2012}.} \'e usualmente interpretada como risco\footnote{Risco, conforme \citeonline{Knigth.1921}, é algo em que voc\^e pode colocar um pre\c{c}o.}, complementando que:
+Na profusão do mundo profissional organizações deparam-se com decisões difíceis de serem tomadas, tanto pela import\^ancia de suas consequências, quanto pelos resultados, muitas vezes, incertos \cite{Bekman.2009}. \citeonline{Nate.2012} destaca que a incerteza\footnote{Incerteza é o risco difícil de aferir \cite{Nate.2012}.} é usualmente interpretada como risco\footnote{Risco, conforme \citeonline{Knigth.1921}, é algo em que você pode colocar um preço.}, complementando que:
 
 \begin{citacao}
-  Podemos ter uma consci\^encia difusa dos dem\^onios que nos espreitam l\'a fora. Podemos at\'e estar bastante preocupados com eles. Mas, na realidade, n\~ao temos ideia de quantos s\~ao e de quando podem atacar \cite{Nate.2012}.
+  Podemos ter uma consciência difusa dos demônios que nos espreitam lá fora. Podemos até estar bastante preocupados com eles. Mas, na realidade, não temos ideia de quantos são e de quando podem atacar \cite{Nate.2012}.
 \end{citacao}
 
-Para \citeonline{Davenport.2007} o uso de conceitos e ferramentas na redu\c{c}\~ao das incertezas e riscos reflete na intelig\^encia competitiva das empresas. Na busca do julgamento perfeito, \citeonline{Condorcet.1785} formaliza o primeiro m\'etodo de decis\~ao \'otima, utilizando probabilidade. 
+Na busca do julgamento perfeito, \citeonline{Condorcet.1785} formaliza o primeiro método de decisão ótima, utilizando probabilidade para quantificar opções. \citeonline{Davenport.2007} enfatizam o uso de ferramentas analíticas e de tomada de decisão para reduzir incertezas, agregar racionalidade e obter inteligência competitiva. Mas, para \citeonline{Kahneman.2012}, apesar das pessoas em geral serem racionais, com decisões lógicas e sensatas, emoções como medo, apego e ódio explicam na maioria dos casos a irracionalidade das escolhas. Para \citeonline{Ariely.2009}, esta conduta define o conceito de economia comportamental, que considera como as pessoas se comportam e não como deveriam se comportar. É natural do ser humano estabelecer comparações para fundamentar suas decisões, sendo influenciado por forçass racionais. Entretanto, pessoas não são tão racionais como os livros descrevem, existindo diversas situações em que podemos contar com sua previsível irracionalidade \cite{Ariely.2012}. 
 
-, constitui uma grande \'area de estudo multidisciplinar
+\citeonline{Mesquita.2009} defende o uso de ferramentas matemáticas que equacionem a predição de eventos humanos complexos. Assim, introduz o uso da teoria dos jogos como mecanismo para entender comportamentos:
 
+\begin{citacao}
+  A teoria dos jogos parte do ponto que as pessoas estão buscando o que é bom para elas. O que não parece ser tão chocante embora controverso para muitas pessoas: somos interessados em nós mesmos. E para buscar o que é melhor para si ou o que imaginamos ser melhor, as pessoas tem valores --- identificam o que querem e o que não querem \cite{MesquitaTED.2009}. 
+\end{citacao}
 
-Pessoas em geral são racionais, com opini\~oes s\'olidas. Emo\c{c}\~oes como medo, apego e  \'odio explicam na maioria dos casos a irracionalidade das decis\~oes.
+Originalmente estabelecida em \citeyear{Cournot.1838} por \citeauthoronline{Cournot.1838} a teoria ganhou proeminência a partir do livro \emph{The Theory of Games and Economic Behavior} de \citeonline{Neumann.1947} que formalizou modelos matemáticos para estudo do comportamento econômico nas interações entre agentes em cenários de conflito ou cooperação. Trancedendo o ramo econômico, a teoria dos jogos ganhou aplicações nas mais diversas áreas como: militar \cite{Haywood.1954,RAND.2004}, jurídico \cite{Rosa.2014}, biológico \cite{Smith.1982}, filosófico \cite{Lewis.2002}, político \cite{Levy.2003}. 
+
+\citeonline{Wang.2007} defende que a teoria dos jogos tem se tornado cada vez mais importante e amplamente utilizada como uma ferramenta para selecionar estratégias. No ambiente empresarial \citeonline{Golden.1993} discutem a aplicação da teoria dos jogos em alianças de cooperação e competições estratégicas. \citeonline{Lygero.1996} utilizam modelos da teoria para desenvolver controles híbridos em sistemas complexos. \citeonline{Shen.2002} emprega os jogos para decisões de programação em ambiente de produção. 
+
+A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
+
+\citeonline{Pimentel.2007} sugere o equilíbrio entre entre emoções e razão valorizando a busca da cooperação:
+
+\begin{citacao}
+  As paixões podem nos motivar a agir, mas nem sempre são suficientes para prevalecer sobre todas as razões; da mesma forma, as razões, sozinhas, não são tão fortes que garantam que uma ação aconteça. Algumas vezes é preciso um \emph{acordo} para resolver os nossos dilemas do prisioneiro \emph{internos}, o que envolve a possibilidade de cooperação na escolha que temos de fazer ao longo do tempo entre "prêmios", tais como recompensas, punições e sentimentos de culpa \cite[p.~132]{Pimentel.2007}.
+\end{citacao}
+
+Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
 
 \citeonline{Ayers.2006} define uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas a organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. 
 
 é uma área que recebe grande atenção da comunidade empresarial \citeonline{Huang.2012} teste.
 
+
 SCOR$^{\mbox{\scriptsize\textregistered}}$
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item Theory of games and economic behavior \cite{Neumann.1947}
     \item Social choice and individual values \cite{Figueiredo.1994}
@@ -264,7 +280,7 @@ SCOR$^{\mbox{\scriptsize\textregistered}}$
     \item Bayesian learning in negotiation \cite{Zeng.1998}
     \item Teoria dos Jogos \cite{Tavares.2009}
     \item Teoria dos Jogos \cite{Bierman.2010}
-    \item Coopera\c{c}{\~a}o e Conflito \cite{Fiani.2011}
+    \item Cooperaç{ã}o e Conflito \cite{Fiani.2011}
     \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
     \item A Way to Play Claims Problems \cite{Gimenez.2014}
     \item Teoria dos Jogos \cite{Fiani.2015}
@@ -276,9 +292,9 @@ SCOR$^{\mbox{\scriptsize\textregistered}}$
 % ----------------------------------------------------------
 \section{Teoria dos jogos cooperativos}
 
-A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequ\^encia ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
+A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
 
-Defini\c{c}\~ao de um jogo cooperativo.
+Definição de um jogo cooperativo.
 
 \begin{equation}
   \label{eq:conceitoTJC}
@@ -287,7 +303,7 @@ Defini\c{c}\~ao de um jogo cooperativo.
   \right\}
 \end{equation}
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
     \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
@@ -320,9 +336,9 @@ Defini\c{c}\~ao de um jogo cooperativo.
 % ----------------------------------------------------------
 \section{Gerenciamento da Cadeia de suprimentos}
 
-Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na exist\^encia de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
+Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item Supplier bidding strategy based on non-cooperative game theory concepts in single auction power pools \cite{Kang.2007}
     \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
@@ -388,13 +404,13 @@ Sendo $\forall$ $S \neq \emptyset$ e $S \subset N$
 
 Shapley axiomas para $\varphi(v)$
 \begin{enumerate}
-  \item \textbf{Efici\^encia:} Toda aloca\c{c}\~ao \'e distribuída sem disperídio $\sum_{i \in N} \varphi_i(v) - v(N)$.
+  \item \textbf{Eficiência:} Toda alocação é distribuída sem disperídio $\sum_{i \in N} \varphi_i(v) - v(N)$.
   \item \textbf{Simetria:} Se $i$ e $j$ são tal que $v(S \cup \{i\}) = v(S \cup \{j\})$ para cada coalisão $S$ não contenha $i$ e $j$, então $\varphi_i (v) = \varphi_j (v)$
-  \item \textbf{Linearidade:} Se dois agentes em uma coaliz\~ao, descritos pelas fun\~oes de ganho $\phi_i(v)$ e $\phi_i(w)$, s\~ao combinados, ent\~ao os ganhos s\~ao correspondentes $\phi_i(v + w) = \phi_i(v) + \phi_i(w)$.
-  \item \textbf{Zero jogador:} Quando um jogador n\~ao contribui na coopera\c{c}\~ao sua aloca\c{c}\~ao \'e nula.
+  \item \textbf{Linearidade:} Se dois agentes em uma coalizão, descritos pelas funões de ganho $\phi_i(v)$ e $\phi_i(w)$, são combinados, então os ganhos são correspondentes $\phi_i(v + w) = \phi_i(v) + \phi_i(w)$.
+  \item \textbf{Zero jogador:} Quando um jogador não contribui na cooperação sua alocação é nula.
 \end{enumerate}
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
     \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
@@ -404,7 +420,7 @@ Shapley axiomas para $\varphi(v)$
   \end{itemize}
 
 
-\subsection{Aplica\c{c}\~ao no estudo de caso}
+\subsection{Aplicação no estudo de caso}
 
 Para $i = 1$.
 
@@ -532,7 +548,7 @@ $\because$
  \sum_{i = 1}^{3}x_i = 14 = c(N)
 \end{equation}
 
-\subsection{Implementac{c}\~ao computacional para o estudo de caso}
+\subsection{Implementac{c}ão computacional para o estudo de caso}
 
   \texttt{\color{red}...linguagem R e pacotes da seção...}
   \begin{itemize}
@@ -603,7 +619,7 @@ shapleyValue <- summary(shapleyValue)
 
 \subsection{Conceito}
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item The Nucleolus of a Characteristic Function Game \cite{Schmeidler.1969}
     \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
@@ -615,14 +631,14 @@ shapleyValue <- summary(shapleyValue)
     \item O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1 \cite{Faveret.2015}
   \end{itemize}
 
-\subsection{Aplica\c{c}\~ao no estudo de caso}
+\subsection{Aplicação no estudo de caso}
 
-\subsection{Implementac{c}\~ao computacional para o estudo de caso}
+\subsection{Implementac{c}ão computacional para o estudo de caso}
 
 
 \section{Análise comparativa}
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item Comparative cooperative game theory \cite{Ichiishi.1990}
     \item A cooperative game in search theory \cite{Hohzaki.2009}
@@ -639,20 +655,20 @@ shapleyValue <- summary(shapleyValue)
 % ---
 \section{Conclusão}
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
-    \item O andar do b\'ebado \cite{Mlodinow.2009}
-    \item Os n\'umeros (n\~ao) mentem: Como a matem\'atica pode ser usada para enganar voc\^e \cite{Seife.2012}
-    \item O sinal e o ru\'{\i}do \cite{Nate.2012}
-    \item R{\'a}pido e devagar: Duas formas de pensar \cite{Kahneman.2012}
+    \item O andar do bébado \cite{Mlodinow.2009}
+    \item Os n\'umeros (não) mentem: Como a matemática pode ser usada para enganar você \cite{Seife.2012}
+    \item O sinal e o ruído \cite{Nate.2012}
+    \item R{á}pido e devagar: Duas formas de pensar \cite{Kahneman.2012}
     \item Subliminar: Como o inconsciente influencia nossas vidas \cite{Mlodinow.2013}
-    \item O poder do h{\'a}bito: Por que fazemos o que fazemos na vida e nos neg{\'o}cios \cite{Duhigg.2012}
-    \item O sinal e o ru\'{\i}do \cite{Nate.2012}
+    \item O poder do h{á}bito: Por que fazemos o que fazemos na vida e nos neg{ó}cios \cite{Duhigg.2012}
+    \item O sinal e o ruído \cite{Nate.2012}
   \end{itemize}
 
 \section{*Trabalhos futuros}
 
-  \texttt{\color{red}...seguem refer\^encias para completar seção...}
+  \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item Games with incomplete information played by ''Bayesian'' players part II. Bayesian equilibrium points \cite{Harsanyi.1968}
     \item Equilibrium points in n-person games \cite{Nash.1950}
@@ -664,66 +680,6 @@ shapleyValue <- summary(shapleyValue)
     \item A probabilistic approach to quantum Bayesian games of incomplete information \cite{Iqbal.2014}
     \item Social optimality in quantum Bayesian games \cite{Azhar.2015}
   \end{itemize}
-
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
-
-
-{\ttfamily\noindent\itshape\color{messagecolor}{\#\# Loading required package: maxLik\\\#\# Loading required package: miscTools\\\#\# \\\#\# Please cite the 'maxLik' package as:\\\#\# Henningsen, Arne and Toomet, Ott (2011). maxLik: A package for maximum likelihood estimation in R. Computational Statistics 26(3), 443-458. DOI 10.1007/s00180-010-0217-1.\\\#\# \\\#\# If you have questions, suggestions, or comments regarding the 'maxLik' package, please use a forum or 'tracker' at maxLik's R-Forge site:\\\#\# https://r-forge.r-project.org/projects/maxlik/\\\#\# Loading required package: Formula\\\#\# Loading required package: MASS}}\begin{verbatim}
-## 
-## %% latex table generated in R 3.2.3 by games package
-## %% Tue May 03 19:56:25 2016
-## %% remember to include \usepackage{multirow} in your preamble
-## 
-## \begin{table}[htbp]
-## \begin{center}
-## \begin{tabular}{lccc}
-## \hline
-##  & u1(\textasciitilde{}esc) & u1(esc,war) & u2(esc,war) \\
-## \hline
-## \multirow{2}{*}{(Intercept)} & $-$59.41751 & $-$97.78449 & 0.32603 \\
-##  & (106.92792) & (189.70995) & (0.24433) \\[2pt]
-## \multirow{2}{*}{s\_wt\_re1} & $-$0.74317 & \multirow{2}{*}{} & \multirow{2}{*}{} \\
-##  & (0.27324) &  &  \\[2pt]
-## \multirow{2}{*}{revis1} & $-$2.35345 & $-$5.14910 & \multirow{2}{*}{} \\
-##  & (3.90113) & (7.49575) &  \\[2pt]
-## \multirow{2}{*}{balanc} & \multirow{2}{*}{} & $-$29.08203 & $-$0.44008 \\
-##  &  & (26.57864) & (0.37167) \\[2pt]
-## \hline \hline
-## Log-likelihood & $-$321.16094 \\
-##  $N$ & 313\\
-## \hline
-## \end{tabular}
-## \end{center}
-## \end{table}
-\end{verbatim}
-\end{kframe}
-\end{knitrout}
-
-%% Tue May 03 19:55:28 2016
-%% remember to include \usepackage{multirow} in your preamble
-
-\begin{table}[htbp]
-\begin{center}
-\begin{tabular}{lccc}
-\hline
- & u1(\textasciitilde{}esc) & u1(esc,war) & u2(esc,war) \\
-\hline
-\multirow{2}{*}{(Intercept)} & $-$59.41751 & $-$97.78449 & 0.32603 \\
- & (106.92792) & (189.70995) & (0.24433) \\[2pt]
-\multirow{2}{*}{s\_wt\_re1} & $-$0.74317 & \multirow{2}{*}{} & \multirow{2}{*}{} \\
- & (0.27324) &  &  \\[2pt]
-\multirow{2}{*}{revis1} & $-$2.35345 & $-$5.14910 & \multirow{2}{*}{} \\
- & (3.90113) & (7.49575) &  \\[2pt]
-\multirow{2}{*}{balanc} & \multirow{2}{*}{} & $-$29.08203 & $-$0.44008 \\
- &  & (26.57864) & (0.37167) \\[2pt]
-\hline \hline
-Log-likelihood & $-$321.16094 \\
- $N$ & 313\\
-\hline
-\end{tabular}
-\end{center}
-\end{table
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
@@ -740,7 +696,7 @@ Log-likelihood & $-$321.16094 \\
 % ---
 
 % ----------------------------------------------------------
-% Refer\^encias bibliográficas
+% Referências bibliográficas
 % ----------------------------------------------------------
 \bibliography{references}
 
@@ -756,11 +712,11 @@ Log-likelihood & $-$321.16094 \\
 %\glossary
 
 % ----------------------------------------------------------
-% Ap\^endices
+% Apêndices
 % ----------------------------------------------------------
 
 % ---
-% Inicia os ap\^endices
+% Inicia os apêndices
 % ---
 \begin{apendicesenv}
 

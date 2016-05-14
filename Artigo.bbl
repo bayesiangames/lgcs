@@ -5,6 +5,18 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.3 }
 
+\bibitem[Ariely 2009]{Ariely.2009}
+\abntrefinfo{Ariely}{ARIELY}{2009}
+{ARIELY, D. \emph{Predictably Irrational: The Hidden Forces that Shape Our
+  Decisions}. [S.l.]: HarperCollins Publishers, 2009.
+ISBN 9780007319923.}
+
+\bibitem[Ariely 2012]{Ariely.2012}
+\abntrefinfo{Ariely}{ARIELY}{2012}
+{ARIELY, D. \emph{The (Honest) Truth About Dishonesty}: How we lie to everyone
+  -- especially ourselves. [S.l.]: HarperCollins Publishers, 2012.
+ISBN 9780007477340.}
+
 \bibitem[Aumann 1960]{Aumann.1960}
 \abntrefinfo{Aumann}{AUMANN}{1960}
 {AUMANN, R.~J. Linearity of unrestrictedly transferable utilities.
@@ -59,8 +71,8 @@ ISBN 978-85-212-0468-8.}
   Escolhas}. 1. ed. S{\~a}o Paulo, Brasil: Saraiva, 2014.
 ISBN 9788502220553.}
 
-\bibitem[Bezerra et al. 2009]{Bezerra.2009}
-\abntrefinfo{Bezerra et al.}{BEZERRA et al.}{2009}
+\bibitem[Bezerra, Grande e Silva 2009]{Bezerra.2009}
+\abntrefinfo{Bezerra, Grande e Silva}{BEZERRA; GRANDE; SILVA}{2009}
 {BEZERRA, F.~A.; GRANDE, J.~F.; SILVA, A.~J. da. An{\'a}lise e
   caracteriza\c{c}{\~a}o de modelos de custos que utilizam o valor de shapley
   para aloca\c{c}{\~a}o de custos entre departamentos.
@@ -124,6 +136,13 @@ ISBN 9780857297662.}
   Fran\c{c}a: A Paris: de l'Imprimerie royale, 1785. Dispon{\'\i}vel em:
   \url{http://www.e-rara.ch/zut/content/titleinfo/1175327}.}
 
+\bibitem[Cournot 1838]{Cournot.1838}
+\abntrefinfo{Cournot}{COURNOT}{1838}
+{COURNOT, A. \emph{Principes Math\'ematiques}: Th\'eorie des richesses. Paris,
+  France: Chez L. Hachette -- Libraire de l'universit\'e Royale de France,
+  1838. Dispon{\'\i}vel em:
+  \url{http://gallica.bnf.fr/ark:/12148/bpt6k6117257c/f10.item.zoom}.}
+
 \bibitem[Curiel 1997]{Curiel.2013}
 \abntrefinfo{Curiel}{CURIEL}{1997}
 {CURIEL, I. \emph{Cooperative Game Theory and Applications: Cooperative Games
@@ -171,8 +190,8 @@ ISBN 9789401577878.}
   e nos neg{\'o}cios}. [S.l.]: Companhia das Letras, 2012.
 ISBN 9788539004256.}
 
-\bibitem[Eisert et al. 1999]{Eisert.1999}
-\abntrefinfo{Eisert et al.}{EISERT et al.}{1999}
+\bibitem[Eisert, Wilkens e Lewenstein 1999]{Eisert.1999}
+\abntrefinfo{Eisert, Wilkens e Lewenstein}{EISERT; WILKENS; LEWENSTEIN}{1999}
 {EISERT, J.; WILKENS, M.; LEWENSTEIN, M. Quantum games and quantum strategies.
 \emph{Physical Review Letters}, APS, v.~83, n.~15, p.~3077, 1999.}
 
@@ -247,6 +266,13 @@ ISBN 9781420025767.}
 {GIM{\'E}NEZ-G{\'O}MEZ, J.-M. A way to play claims problems.
 \emph{Group Decision and Negotiation}, Springer, v.~23, 05 2014.}
 
+\bibitem[Golden e Dollinger 1993]{Golden.1993}
+\abntrefinfo{Golden e Dollinger}{GOLDEN; DOLLINGER}{1993}
+{GOLDEN, P.~A.; DOLLINGER, M. Cooperative alliances and competitive strategies
+  in small manufacturing firms.
+\emph{Entrepreneurship: Theory and Practice}, Baylor University, v.~17, n.~4,
+  p. 43--57, 1993.}
+
 \bibitem[Guajardo e J{\"o}rnsten 2015]{Guajardo.2015}
 \abntrefinfo{Guajardo e J{\"o}rnsten}{GUAJARDO; J{\"O}RNSTEN}{2015}
 {GUAJARDO, M.; J{\"O}RNSTEN, K. Common mistakes in computing the nucleolus.
@@ -265,6 +291,15 @@ ISBN 9781420025767.}
 {HART, S.; MAS-COLELL, A. \emph{Cooperation: Game-Theoretic Approaches}.
   [S.l.]: Springer Berlin Heidelberg, 2012.
 ISBN 9783642604546.}
+
+\bibitem[Haywood 1954]{Haywood.1954}
+\abntrefinfo{Haywood}{HAYWOOD}{1954}
+{HAYWOOD, O.~G. Military decision and game theory.
+\emph{Journal of the Operations Research Society of America}, INFORMS, London,
+  UK, v.~2, n.~4, p. 365--385, 1954.
+ISSN 00963984.
+Dispon{\'\i}vel em:
+  \url{http://www.jstor.org/stable/166693?seq=1\#page\_scan\_tab\_contents}.}
 
 \bibitem[Hohzaki 2009]{Hohzaki.2009}
 \abntrefinfo{Hohzaki}{HOHZAKI}{2009}
@@ -291,8 +326,8 @@ Dispon{\'\i}vel em: \url{http://www.springer.com/us/book/9781447140320}.}
 {ICHIISHI, T. Comparative cooperative game theory.
 \emph{International Journal of Game Theory}, Springer-Verlag, v.~19, 1990.}
 
-\bibitem[Iqbal et al. 2015]{Azhar.2015}
-\abntrefinfo{Iqbal et al.}{IQBAL et al.}{2015}
+\bibitem[Iqbal, Chappell e Abbott 2015]{Azhar.2015}
+\abntrefinfo{Iqbal, Chappell e Abbott}{IQBAL; CHAPPELL; ABBOTT}{2015}
 {IQBAL, A.; CHAPPELL, J.~M.; ABBOTT, D. Social optimality in quantum bayesian
   games.
 \emph{Physica A: Statistical Mechanics and its Applications}, Elsevier Science,
@@ -336,8 +371,8 @@ Dispon{\'\i}vel em:
   Companhia das Letras, 2012.
 ISBN 9788539004010.}
 
-\bibitem[Kang et al. 2007]{Kang.2007}
-\abntrefinfo{Kang et al.}{KANG et al.}{2007}
+\bibitem[Kang, Kim e Hur 2007]{Kang.2007}
+\abntrefinfo{Kang, Kim e Hur}{KANG; KIM; HUR}{2007}
 {KANG, D.-J.; KIM, B.~H.; HUR, D. Supplier bidding strategy based on
   non-cooperative game theory concepts in single auction power pools.
 \emph{Electric Power Systems Research}, Elsevier Science, v.~77, 2007.}
@@ -359,8 +394,22 @@ ISBN 9780387727769. Dispon{\'\i}vel em:
 {LEMAIRE, J. Cooperative game theory and its insurance applications.
 \emph{Insurance: Mathematics and Economics}, Elsevier Science, v.~12, 1993.}
 
-\bibitem[Lima et al. 2008]{Lima.2008}
-\abntrefinfo{Lima et al.}{LIMA et al.}{2008}
+\bibitem[Levy e Razin 2003]{Levy.2003}
+\abntrefinfo{Levy e Razin}{LEVY; RAZIN}{2003}
+{LEVY, G.; RAZIN, R. It takes two: An explanation of the democratic peace.
+Centre for Economic Policy Research -- CEPR, London, UK, n.~3947, 2003.
+Dispon{\'\i}vel em:
+  \url{http://papers.ssrn.com/sol3/papers.cfm?abstract\_id=433844}.}
+
+\bibitem[Lewis 2002]{Lewis.2002}
+\abntrefinfo{Lewis}{LEWIS}{2002}
+{LEWIS, D. \emph{Convention}: A philosophical study. Oxford, UK: Blackwell
+  Publishers, 2002.
+ISBN 978-0-631-23256-8.}
+
+\bibitem[Lima, Contreras e Padilha-Feltrin 2008]{Lima.2008}
+\abntrefinfo{Lima, Contreras e Padilha-Feltrin}{LIMA; CONTRERAS;
+  PADILHA-FELTRIN}{2008}
 {LIMA, D.~A.; CONTRERAS, J.; PADILHA-FELTRIN, A. A cooperative game theory
   analysis for transmission loss allocation.
 \emph{Electric Power Systems Research}, Elsevier Science, v.~78, 2008.}
@@ -377,8 +426,15 @@ ISBN 9780387727769. Dispon{\'\i}vel em:
 \emph{European Journal of Operational Research}, Elsevier Science, v.~222,
   2012.}
 
-\bibitem[Manuel et al. 2013]{Manuel.2013}
-\abntrefinfo{Manuel et al.}{MANUEL et al.}{2013}
+\bibitem[Lygero, Godbole e Sastry 1996]{Lygero.1996}
+\abntrefinfo{Lygero, Godbole e Sastry}{LYGERO; GODBOLE; SASTRY}{1996}
+{LYGERO, J.; GODBOLE, D.~N.; SASTRY, S. Multiagent hybrid system design using
+  game theory and optimal control. In:  . [S.l.]: Proceedings of the 35th ---
+  Conference on Decision and Control, 1996. v.~2.
+ISBN 0-7803-3590-2.}
+
+\bibitem[Manuel, Aranguena e Pozo 2013]{Manuel.2013}
+\abntrefinfo{Manuel, Aranguena e Pozo}{MANUEL; ARANGUENA; POZO}{2013}
 {MANUEL, C.; ARANGUENA, E.~G. \'alez; POZO, M. \'onica D. Cooperative game
   theory in sports.
 \emph{International Game Theory Review}, World Scientific Publishing Company,
@@ -391,8 +447,8 @@ ISBN 9780387727769. Dispon{\'\i}vel em:
   Saraiva, 2011.
 ISBN 9788502116825.}
 
-\bibitem[Maschler et al. 1979]{Maschler.1979}
-\abntrefinfo{Maschler et al.}{MASCHLER et al.}{1979}
+\bibitem[Maschler, Peleg e Shapley 1979]{Maschler.1979}
+\abntrefinfo{Maschler, Peleg e Shapley}{MASCHLER; PELEG; SHAPLEY}{1979}
 {MASCHLER, M.; PELEG, B.; SHAPLEY, L. Geometric properties of the kernel,
   nucleolus, and related solution concepts.
 \emph{Mathematics of Operations Research}, INFORMS, University of Maryland,
@@ -403,6 +459,20 @@ ISBN 9788502116825.}
 {MCCAIN, R.~A. \emph{Value Solutions in Cooperative Games}. [S.l.]: World
   Scientific Publishing Company, 2013.
 ISBN 9789814417402.}
+
+\bibitem[Mesquita 2009]{MesquitaTED.2009}
+\abntrefinfo{Mesquita}{MESQUITA}{2009a}
+{MESQUITA, B.~B. de. \emph{A prediction for the future of Iran}. Long Beach,
+  California, USA: TED Conferences, 2009.
+Dispon{\'\i}vel em:
+  \url{https://www.ted.com/talks/bruce\_bueno\_de\_mesquita\_predicts\_iran\_s\_future?language=pt-br\#t-144952}.}
+
+\bibitem[Mesquita 2009]{Mesquita.2009}
+\abntrefinfo{Mesquita}{MESQUITA}{2009b}
+{MESQUITA, B.~B. de. \emph{The Predictioneer's Game}: Using the logic of brazen
+  self-interest to see and shape the future. [S.l.]: Random House Publishing
+  Group, 2009.
+ISBN 9781588369086.}
 
 \bibitem[Mlodinow 2013]{Mlodinow.2013}
 \abntrefinfo{Mlodinow}{MLODINOW}{2013}
@@ -466,12 +536,23 @@ In:  \underline{\ \ \ \ \ \ \ \ }. [S.l.: s.n.], 2008. v.
   10.1007/978-3-540-69291-1, cap.~10.
 ISBN 978-3-540-69290-4,978-3-540-69291-1.}
 
+\bibitem[Pimentel 2007]{Pimentel.2007}
+\abntrefinfo{Pimentel}{PIMENTEL}{2007}
+{PIMENTEL, E. L.~A. \emph{Dilema do prisioneiro}: da teoria dos jogos {\`a}
+  {\'e}tica. [S.l.]: Argumentum, 2007.
+ISBN 9788598885155.}
+
 \bibitem[{R Development Core Team} 2016]{R.2016}
 \abntrefinfo{{R Development Core Team}}{{R Development Core Team}}{2016}
 {{R Development Core Team}. \emph{R: A Language and Environment for Statistical
   Computing}.
 Vienna, Austria, 2016. {ISBN} 3-900051-07-0. Dispon{\'\i}vel em:
   \url{http://www.R-project.org}.}
+
+\bibitem[RAND 2004]{RAND.2004}
+\abntrefinfo{RAND}{RAND}{2004}
+{RAND. \emph{Using Game Theory to Analyze Operations Against Time--Critical
+  Targets}. Santa Monica, California, USA: RAND Projet Air Force, 2004.}
 
 \bibitem[Rapoport 1974]{Rapoport.1974}
 \abntrefinfo{Rapoport}{RAPOPORT}{1974}
@@ -504,8 +585,8 @@ ISBN 9780521361774.}
 \emph{SIAM Journal on Applied Mathematics}, Society for Industrial and Applied
   Mathematics, v.~17, 11 1969.}
 
-\bibitem[Sechi et al. 2013]{Sechi.2013}
-\abntrefinfo{Sechi et al.}{SECHI et al.}{2013}
+\bibitem[Sechi, Zucca e Zuddas 2013]{Sechi.2013}
+\abntrefinfo{Sechi, Zucca e Zuddas}{SECHI; ZUCCA; ZUDDAS}{2013}
 {SECHI, G.~M.; ZUCCA, R.; ZUDDAS, P. Water costs allocation in complex systems
   using a cooperative game theory approach.
 \emph{Water Resources Management}, Springer Netherlands, v.~27, 04 2013.}
@@ -522,11 +603,23 @@ ISBN 9788537808719.}
 \emph{The Scandinavian Journal of Economics}, Wiley Online Library, v.~115,
   n.~3, p. 599--618, 2013.}
 
+\bibitem[Shen 2002]{Shen.2002}
+\abntrefinfo{Shen}{SHEN}{2002}
+{SHEN, W. Distributed manufacturing scheduling using intelligent agents.
+\emph{IEEE Intelligent Systems}, v.~17, n.~1, p. 88--94, 01 2002.
+ISSN 1541-1672.}
+
 \bibitem[Silver 2012]{Nate.2012}
 \abntrefinfo{Silver}{SILVER}{2012}
 {SILVER, N. \emph{O sinal e o ru\'{\i}do}. Rio de Janeiro, Brasil:
   Intr\'{\i}nseca, 2012.
 ISBN 978-85-8057-353-4.}
+
+\bibitem[Smith 1982]{Smith.1982}
+\abntrefinfo{Smith}{SMITH}{1982}
+{SMITH, J. \emph{Evolution and the Theory of Games}. [S.l.]: Cambridge
+  University Press, 1982.
+ISBN 9780521288842.}
 
 \bibitem[Smol’yakov 2005]{yakov.2005}
 \abntrefinfo{Smol’yakov}{SMOL’YAKOV}{2005}
@@ -558,6 +651,12 @@ ISBN 9788521616498.}
 \emph{TOP - Official Journal of the Spanish Society of Statistics and
   Operations Research}, v.~1, 12 1993.}
 
+\bibitem[Wang 2007]{Wang.2007}
+\abntrefinfo{Wang}{WANG}{2007}
+{WANG, Y. Combining data mining and game theory in manufacturing strategy
+  analysis.
+\emph{Journal of Intelligent Manufacturing}, Springer US, v.~18, 08 2007.}
+
 \bibitem[Weirich 2009]{Weirich.2009}
 \abntrefinfo{Weirich}{WEIRICH}{2009}
 {WEIRICH, P. \emph{Collective Rationality: Equilibrium in Cooperative Games}.
@@ -588,8 +687,8 @@ ISBN 978-0-387-98140-6. Dispon{\'\i}vel em:
   manufacturer--retailer supply chains.
 \emph{Omega}, Elsevier Science, v.~34, 2006.}
 
-\bibitem[Yang et al. 2012]{Yang.2012}
-\abntrefinfo{Yang et al.}{YANG et al.}{2012}
+\bibitem[Yang, Fang e Xue 2012]{Yang.2012}
+\abntrefinfo{Yang, Fang e Xue}{YANG; FANG; XUE}{2012}
 {YANG, D.; FANG, X.; XUE, G. Game theory in cooperative communications.
 \emph{IEEE Wireless Communications}, IEEE, v.~19, 2012.}
 
