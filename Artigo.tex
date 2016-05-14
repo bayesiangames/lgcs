@@ -140,9 +140,7 @@
 	    pdfcreator={\@author},
   	pdfkeywords={Teoria dos jogos cooperativos}
                 {Gestão da cadeia de suprimentos}
-                {Shapley value}
-                {Per capita nucleolus}
-                {Nucleolus}, 
+                {Shapley value},
    	 colorlinks=true,       	  % false: boxed links; true: colored links
      	linkcolor=blue,          	% color of internal links
     	citecolor=blue,        		% color of links to bibliography
@@ -213,7 +211,7 @@
 % Metodologia
 % Resultados
 % Conclusão 
-No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com oalgorítmo (\emph{Shapley value}) que pondera a participação nos custos de cada parceiro. Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que a aplicação do \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar o potencial dos relacionamentos, estratégias conflitantes e colaborativas.
+No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com o algorítmo \emph{Shapley value} que pondera a participação nos custos de cada parceiro. Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que a aplicação do \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar relacionamentos, estratégias conflitantes e colaborativas.
 
  \vspace{\onelineskip}
  
@@ -236,37 +234,35 @@ No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada orga
 \section*{Introdução}
 \addcontentsline{toc}{section}{Introdução}
 
-Na profusão do mundo profissional organizações deparam-se com decisões difíceis de serem tomadas, tanto pela import\^ancia de suas consequências, quanto pelos resultados, muitas vezes, incertos \cite{Bekman.2009}. \citeonline{Nate.2012} destaca que a incerteza\footnote{Incerteza é o risco difícil de aferir \cite{Nate.2012}.} é usualmente interpretada como risco\footnote{Risco, conforme \citeonline{Knigth.1921}, é algo em que você pode colocar um preço.}, complementando que:
+Na profusão do mundo profissional organizações deparam-se com decisões difíceis de serem tomadas, tanto pela importância de suas consequências, quanto pelos resultados, muitas vezes, incertos \cite{Bekman.2009}. \citeonline{Nate.2012} destaca que a incerteza\footnote{Incerteza é o risco difícil de aferir \cite{Nate.2012}.} é usualmente interpretada como risco\footnote{Risco, conforme \citeonline{Knigth.1921}, é algo em que você pode colocar um preço.}, complementando que:
 
 \begin{citacao}
   Podemos ter uma consciência difusa dos demônios que nos espreitam lá fora. Podemos até estar bastante preocupados com eles. Mas, na realidade, não temos ideia de quantos são e de quando podem atacar \cite{Nate.2012}.
 \end{citacao}
 
-Na busca do julgamento perfeito, \citeonline{Condorcet.1785} formaliza o primeiro método de decisão ótima, utilizando probabilidade para quantificar opções. \citeonline{Davenport.2007} enfatizam o uso de ferramentas analíticas e de tomada de decisão para reduzir incertezas, agregar racionalidade e obter inteligência competitiva. Mas, para \citeonline{Kahneman.2012}, apesar das pessoas em geral serem racionais, com decisões lógicas e sensatas, emoções como medo, apego e ódio explicam na maioria dos casos a irracionalidade das escolhas. Para \citeonline{Ariely.2009}, esta conduta define o conceito de economia comportamental, que considera como as pessoas se comportam e não como deveriam se comportar. É natural do ser humano estabelecer comparações para fundamentar suas decisões, sendo influenciado por forçass racionais. Entretanto, pessoas não são tão racionais como os livros descrevem, existindo diversas situações em que podemos contar com sua previsível irracionalidade \cite{Ariely.2012}. 
+Na busca do julgamento perfeito, \citeonline{Condorcet.1785} formaliza o primeiro método de decisão ótima, utilizando probabilidade para quantificar opções. \citeonline{Davenport.2007} enfatizam o uso de ferramentas analíticas e de tomada de decisão para reduzir incertezas, agregar racionalidade e obter inteligência competitiva. Mas, para \citeonline{Kahneman.2012}, apesar das pessoas em geral serem racionais, com decisões lógicas e sensatas, emoções como medo, apego e ódio explicam na maioria dos casos a irracionalidade das escolhas. Para \citeonline{Ariely.2009}, esta conduta define o conceito de economia comportamental, que considera como as pessoas se comportam e não como deveriam se comportar. 
 
-\citeonline{Mesquita.2009} defende o uso de ferramentas matemáticas que equacionem a predição de eventos humanos complexos. Assim, introduz o uso da teoria dos jogos como mecanismo para entender comportamentos:
+É natural do ser humano estabelecer comparações para fundamentar suas decisões, sendo influenciado por forças racionais. Entretanto, as pessoas nem sempre são tão racionais, existindo diversas situações em que podemos contar com sua previsível irracionalidade \cite{Ariely.2012}. Nos limites da racionalidade, psicologia e decisões econômicas \citeonline{Smith.1999} salienta:
 
 \begin{citacao}
-  A teoria dos jogos parte do ponto que as pessoas estão buscando o que é bom para elas. O que não parece ser tão chocante embora controverso para muitas pessoas: somos interessados em nós mesmos. E para buscar o que é melhor para si ou o que imaginamos ser melhor, as pessoas tem valores --- identificam o que querem e o que não querem \cite{MesquitaTED.2009}. 
+\[...\] os objetos primários de nossas percepções morais são as ações de outros homens; além disso, nossos juízos morais sobre nossa própria conduta são apenas aplicações, sobre nós mesmos, de decisões já proferidas a respeito da conduta do nosso próximo \cite{Smith.1999}.
 \end{citacao}
 
-Originalmente estabelecida em \citeyear{Cournot.1838} por \citeauthoronline{Cournot.1838} a teoria ganhou proeminência a partir do livro \emph{The Theory of Games and Economic Behavior} de \citeonline{Neumann.1947} que formalizou modelos matemáticos para estudo do comportamento econômico nas interações entre agentes em cenários de conflito ou cooperação. Trancedendo o ramo econômico, a teoria dos jogos ganhou aplicações nas mais diversas áreas como: militar \cite{Haywood.1954,RAND.2004}, jurídico \cite{Rosa.2014}, biológico \cite{Smith.1982}, filosófico \cite{Lewis.2002}, político \cite{Levy.2003}. 
+À vista disso, \citeonline{Mesquita.2009} defende o uso de ferramentas matemáticas que equacionem a predição de eventos de interação. Assim, introduz o uso da teoria dos jogos como mecanismo para entender comportamentos:
 
-\citeonline{Wang.2007} defende que a teoria dos jogos tem se tornado cada vez mais importante e amplamente utilizada como uma ferramenta para selecionar estratégias. No ambiente empresarial \citeonline{Golden.1993} discutem a aplicação da teoria dos jogos em alianças de cooperação e competições estratégicas. \citeonline{Lygero.1996} utilizam modelos da teoria para desenvolver controles híbridos em sistemas complexos. \citeonline{Shen.2002} emprega os jogos para decisões de programação em ambiente de produção. 
+\begin{citacao}
+  A teoria dos jogos parte do ponto que as pessoas estão buscando o que é bom para elas. O que não parece ser tão chocante embora controverso para muitas pessoas: somos interessados em nós mesmos. E para buscar o que é melhor para si ou o que imaginamos ser melhor, as pessoas tem valores --- elas identificam o que querem e o que não querem \cite[mim.~2:17--2:37]{MesquitaTED.2009}. 
+\end{citacao}
 
-A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
+Originalmente estabelecida em \citeyear{Cournot.1838} por \citeauthoronline{Cournot.1838} a teoria ganhou proeminência a partir do livro \emph{The Theory of Games and Economic Behavior} de \citeonline{Neumann.1947} que formalizou modelos matemáticos para estudo do comportamento econômico nas interações entre agentes em cenários de conflito ou cooperação. Trancedendo o ramo econômico, a teoria dos jogos ganhou aplicações nas mais diversas áreas como: militar \cite{Haywood.1954,RAND.2004}, jurídico \cite{Rosa.2014}, biológico \cite{Smith.1982}, filosófico \cite{Lewis.2002}, político \cite{Levy.2003}. No ambiente empresarial \citeonline{Golden.1993} discutem a aplicação da teoria dos jogos em alianças de cooperação e competições estratégicas e \citeonline{Wang.2007} destaca sua adoção como uma ferramenta de apoio para selecionar estratégias. \citeonline{Lygero.1996} utilizam modelos da teoria para desenvolver controles híbridos em sistemas complexo. \citeonline{Shen.2002} emprega para decisões de programação em ambiente de produção e \citeonline{Huang.2001} aborda o tema nas relações da cadeia de suprimentos.
 
-\citeonline{Pimentel.2007} sugere o equilíbrio entre entre emoções e razão valorizando a busca da cooperação:
+\citeonline{Ayers.2006} delineia uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas a organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. No âmbito deste cenário, A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}. \citeonline{Pimentel.2007} evidencia a solução de dilemas com cooperação: 
 
 \begin{citacao}
   As paixões podem nos motivar a agir, mas nem sempre são suficientes para prevalecer sobre todas as razões; da mesma forma, as razões, sozinhas, não são tão fortes que garantam que uma ação aconteça. Algumas vezes é preciso um \emph{acordo} para resolver os nossos dilemas do prisioneiro \emph{internos}, o que envolve a possibilidade de cooperação na escolha que temos de fazer ao longo do tempo entre "prêmios", tais como recompensas, punições e sentimentos de culpa \cite[p.~132]{Pimentel.2007}.
 \end{citacao}
 
-Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
-
-\citeonline{Ayers.2006} define uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas a organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. 
-
-é uma área que recebe grande atenção da comunidade empresarial \citeonline{Huang.2012} teste.
+Recebendo grande atenção da comunidade empresarial \citeonline{YunHuang.2012}, o Estudos sobre a aplicação da teoria dos jogos cooperativos no GCS versam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
 
 
 SCOR$^{\mbox{\scriptsize\textregistered}}$
@@ -291,8 +287,6 @@ SCOR$^{\mbox{\scriptsize\textregistered}}$
 % Seção conexão entre teoria dos jogos até cooperativos
 % ----------------------------------------------------------
 \section{Teoria dos jogos cooperativos}
-
-A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
 
 Definição de um jogo cooperativo.
 
@@ -654,6 +648,11 @@ shapleyValue <- summary(shapleyValue)
 % Conclusão
 % ---
 \section{Conclusão}
+
+\begin{citacao}
+\[...\] toda medição e todo número do mundo real tem um quê de imprecisão, de incerteza. Trata-se de um reflexo imperfeito da realidade. Números são sempre impuros: uma mescla de verdade, erro e incerteza \cite{Seife.2012}.
+\end{citacao}
+
 
   \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}

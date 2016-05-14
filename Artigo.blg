@@ -1,0 +1,22 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Artigo.aux
+The style file: abntex2-alf.bst
+Database file #1: abntex2-options.bib
+Database file #2: references.bib
+Warning--I'm ignoring Tavares.2009's extra "edition" field
+--line 585 of file references.bib
+Warning--entry type for "RAND.2004" isn't style-file defined
+--line 1255 of file references.bib
+Warning--string name "[ensaio" is undefined
+--line 1390 of file references.bib
+I was expecting a `,' or a `}'---line 1390 of file references.bib
+ :  subtitle=[ensaio 
+ :                   para uma an{\'a}lise dos princ{\'\i}pios pelos quais os homens naturalmente julgam a conduta e o car{\'a}ter, primeiro de seus pr{\'o}ximos, depois de si mesmos, acrescida de uma disserta{\c{c}}{\~a}o sobre a origem das l{\'\i}nguas]
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Dai.2004"
+Warning--campo year vazio ou faltando em Smith.1999
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.3           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
+(There was 1 error message)

@@ -311,15 +311,12 @@ Dispon{\'\i}vel em:
 {HU, Z. et al. Allocation of unit start-up costs using cooperative game theory.
 \emph{IEEE Transactions on Power Systems}, IEEE, v.~21, 05 2006.}
 
-\bibitem[Huang 2012]{Huang.2012}
-\abntrefinfo{Huang}{HUANG}{2012}
-{HUANG, Y. Integrated supplier selection, pricing and inventory decisions in a
-  multi--level supply chain.
-In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Decision--Making for Supply Chain
-  Integration}: Supply chain integration. 1. ed. New York, NY, USA:
-  Springer-Verlag London, 2012.  (Decision Engineering), cap.~3, p. 47--62.
-ISBN 978-1-4471-4033-7.
-Dispon{\'\i}vel em: \url{http://www.springer.com/us/book/9781447140320}.}
+\bibitem[Huang e Li 2001]{Huang.2001}
+\abntrefinfo{Huang e Li}{HUANG; LI}{2001}
+{HUANG, Z.; LI, S.~X. Co--op advertising models in manufacturer-–retailer
+  supply chains: A game theory approach.
+\emph{European Journal of Operational Research}, Elsevier Science, v.~135,
+  2001.}
 
 \bibitem[Ichiishi 1990]{Ichiishi.1990}
 \abntrefinfo{Ichiishi}{ICHIISHI}{1990}
@@ -464,6 +461,7 @@ ISBN 9789814417402.}
 \abntrefinfo{Mesquita}{MESQUITA}{2009a}
 {MESQUITA, B.~B. de. \emph{A prediction for the future of Iran}. Long Beach,
   California, USA: TED Conferences, 2009.
+On-line. 18:55 min.
 Dispon{\'\i}vel em:
   \url{https://www.ted.com/talks/bruce\_bueno\_de\_mesquita\_predicts\_iran\_s\_future?language=pt-br\#t-144952}.}
 
@@ -645,6 +643,10 @@ ISBN 9780521288842.}
   GRUPO GEN, 2009.
 ISBN 9788521616498.}
 
+\bibitem[Teoria dos sentimentos morais]{Smith.1999}
+\abntrefinfo{Teoria\ldots}{TEORIA\ldots}{}
+{TEORIA dos sentimentos morais. [S.l.: s.n.].}
+
 \bibitem[Tijs e Otten 1993]{Tijs.1993}
 \abntrefinfo{Tijs e Otten}{TIJS; OTTEN}{1993}
 {TIJS, S.; OTTEN, G.-J. Compromise values in cooperative game theory.
@@ -699,6 +701,16 @@ In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Handbook of Game Theory with Economic
   Applications}. Amsterdam, Holanda: Elsevier North Holland, 1994. v.~2, cap.
   Equitable core solutions.
 ISBN 9780444894274.}
+
+\bibitem[{Yun Huang} 2012]{YunHuang.2012}
+\abntrefinfo{{Yun Huang}}{{Yun Huang}}{2012}
+{{Yun Huang}. Integrated supplier selection, pricing and inventory decisions in
+  a multi--level supply chain.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Decision--Making for Supply Chain
+  Integration}: Supply chain integration. 1. ed. New York, NY, USA:
+  Springer--Verlag London, 2012.  (Decision Engineering), cap.~3, p. 47--62.
+ISBN 978-1-4471-4033-7.
+Dispon{\'\i}vel em: \url{http://www.springer.com/us/book/9781447140320}.}
 
 \bibitem[Zeng e Sycara 1998]{Zeng.1998}
 \abntrefinfo{Zeng e Sycara}{ZENG; SYCARA}{1998}
