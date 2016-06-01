@@ -236,8 +236,8 @@ Introduzido em  \citeyear{Shapley.1952} por \citeauthoronline{Shapley.1952}, os 
 \footnote{Pesquisa sobre distribuição de lucros no \href{https://prod.campusexpress.upenn.edu/}{Campus Express Alliance}} 
 \cite{Zhuang.2016}, gerenciamento de projetos \cite{Ding.2016}, análise de impacto econômico \footnote{Impacto da expansão do \href{http://www.pancanal.com/eng/maritime/routes.html}{Canal do Panamá} no mercado de contêiners.} 
 \cite{Liu.2016}, grafos
-\footnote{Relação entre elementos de um conjunto \cite{Deza.2014} --- interação dos agentes em uma coalizão.} \cite{Khmelnitskaya.2016}, transportes \cite{DeVos.2016}, vertical e horizontal cooperação no gerenciamento de inventário e transporte \cite{DeVos.2016,Defryn.2016} 
-\footnote{\citeauthoronline{Defryn.2016} relatam um estudo de caso de cooperação logística horizontal no setor das frutas e produtos hortícolas frescos.}, estudos na alocação de custos para \emph{e--commerce} \cite{Dong.2016}. 
+\footnote{Relação entre elementos de um conjunto \cite{Deza.2014} --- interação dos agentes em uma coalizão.} \cite{Khmelnitskaya.2016}, estudos na alocação de custos para \emph{e--commerce} \cite{Dong.2016}, logística \cite{DeVos.2016}, vertical e horizontal cooperação no gerenciamento de inventário e transporte \cite{DeVos.2016,Defryn.2016} 
+\footnote{\citeauthoronline{Defryn.2016} relatam um estudo de caso de cooperação logística horizontal no setor das frutas e produtos hortícolas frescos.}, . 
 
 O presente artigo é uma abordagem sobre a execução do modelo \emph{Shapley Value} para um problema de GCS. Para tal fim, é presumida uma hipotética cadeia composta por três fornecedores que compartilham seus pontos de distribuição, um centro de apoio e o atendimento a um cliente.  O objetivo é balancear os custos itinerários, considerando todas as conexões possíveis no atendimento do cliente. A noção de justiça é alcançada pela aplicação \emph{Shapley Value} e viabilizada pela codificação do algoritmo na linguagem R\footnote{\citetext{R.2016}}. Ademais, a conclusão projeta novas lacunas com enlace para estudos em trabalhos futuros.
 
