@@ -81,15 +81,16 @@
 \usepackage{color}				    % Controle das cores
 \usepackage{graphicx}			    % Inclusão de gráficos
 \usepackage{microtype} 			  % para melhorias de justificação
-\usepackage[alf,abnt-etal-cite=3,abnt-and-type=e]{abntex2cite}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{float}
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
 \usepackage{everypage}
 \usepackage{fourier}
 \usepackage{multirow}
+\usepackage{hyperref}
 \AddEverypageHook{DRAFT VERSION}
 
 % ---
@@ -100,7 +101,15 @@
 \renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
 % Texto padrão antes do número das páginas
 \renewcommand{\backref}{}
-
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
 % ---
 
 % ---
@@ -117,9 +126,8 @@
 \date{\today}
 
 \instituicao{
-    Escola de Engenharia de Produção \\
-    Universidade Federal do Rio Grande do Sul -- UFRGS \\
-  Logística e Gestão da Cadeia de Suprimentos - 2015
+    Universidade Federal do Rio Grande do Sul -- UFRGS\\
+    Escola de Engenharia de Produção -- Programa de Pós-graduação
 }
 
 \local{Av. Osvaldo Aranha, 99  5º andar, CEP: 90035-190, Porto Alegre/RS}
@@ -203,6 +211,7 @@
 % página de titulo
 \maketitle
 
+
 % resumo em português
 \begin{resumoumacoluna}
 % Contextualização: 
@@ -211,12 +220,12 @@
 % Metodologia
 % Resultados
 % Conclusão 
-No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propomos o emprego da teoria dos jogos cooperativos (TJC) com o algorítmo \emph{Shapley value} que pondera a participação nos custos de cada parceiro. Para execução, iniciamos com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluímos que a aplicação do \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS pois seu emprego oferece recursos para racionalizar relacionamentos, estratégias conflitantes e colaborativas.
+No ambiente de uma gestão cadeia de suprimentos (GCS) as decisões de cada organização tendem a refletir nos seus elos. A análise destas interações é importante para avaliar a colaboração entre seus membros, sugerir acordos e buscar o equilíbrio mais rentável. Para explorar problemas desta espécie propõe--se o emprego da teoria dos jogos cooperativos (TJC) com o algoritmo \emph{Shapley value} que pondera a participação nos custos de cada parceiro. Para execução, inicia-se com a apreciação dos conceitos da TJC relacionando com a GCS, para então explorar o raciocínio de cada lógica e discutir a comparação deles. Como resultados, encontramos \texttt{(adicionar os resultados)}. Concluí--se que a aplicação do \emph{Shapley value} tem potencial de instrumentar apoio na definição de diretrizes da GCS, pois seu emprego oferece recursos para racionalizar relacionamentos, estratégias conflitantes e colaborativas.
 
  \vspace{\onelineskip}
  
  \noindent
- \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimizaç{ã}o. Teoria dos Jogos. Shapley value.
+ \textbf{Palavras-chave}: Agentes da cadeia de suprimentos. Otimização. Teoria dos Jogos. Shapley value.
 \end{resumoumacoluna}
 
 % ---
@@ -245,118 +254,40 @@ Na busca do julgamento perfeito, \citeonline{Condorcet.1785} formaliza o primeir
 É natural do ser humano estabelecer comparações para fundamentar suas decisões, sendo influenciado por forças racionais. Entretanto, as pessoas nem sempre são tão racionais, existindo diversas situações em que podemos contar com sua previsível irracionalidade \cite{Ariely.2012}. Nos limites da racionalidade, psicologia e decisões econômicas \citeonline{Smith.1999} salienta:
 
 \begin{citacao}
-\[...\] os objetos primários de nossas percepções morais são as ações de outros homens; além disso, nossos juízos morais sobre nossa própria conduta são apenas aplicações, sobre nós mesmos, de decisões já proferidas a respeito da conduta do nosso próximo \cite{Smith.1999}.
+$\left [ ... \right ]$ os objetos primários de nossas percepções morais são as ações de outros homens; além disso, nossos juízos morais sobre nossa própria conduta são apenas aplicações, sobre nós mesmos, de decisões já proferidas a respeito da conduta do nosso próximo \cite{Smith.1999}.
 \end{citacao}
 
 À vista disso, \citeonline{Mesquita.2009} defende o uso de ferramentas matemáticas que equacionem a predição de eventos de interação. Assim, introduz o uso da teoria dos jogos como mecanismo para entender comportamentos:
 
 \begin{citacao}
-  A teoria dos jogos parte do ponto que as pessoas estão buscando o que é bom para elas. O que não parece ser tão chocante embora controverso para muitas pessoas: somos interessados em nós mesmos. E para buscar o que é melhor para si ou o que imaginamos ser melhor, as pessoas tem valores --- elas identificam o que querem e o que não querem \cite[mim.~2:17--2:37]{MesquitaTED.2009}. 
+  A teoria dos jogos parte do ponto que as pessoas estão buscando o que é bom para elas. O que não parece ser tão chocante embora controverso para muitas pessoas: somos interessados em nós mesmos. E para buscar o que é melhor para si ou o que imaginamos ser melhor, as pessoas têm valores --- elas identificam o que querem e o que não querem \cite[min.~2:17--2:37]{MesquitaTED.2009}. 
 \end{citacao}
 
-Originalmente estabelecida em \citeyear{Cournot.1838} por \citeauthoronline{Cournot.1838} a teoria ganhou proeminência a partir do livro \emph{The Theory of Games and Economic Behavior} de \citeonline{Neumann.1947} que formalizou modelos matemáticos para estudo do comportamento econômico nas interações entre agentes em cenários de conflito ou cooperação. Trancedendo o ramo econômico, a teoria dos jogos ganhou aplicações nas mais diversas áreas como: militar \cite{Haywood.1954,RAND.2004}, jurídico \cite{Rosa.2014}, biológico \cite{Smith.1982}, filosófico \cite{Lewis.2002}, político \cite{Levy.2003}. No ambiente empresarial \citeonline{Golden.1993} discutem a aplicação da teoria dos jogos em alianças de cooperação e competições estratégicas e \citeonline{Wang.2007} destaca sua adoção como uma ferramenta de apoio para selecionar estratégias. \citeonline{Lygero.1996} utilizam modelos da teoria para desenvolver controles híbridos em sistemas complexo. \citeonline{Shen.2002} emprega para decisões de programação em ambiente de produção e \citeonline{Huang.2001} aborda o tema nas relações da cadeia de suprimentos.
+Originalmente estabelecida em \citeyear{Cournot.1838} por \citeauthoronline{Cournot.1838} a teoria ganhou proeminência a partir do livro \emph{The Theory of Games and Economic Behavior} de \citeonline{Neumann.1947} que formalizou modelos matemáticos para estudo do comportamento econômico, nas interações entre agentes, em cenários de conflito ou cooperação. Transcendendo o ramo econômico, a teoria dos jogos ganhou aplicações nas  diversas áreas como: militar \cite{Haywood.1954,RAND.2004}, jurídico \cite{Rosa.2014}, biológico \cite{Smith.1982}, filosófico \cite{Lewis.2002}, político \cite{Levy.2003}. No ambiente empresarial \citeonline{Golden.1993} discutem a aplicação da teoria dos jogos em alianças de cooperação e competições estratégicas e \citeonline{Wang.2007} destaca sua adoção como uma ferramenta de apoio para selecionar estratégias. \citeonline{Lygero.1996} utilizam modelos da teoria para desenvolver controles híbridos em sistemas complexos, \citeonline{Shen.2002} emprega para decisões de programação em ambiente de produção e \citeonline{Huang.2001} utiliza abordagem na paridade das relações de publicidade da cadeia de suprimentos fabricante--varejista.
 
-\citeonline{Ayers.2006} delineia uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas a organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. No âmbito deste cenário, A chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}. \citeonline{Pimentel.2007} evidencia a solução de dilemas com cooperação: 
+Para \citeonline{Campos.2012} não é raro que a aplicação dos conceitos de cadeia de suprimentos e logística\footnote{Logística é arte e ciência de mover as coisas de um lugar para outro e armazená-las ao longo do caminho \cite[p.~370]{Fawcett.2000}.} ocorra em um contexto multidisciplinar incorporando conhecimentos das áreas de custo, informática, estatística, matemática. \citeonline{Ayers.2006} delineia uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas a organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. No âmbito deste cenário, a chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afeta nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}. \citeonline{Pimentel.2007} evidencia a solução de dilemas com cooperação: 
 
 \begin{citacao}
-  As paixões podem nos motivar a agir, mas nem sempre são suficientes para prevalecer sobre todas as razões; da mesma forma, as razões, sozinhas, não são tão fortes que garantam que uma ação aconteça. Algumas vezes é preciso um \emph{acordo} para resolver os nossos dilemas do prisioneiro \emph{internos}, o que envolve a possibilidade de cooperação na escolha que temos de fazer ao longo do tempo entre "prêmios", tais como recompensas, punições e sentimentos de culpa \cite[p.~132]{Pimentel.2007}.
+As paixões podem nos motivar a agir, mas nem sempre são suficientes para prevalecer sobre todas as razões; da mesma forma, as razões, sozinhas, não são tão fortes que garantam que uma ação aconteça. Algumas vezes é preciso um \textbf{acordo} para resolver os nossos dilemas do prisioneiro \emph{internos}, o que envolve a possibilidade de cooperação na escolha que temos de fazer ao longo do tempo entre "prêmios", tais como recompensas, punições e sentimentos de culpa \cite[p.~132]{Pimentel.2007}.
 \end{citacao}
 
-Recebendo grande atenção da comunidade empresarial \citeonline{YunHuang.2012}, o Estudos sobre a aplicação da teoria dos jogos cooperativos no GCS versam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
+Estudos sobre a aplicação da teoria dos jogos cooperativos no GCS versam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre agentes na qual o ganho ou custo seja compartilhado, seguindo critérios de justiça definidos por axiomas \cite{Bezerra.2009}. \citeonline{Brink.2002} caracteriza a propriedade de justiça e eficiência pelo modelo de jogo cooperativo \emph{Shapley Value}. 
 
+Introduzido em  \citeyear{Shapley.1952} por \citeauthoronline{Shapley.1952}, os mais recentes estudos do método, análogo ou no domínio do GCS, abarcam soluções nas ambiências do desenvolvimento sustentável \cite{Bakr.2015}, Internet das Coisas \cite{Militano.2016,Kim.2016}, redes sociais \cite{Kim.2016}, distribuição de lucros
+\footnote{Pesquisa sobre distribuição de lucros no \href{https://prod.campusexpress.upenn.edu/}{Campus Express Alliance}} 
+\cite{Zhuang.2016}, gerenciamento de projetos \cite{Ding.2016}, análise de impacto econômico \footnote{Impacto da expansão do \href{http://www.pancanal.com/eng/maritime/routes.html}{Canal do Panamá} no mercado de contêiners.} 
+\cite{Liu.2016}, grafos
+\footnote{Relação entre elementos de um conjunto \cite{Deza.2014} --- interação dos agentes em uma coalizão.} \cite{Khmelnitskaya.2016}, transportes \cite{DeVos.2016}, vertical e horizontal cooperação no gerenciamento de inventário e transporte \cite{DeVos.2016,Defryn.2016} 
+\footnote{\citeauthoronline{Defryn.2016} relatam um estudo de caso de cooperação logística horizontal no setor das frutas e produtos hortícolas frescos.}, estudos na alocação de custos para \emph{e--commerce} \cite{Dong.2016}. 
 
-SCOR$^{\mbox{\scriptsize\textregistered}}$
-
-  \texttt{\color{red}...seguem referências para completar seção...}
-  \begin{itemize}
-    \item Theory of games and economic behavior \cite{Neumann.1947}
-    \item Social choice and individual values \cite{Figueiredo.1994}
-    \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
-    \item Teoria Dos Jogos \cite{Fiani.2006}
-    \item Bayesian learning in negotiation \cite{Zeng.1998}
-    \item Teoria dos Jogos \cite{Tavares.2009}
-    \item Teoria dos Jogos \cite{Bierman.2010}
-    \item Cooperaç{ã}o e Conflito \cite{Fiani.2011}
-    \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
-    \item A Way to Play Claims Problems \cite{Gimenez.2014}
-    \item Teoria dos Jogos \cite{Fiani.2015}
-    \item Entrevista com Bruce Bueno de Mesquita \cite{Mesquita.2012}
-  \end{itemize}
-
-% ----------------------------------------------------------
-% Seção conexão entre teoria dos jogos até cooperativos
-% ----------------------------------------------------------
-\section{Teoria dos jogos cooperativos}
-
-Definição de um jogo cooperativo.
-
-\begin{equation}
-  \label{eq:conceitoTJC}
-  \left \{ 
-    \emph{x} \in \Re^{\emph{n}} \mid f\left ( x,S \right ) \leq c\left ( S \right ), \forall \emph{S} \subseteq \emph{N}
-  \right\}
-\end{equation}
-
-  \texttt{\color{red}...seguem referências para completar seção...}
-  \begin{itemize}
-    \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
-    \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
-    \item Game Theory Cooperative Games with Transferable Utility \cite{Peters.2008}
-    \item A cooperative game approach to optimal saving theory: Toward a constitution for savings \cite{Forte.1994}
-    \item Water Costs Allocation in Complex Systems Using a Cooperative Game Theory Approach \cite{Sechi.2013}
-    \item Cooperative Game Theory in Sports \cite{Manuel.2013}
-    \item An intersection theorem in TU cooperative game theory \cite{Albeniz.2004}
-    \item Axiomatization in cooperative game theory \cite{yakov.2005}
-    \item Applying cooperative game theory to power relations \cite{Wiese.2009}
-    \item Cooperative game theory and its insurance applications \cite{Lemaire.1993}
-    \item A novel cooperative spectrum sensing method based on cooperative game theory \cite{KaitianCao.2010}
-    \item A cooperative game theory analysis for transmission loss allocation \cite{Lima.2008}
-    \item Social and Economic Networks in Cooperative Game Theory \cite{Ray.2002}
-    \item Game theory in cooperative communications \cite{Yang.2012}
-    \item Allocation of Unit Start-Up Costs Using Cooperative Game Theory \cite{Hu.2006}
-    \item Compromise values in cooperative game theory \cite{Tijs.1993}
-    \item Cooperative advertising, game theory and manufacturer--retailer supply chains \cite{Xie.2006}
-    \item Estimation of price policies in Senegal An empirical test of cooperative game theory \cite{Beghin.1991}
-    \item Information sharing in DEA: A cooperative game theory approach \cite{Lozano.2012}
-    \item Quality of service provisioning in worldwide interoperability for microwave access networks based on cooperative game theory \cite{Jiao.2011}
-    \item A conceptual application of cooperative game theory to liner shipping strategic alliances \cite{Song.2002}
-    \item Using cooperative game theory to optimize the feature selection problem \cite{Sun.2012}
-    \item Game Theory as a Theory of a Conflict Resolution - A Shapley Value for Cooperative Games with Quarrelling \cite{Rapoport.1974}
-    \item Introduction to Game Theory - N-Person Cooperative Games \cite{Morris.1994}    
-  \end{itemize}
-  
-% ----------------------------------------------------------
-% Seção conexão entre teoria dos jogos e cadeia de suprimentos
-% ----------------------------------------------------------
-\section{Gerenciamento da Cadeia de suprimentos}
-
-Estudos sobre a aplicação da teoria dos jogos cooperativos no gerencimento da cadeia de suprimentos abordam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre os agentes de uma cadeia e que o ganho ou custo seja compartilhado seguindo critérios de distribuição (axiomas) \cite{Bezerra.2009}.
-
-  \texttt{\color{red}...seguem referências para completar seção...}
-  \begin{itemize}
-    \item Supplier bidding strategy based on non-cooperative game theory concepts in single auction power pools \cite{Kang.2007}
-    \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
-    \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
-    \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
-    \item A Teoria dos Jogos Aplicada ao Processo Penal \cite{Rosa.2014}
-    \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
-    \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
-    \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
-    \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
-    \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
-    \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory \cite{Dobos.2010b}
-  \end{itemize}
+O presente artigo é uma abordagem sobre a execução do modelo \emph{Shapley Value} para um problema de GCS. Para tal fim, é presumida uma hipotética cadeia composta por três fornecedores que compartilham seus pontos de distribuição, um centro de apoio e o atendimento a um cliente.  O objetivo é balancear os custos itinerários, considerando todas as conexões possíveis no atendimento do cliente. A noção de justiça é alcançada pela aplicação \emph{Shapley Value} e viabilizada pela codificação do algoritmo na linguagem R\footnote{\citetext{R.2016}}. Ademais, a conclusão projeta novas lacunas com enlace para estudos em trabalhos futuros.
 
 % ----------------------------------------------------------
 % Estudo de caso
 % ----------------------------------------------------------
 \section{Estudo de caso}
 
-  \texttt{\color{red}...linguagem e pacotes da seção...}
-  \begin{itemize}
-    \item R: A Language and Environment for Statistical Computing \cite{R.2016}
-    \item ggmap: Spatial Visualization with ggplot2 \cite{Kahle.2013}
-  \end{itemize}
+Considerando uma coalizão, formada por três fornecedores, adiciona-se indivíduos, um de cada vez, dando a cada um uma contribuição marginal $v(S \cup \{i\})$ --- $v(S)$ para $S$ indivíduos. Na medida em que os custos são ponderados atinge-se uma noção de justiça.
 
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[H]
@@ -403,16 +334,6 @@ Shapley axiomas para $\varphi(v)$
   \item \textbf{Linearidade:} Se dois agentes em uma coalizão, descritos pelas funões de ganho $\phi_i(v)$ e $\phi_i(w)$, são combinados, então os ganhos são correspondentes $\phi_i(v + w) = \phi_i(v) + \phi_i(w)$.
   \item \textbf{Zero jogador:} Quando um jogador não contribui na cooperação sua alocação é nula.
 \end{enumerate}
-
-  \texttt{\color{red}...seguem referências para completar seção...}
-  \begin{itemize}
-    \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
-    \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
-    \item Lloyd Shapley's Matching and Game Theory \cite{Serrano.2013}
-    \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
-    \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
-  \end{itemize}
-
 
 \subsection{Aplicação no estudo de caso}
 
@@ -609,6 +530,82 @@ shapleyValue <- summary(shapleyValue)
 
 \end{knitrout}
 
+
+  \texttt{\color{red}...seguem referências para completar seção...}
+  \begin{itemize}
+    \item Aircraft Landing Fees: A Game Theory Approach \cite{Littlechild.1977}
+    \item The Shapley value: essays in honor of Lloyd S. Shapley \cite{Alvin.1988}
+    \item Lloyd Shapley's Matching and Game Theory \cite{Serrano.2013}
+    \item Cooperative Game Theory and Applications: Cooperative Games Arising from Combinatorial Optimization Problems \cite{Curiel.2013}
+    \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
+  \end{itemize}
+
+% ----------------------------------------------------------
+% Completar artigo
+% ----------------------------------------------------------
+\section{\texttt{\color{red}...seguem referências para completar artigo...}}
+
+Definição de um jogo cooperativo.
+
+\begin{equation}
+  \label{eq:conceitoTJC}
+  \left \{ 
+    \emph{x} \in \Re^{\emph{n}} \mid f\left ( x,S \right ) \leq c\left ( S \right ), \forall \emph{S} \subseteq \emph{N}
+  \right\}
+\end{equation}
+
+
+  \texttt{\color{red}...seguem referências para completar seção...}
+  \begin{itemize}
+    \item Theory of games and economic behavior \cite{Neumann.1947}
+    \item Social choice and individual values \cite{Figueiredo.1994}
+    \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
+    \item Teoria Dos Jogos \cite{Fiani.2006}
+    \item Bayesian learning in negotiation \cite{Zeng.1998}
+    \item Teoria dos Jogos \cite{Tavares.2009}
+    \item Teoria dos Jogos \cite{Bierman.2010}
+    \item Cooperação e Conflito \cite{Fiani.2011}
+    \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
+    \item A Way to Play Claims Problems \cite{Gimenez.2014}
+    \item Teoria dos Jogos \cite{Fiani.2015}
+    \item Entrevista com Bruce Bueno de Mesquita \cite{Mesquita.2012}
+    \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
+    \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
+    \item Game Theory Cooperative Games with Transferable Utility \cite{Peters.2008}
+    \item A cooperative game approach to optimal saving theory: Toward a constitution for savings \cite{Forte.1994}
+    \item Water Costs Allocation in Complex Systems Using a Cooperative Game Theory Approach \cite{Sechi.2013}
+    \item Cooperative Game Theory in Sports \cite{Manuel.2013}
+    \item An intersection theorem in TU cooperative game theory \cite{Albeniz.2004}
+    \item Axiomatization in cooperative game theory \cite{yakov.2005}
+    \item Applying cooperative game theory to power relations \cite{Wiese.2009}
+    \item Cooperative game theory and its insurance applications \cite{Lemaire.1993}
+    \item A novel cooperative spectrum sensing method based on cooperative game theory \cite{KaitianCao.2010}
+    \item A cooperative game theory analysis for transmission loss allocation \cite{Lima.2008}
+    \item Social and Economic Networks in Cooperative Game Theory \cite{Ray.2002}
+    \item Game theory in cooperative communications \cite{Yang.2012}
+    \item Allocation of Unit Start-Up Costs Using Cooperative Game Theory \cite{Hu.2006}
+    \item Compromise values in cooperative game theory \cite{Tijs.1993}
+    \item Cooperative advertising, game theory and manufacturer--retailer supply chains \cite{Xie.2006}
+    \item Estimation of price policies in Senegal An empirical test of cooperative game theory \cite{Beghin.1991}
+    \item Information sharing in DEA: A cooperative game theory approach \cite{Lozano.2012}
+    \item Quality of service provisioning in worldwide interoperability for microwave access networks based on cooperative game theory \cite{Jiao.2011}
+    \item A conceptual application of cooperative game theory to liner shipping strategic alliances \cite{Song.2002}
+    \item Using cooperative game theory to optimize the feature selection problem \cite{Sun.2012}
+    \item Game Theory as a Theory of a Conflict Resolution - A Shapley Value for Cooperative Games with Quarrelling \cite{Rapoport.1974}
+    \item Introduction to Game Theory - N-Person Cooperative Games \cite{Morris.1994}    
+    \item Supplier bidding strategy based on non-cooperative game theory concepts in single auction power pools \cite{Kang.2007}
+    \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
+    \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
+    \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
+    \item A Teoria dos Jogos Aplicada ao Processo Penal \cite{Rosa.2014}
+    \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
+    \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
+    \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
+    \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
+    \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
+    \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory \cite{Dobos.2010b}
+  \end{itemize}
+
 \section{Nucleolus}
 
 \subsection{Conceito}
@@ -650,12 +647,17 @@ shapleyValue <- summary(shapleyValue)
 \section{Conclusão}
 
 \begin{citacao}
-\[...\] toda medição e todo número do mundo real tem um quê de imprecisão, de incerteza. Trata-se de um reflexo imperfeito da realidade. Números são sempre impuros: uma mescla de verdade, erro e incerteza \cite{Seife.2012}.
+
+[...] toda medição e todo número do mundo real tem um quê de imprecisão, de incerteza. Trata-se de um reflexo imperfeito da realidade. Números são sempre impuros: uma mescla de verdade, erro e incerteza \cite{Seife.2012}.
+
 \end{citacao}
 
 
   \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
+  
+  \nocite{Schleip2010}
+  
     \item O andar do bébado \cite{Mlodinow.2009}
     \item Os n\'umeros (não) mentem: Como a matemática pode ser usada para enganar você \cite{Seife.2012}
     \item O sinal e o ruído \cite{Nate.2012}

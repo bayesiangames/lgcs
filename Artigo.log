@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  14 MAY 2016 19:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.21)  29 MAY 2016 21:41
 entering extended mode
 **./Artigo.tex
 (Artigo.tex
@@ -886,36 +886,9 @@ Package microtype Info: Loading configuration file microtype.cfg.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-(abntex2cite.sty
-Package: abntex2cite 2015/01/26 v1.9.3 abnTeX2
- ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count163
-\calc@Bcount=\count164
-\calc@Adimen=\dimen160
-\calc@Bdimen=\dimen161
-\calc@Askip=\skip257
-\calc@Bskip=\skip258
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count165
-\calc@Cskip=\skip259
-)
-(abntex2abrev.sty)
-\minimumbiblabelwidth=\skip260
-\ABCIauxlen=\skip261
-\c@ABCIaux=\count166
-\c@ABCImax=\count167
- ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
-Package: relsize 2003/07/04 ver 3.1
-)
-\biblabelsep=\skip262
-LaTeX Info: Redefining \newblock on input line 591.
-LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks27
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip263
+\@mathmargin=\skip257
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -923,51 +896,51 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks28
-\ex@=\dimen162
+\@emptytoks=\toks27
+\ex@=\dimen160
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen163
+\pmbraise@=\dimen161
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count168
+\inf@bad=\count163
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count169
-\leftroot@=\count170
+\uproot@=\count164
+\leftroot@=\count165
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count171
-\DOTSCASE@=\count172
+\classnum@=\count166
+\DOTSCASE@=\count167
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen164
+\big@size=\dimen162
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count173
-\c@MaxMatrixCols=\count174
+\macc@depth=\count168
+\c@MaxMatrixCols=\count169
 \dotsspace@=\muskip11
-\c@parentequation=\count175
-\dspbrk@lvl=\count176
-\tag@help=\toks29
-\row@=\count177
-\column@=\count178
-\maxfields@=\count179
-\andhelp@=\toks30
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
-\@envbody=\toks31
-\multlinegap=\skip264
-\multlinetaggap=\skip265
-\mathdisplay@stack=\toks32
+\c@parentequation=\count170
+\dspbrk@lvl=\count171
+\tag@help=\toks28
+\row@=\count172
+\column@=\count173
+\maxfields@=\count174
+\andhelp@=\toks29
+\eqnshift@=\dimen163
+\alignsep@=\dimen164
+\tagshift@=\dimen165
+\tagwidth@=\dimen166
+\totwidth@=\dimen167
+\lineht@=\dimen168
+\@envbody=\toks30
+\multlinegap=\skip258
+\multlinetaggap=\skip259
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -983,14 +956,41 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count180
-\float@exts=\toks33
+\c@float@type=\count175
+\float@exts=\toks32
 \float@box=\box32
-\@float@everytoks=\toks34
+\@float@everytoks=\toks33
 \@floatcapt=\box33
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
 Package: backref 2012/07/25 v1.38 Bibliographical back referencing
+) (abntex2cite.sty
+Package: abntex2cite 2015/01/26 v1.9.3 abnTeX2
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count176
+\calc@Bcount=\count177
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
+\calc@Askip=\skip260
+\calc@Bskip=\skip261
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count178
+\calc@Cskip=\skip262
+) (abntex2abrev.sty)
+\minimumbiblabelwidth=\skip263
+\ABCIauxlen=\skip264
+\c@ABCIaux=\count179
+\c@ABCImax=\count180
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+\biblabelsep=\skip265
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks34
 ) (everypage.sty
 Package: everypage 2006/06/30 1.0 Hooks to run on every page
 )
@@ -1299,8 +1299,8 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen171
 )
-Package color Info: Redefining color blue on input line 131.
-Package hyperref Info: Option `colorlinks' set `true' on input line 150.
+Package color Info: Redefining color blue on input line 139.
+Package hyperref Info: Option `colorlinks' set `true' on input line 158.
 \Artigo@idxfile=\write4
 \openout4 = `Artigo.idx'.
 
@@ -1329,63 +1329,63 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ("C:\Program Files\MiKTeX 2.9\tex\latex\upquote\upquote.sty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
-)
-No file Artigo.aux.
+) (Artigo.aux)
 \openout1 = `Artigo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 184.
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 184.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 184
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 192.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 192
 .
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 184.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 184
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 192.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 192
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmsfutm.fd"
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 184.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 184
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 192.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 192
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 184.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 184.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 192.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 184.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 184.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 192.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\t1futs.fd"
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 184.
+Package hyperref Info: Link coloring ON on input line 192.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1397,10 +1397,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 184.
-LaTeX Info: Redefining \ref on input line 184.
-LaTeX Info: Redefining \pageref on input line 184.
-LaTeX Info: Redefining \nameref on input line 184.
+LaTeX Info: Redefining \nameref on input line 192.
+LaTeX Info: Redefining \ref on input line 192.
+LaTeX Info: Redefining \pageref on input line 192.
+LaTeX Info: Redefining \nameref on input line 192.
 \myptabbox=\box35
 \myptabboxwidth=\skip266
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -1417,7 +1417,7 @@ LaTeX Info: Redefining \nameref on input line 184.
 \makeMPintoPDFobject=\count187
 \everyMPtoPDFconversion=\toks36
 )
-LaTeX Info: Redefining \microtypecontext on input line 184.
+LaTeX Info: Redefining \microtypecontext on input line 192.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1431,18 +1431,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `futs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 20
-5.
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 21
+3.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.fd"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 205.
+(Font)              scaled to size 11.03998pt on input line 213.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 205.
+(Font)              scaled to size 8.27998pt on input line 213.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 205.
-LaTeX Font Info:    Try loading font information for U+msa on input line 205.
+(Font)              scaled to size 6.43999pt on input line 213.
+LaTeX Font Info:    Try loading font information for U+msa on input line 213.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1450,7 +1450,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 205.
+LaTeX Font Info:    Try loading font information for U+msb on input line 213.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1459,12 +1459,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 205.
+(Font)              scaled to size 11.03998pt on input line 213.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 205.
+(Font)              scaled to size 8.27998pt on input line 213.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 205.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 214.
+(Font)              scaled to size 6.43999pt on input line 213.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 223.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1474,7 +1474,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 214.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 223.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
@@ -1485,424 +1485,117 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 219.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 237.
-
-
-LaTeX Warning: Citation `Bekman.2009' on page 1 undefined on input line 237.
-
-
-LaTeX Warning: Citation `Nate.2012' on page 1 undefined on input line 237.
-
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 228.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 237.
+(Font)              scaled to size 10.07397pt on input line 246.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 237.
+(Font)              scaled to size 7.63599pt on input line 246.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 237.
+(Font)              scaled to size 5.51999pt on input line 246.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 237.
+(Font)              scaled to size 10.07397pt on input line 246.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 237.
+(Font)              scaled to size 7.63599pt on input line 246.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 237.
+(Font)              scaled to size 5.51999pt on input line 246.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 237.
+(Font)              scaled to size 6.99199pt on input line 246.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 237.
+(Font)              scaled to size 6.99199pt on input line 246.
+ [1{C:/Users/jbgb/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+] [2]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 237.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 271.
+Package color Info: Redefining color shadecolor on input line 293.
 
-LaTeX Warning: Citation `Nate.2012' on page 1 undefined on input line 237.
+<figure/unnamed-chunk-2-1.pdf, id=179, 505.89pt x 505.89pt>
+File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 
+<use figure/unnamed-chunk-2-1.pdf>
+Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 295.
+(pdftex.def)             Requested size: 426.0pt x 426.00995pt.
+ [3] [4pdfTeX warning (ext4): destination with the same identifier (name{figure
+.0.1}) has been already used, duplicate ignored
 
-LaTeX Warning: Citation `Knigth.1921' on page 1 undefined on input line 237.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.328 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{table.0.1}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.328 \end{equation}
+                     <./figure/unnamed-chunk-2-1.pdf>]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 332.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 344.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 344.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{equation.0
+.2.1}) has been already used, duplicate ignored
 
-LaTeX Warning: Citation `Nate.2012' on page 1 undefined on input line 240.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.0.2.2}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.0.2.3}) has been already used, duplicate ignored
 
-LaTeX Warning: Citation `Condorcet.1785' on page 1 undefined on input line 243.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.0.2.1}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.0.2.2}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.0.2.3}) has been already used, duplicate ignored
 
-LaTeX Warning: Citation `Davenport.2007' on page 1 undefined on input line 243.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.0.2.1}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{equation.0.2.2}) has been already used, duplicate ignored
 
-
-LaTeX Warning: Citation `Kahneman.2012' on page 1 undefined on input line 243.
-
-
-LaTeX Warning: Citation `Ariely.2009' on page 1 undefined on input line 243.
-
-
-LaTeX Warning: Citation `Ariely.2012' on page 1 undefined on input line 245.
-
-
-LaTeX Warning: Citation `Smith.1999' on page 1 undefined on input line 245.
-
-[1{C:/Users/jbgb/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
-
-LaTeX Warning: Citation `Smith.1999' on page 2 undefined on input line 248.
-
-
-LaTeX Warning: Citation `Mesquita.2009' on page 2 undefined on input line 251.
-
-
-LaTeX Warning: Citation `MesquitaTED.2009' on page 2 undefined on input line 25
-4.
-
-
-LaTeX Warning: Citation `Cournot.1838' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Cournot.1838' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Neumann.1947' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Haywood.1954' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `RAND.2004' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Rosa.2014' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Smith.1982' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Lewis.2002' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Levy.2003' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Golden.1993' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Wang.2007' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Lygero.1996' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Shen.2002' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Huang.2001' on page 2 undefined on input line 257.
-
-
-LaTeX Warning: Citation `Ayers.2006' on page 2 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Fredendall.2001' on page 2 undefined on input line 259
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.439 \end{equation}
+                    ]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 470
 .
-
-
-LaTeX Warning: Citation `Panitz.2007' on page 2 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Cao.2012' on page 2 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Chen.2004' on page 2 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Drechsel.2010' on page 2 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Young.1994' on page 2 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Pimentel.2007' on page 2 undefined on input line 259.
-
-
-LaTeX Warning: Citation `Pimentel.2007' on page 2 undefined on input line 262.
-
-[2]
-
-LaTeX Warning: Citation `YunHuang.2012' on page 3 undefined on input line 265.
-
-
-LaTeX Warning: Citation `Dobos.2010a' on page 3 undefined on input line 265.
-
-
-LaTeX Warning: Citation `Bezerra.2009' on page 3 undefined on input line 265.
-
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 268
-.
-("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\ts1futs.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\ts1futs.fd"
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `futs' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-LaTeX Warning: Citation `Neumann.1947' on page 3 undefined on input line 272.
-
-
-LaTeX Warning: Citation `Figueiredo.1994' on page 3 undefined on input line 273
+Package color Info: Redefining color shadecolor on input line 476.
+LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 482
 .
-
-
-LaTeX Warning: Citation `Moreira.2002' on page 3 undefined on input line 274.
-
-
-LaTeX Warning: Citation `Fiani.2006' on page 3 undefined on input line 275.
-
-
-LaTeX Warning: Citation `Zeng.1998' on page 3 undefined on input line 276.
-
-
-LaTeX Warning: Citation `Tavares.2009' on page 3 undefined on input line 277.
-
-
-LaTeX Warning: Citation `Bierman.2010' on page 3 undefined on input line 278.
-
-
-LaTeX Warning: Citation `Fiani.2011' on page 3 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Paula.2014' on page 3 undefined on input line 280.
-
-
-LaTeX Warning: Citation `Gimenez.2014' on page 3 undefined on input line 281.
-
-
-LaTeX Warning: Citation `Fiani.2015' on page 3 undefined on input line 282.
-
-
-LaTeX Warning: Citation `Mesquita.2012' on page 3 undefined on input line 283.
-
-
-LaTeX Warning: Citation `Aumann.1960' on page 3 undefined on input line 302.
-
-
-LaTeX Warning: Citation `Peleg.2007' on page 3 undefined on input line 303.
-
-
-LaTeX Warning: Citation `Peters.2008' on page 3 undefined on input line 304.
-
-
-LaTeX Warning: Citation `Forte.1994' on page 3 undefined on input line 305.
-
-
-LaTeX Warning: Citation `Sechi.2013' on page 3 undefined on input line 306.
-
-[3]
-
-LaTeX Warning: Citation `Manuel.2013' on page 4 undefined on input line 307.
-
-
-LaTeX Warning: Citation `Albeniz.2004' on page 4 undefined on input line 308.
-
-
-LaTeX Warning: Citation `yakov.2005' on page 4 undefined on input line 309.
-
-
-LaTeX Warning: Citation `Wiese.2009' on page 4 undefined on input line 310.
-
-
-LaTeX Warning: Citation `Lemaire.1993' on page 4 undefined on input line 311.
-
-
-LaTeX Warning: Citation `KaitianCao.2010' on page 4 undefined on input line 312
-.
-
-
-LaTeX Warning: Citation `Lima.2008' on page 4 undefined on input line 313.
-
-
-LaTeX Warning: Citation `Ray.2002' on page 4 undefined on input line 314.
-
-
-LaTeX Warning: Citation `Yang.2012' on page 4 undefined on input line 315.
-
-
-LaTeX Warning: Citation `Hu.2006' on page 4 undefined on input line 316.
-
-
-LaTeX Warning: Citation `Tijs.1993' on page 4 undefined on input line 317.
-
-
-LaTeX Warning: Citation `Xie.2006' on page 4 undefined on input line 318.
-
-
-LaTeX Warning: Citation `Beghin.1991' on page 4 undefined on input line 319.
-
-
-LaTeX Warning: Citation `Lozano.2012' on page 4 undefined on input line 320.
-
-
-LaTeX Warning: Citation `Jiao.2011' on page 4 undefined on input line 321.
-
-
-Overfull \hbox (4.52014pt too wide) in paragraph at lines 321--322
-[]\T1/futs/m/n/10.95 (-20) Quality of ser-vice pro-vi-si-o-ning in worldwide in
--te-ro-pe-ra-bi-lity for mi-crowave ac-cess networks
- []
-
-
-LaTeX Warning: Citation `Song.2002' on page 4 undefined on input line 322.
-
-
-LaTeX Warning: Citation `Sun.2012' on page 4 undefined on input line 323.
-
-
-LaTeX Warning: Citation `Rapoport.1974' on page 4 undefined on input line 324.
-
-
-LaTeX Warning: Citation `Morris.1994' on page 4 undefined on input line 325.
-
-
-LaTeX Warning: Citation `Dobos.2010a' on page 4 undefined on input line 333.
-
-
-LaTeX Warning: Citation `Bezerra.2009' on page 4 undefined on input line 333.
-
-
-LaTeX Warning: Citation `Kang.2007' on page 4 undefined on input line 337.
-
-
-LaTeX Warning: Citation `Ayala.2008' on page 4 undefined on input line 338.
-
-[4]
-
-LaTeX Warning: Citation `Mccain.2013' on page 5 undefined on input line 339.
-
-
-LaTeX Warning: Citation `Driessen.2013' on page 5 undefined on input line 340.
-
-
-LaTeX Warning: Citation `Rosa.2014' on page 5 undefined on input line 341.
-
-
-LaTeX Warning: Citation `Chen.2004' on page 5 undefined on input line 342.
-
-
-LaTeX Warning: Citation `Cachon.2004' on page 5 undefined on input line 343.
-
-
-LaTeX Warning: Citation `kogan.2007' on page 5 undefined on input line 344.
-
-
-LaTeX Warning: Citation `Hart.2012' on page 5 undefined on input line 345.
-
-
-LaTeX Warning: Citation `Christou.2012' on page 5 undefined on input line 346.
-
-
-LaTeX Warning: Citation `Dobos.2010b' on page 5 undefined on input line 347.
-
-
-LaTeX Warning: Citation `R.2016' on page 5 undefined on input line 357.
-
-
-LaTeX Warning: Citation `Kahle.2013' on page 5 undefined on input line 358.
-
-Package color Info: Redefining color shadecolor on input line 362.
-<figure/unnamed-chunk-2-1.pdf, id=39, 505.89pt x 505.89pt>
-File: figure/unnamed-chunk-2-1.pdf Graphic file (type pdf)
-
-<use figure/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-2-1.pdf used on input line 364.
-(pdftex.def)             Requested size: 426.0pt x 426.00995pt.
- [5] [6pdfTeX warning (ext4): destination with the same identifier (name{figure
-.0.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.401   \item \textbf
-                     {Eficiência:} Toda alocação é distribuída sem disp...
-pdfTeX warning (ext4): destination with the same identifier (name{table.0.1}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.401   \item \textbf
-                     {Eficiência:} Toda alocação é distribuída sem disp...
- <./figure/unnamed-chunk-2-1.pdf>]
-
-LaTeX Warning: Citation `Littlechild.1977' on page 7 undefined on input line 40
-9.
-
-
-LaTeX Warning: Citation `Alvin.1988' on page 7 undefined on input line 410.
-
-
-LaTeX Warning: Citation `Serrano.2013' on page 7 undefined on input line 411.
-
-
-LaTeX Warning: Citation `Curiel.2013' on page 7 undefined on input line 412.
-
-
-LaTeX Warning: Citation `Brink.2015' on page 7 undefined on input line 413.
-
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 423.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.25598pt on input line 423.
-pdfTeX warning (ext4): destination with the same identifier (name{equation.0.4.
-2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.433   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.4.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.463   \begin{equation}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{equation.0.4.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.493   \begin{equation}
-                         [7pdfTeX warning (ext4): destination with the same ide
-ntifier (name{equation.0.4.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.506    \end{equation}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.0.4.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.506    \end{equation}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.0.4.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.506    \end{equation}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{equation.0.4.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.506    \end{equation}
-                       ]
-
-LaTeX Warning: Citation `R.2016' on page 8 undefined on input line 549.
-
-
-LaTeX Warning: Citation `Wickham.2015' on page 8 undefined on input line 550.
-
-
-LaTeX Warning: Citation `Wickham.2009' on page 8 undefined on input line 551.
-
-Package color Info: Redefining color shadecolor on input line 555.
-LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 561
-.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -1913,7 +1606,7 @@ Package microtype Info: Character `texttrademark ' is missing
 (microtype)             in font `TS1/lmtt/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (49.99513pt too wide) in paragraph at lines 561--561
+Overfull \hbox (49.99513pt too wide) in paragraph at lines 482--482
 []\T1/lmtt/m/n/10.95 nomesAgentes <- c(\TS1/lmtt/m/n/10.95 '\T1/lmtt/m/n/10.95 
 [1] Origem - Assuncion\TS1/lmtt/m/n/10.95 '\T1/lmtt/m/n/10.95 ,\TS1/lmtt/m/n/10
 .95 '\T1/lmtt/m/n/10.95 [2] Origem - UFMS\TS1/lmtt/m/n/10.95 '\T1/lmtt/m/n/10.9
@@ -1921,121 +1614,42 @@ Overfull \hbox (49.99513pt too wide) in paragraph at lines 561--561
  '\T1/lmtt/m/n/10.95 )[] 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{equation.0.
-4.3}) has been already used, duplicate ignored
+[6pdfTeX warning (ext4): destination with the same identifier (name{equation.0.
+2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.596 \end{kframe}
+l.517 \end{kframe}
                   ]
-Package color Info: Redefining color shadecolor on input line 600.
- <figure/unnamed-chunk-4-1.pdf, id=91, 433.62pt x 216.81pt>
+Package color Info: Redefining color shadecolor on input line 521.
+
+<figure/unnamed-chunk-4-1.pdf, id=268, 433.62pt x 216.81pt>
 File: figure/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 
 <use figure/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 602.
+Package pdftex.def Info: figure/unnamed-chunk-4-1.pdf used on input line 523.
 (pdftex.def)             Requested size: 426.0pt x 213.01158pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.618     \item T
-                 he Nucleolus of a Characteristic Function Game \cite{Schmei...
+l.540     \item O
+                 n axiomatizations of the Shapley value for assignment games...
  <./figure/unnamed-chunk-4-1.pdf>]
 
-LaTeX Warning: Citation `Schmeidler.1969' on page 10 undefined on input line 61
-8.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 546.
 
+[8]
+Overfull \hbox (4.52014pt too wide) in paragraph at lines 591--592
+[]\T1/futs/m/n/10.95 (-20) Quality of ser-vice pro-vi-si-o-ning in worldwide in
+-te-ro-pe-ra-bi-lity for mi-crowave ac-cess networks
+ []
 
-LaTeX Warning: Citation `Maschler.1979' on page 10 undefined on input line 619.
+[9] [10]
 
-
-
-LaTeX Warning: Citation `Aumann.1985' on page 10 undefined on input line 620.
-
-
-LaTeX Warning: Citation `Barron.2007' on page 10 undefined on input line 621.
-
-
-LaTeX Warning: Citation `Weirich.2009' on page 10 undefined on input line 622.
-
-
-LaTeX Warning: Citation `Marinho.2011' on page 10 undefined on input line 623.
-
-
-LaTeX Warning: Citation `Guajardo.2015' on page 10 undefined on input line 624.
-
-
-
-LaTeX Warning: Citation `Faveret.2015' on page 10 undefined on input line 625.
-
-
-LaTeX Warning: Citation `Ichiishi.1990' on page 10 undefined on input line 637.
-
-
-
-LaTeX Warning: Citation `Hohzaki.2009' on page 10 undefined on input line 638.
-
-
-LaTeX Warning: Citation `Seife.2012' on page 10 undefined on input line 653.
-
-
-LaTeX Warning: Citation `Mlodinow.2009' on page 10 undefined on input line 659.
-
-
-
-LaTeX Warning: Citation `Seife.2012' on page 10 undefined on input line 660.
-
-
-LaTeX Warning: Citation `Nate.2012' on page 10 undefined on input line 661.
-
-
-LaTeX Warning: Citation `Kahneman.2012' on page 10 undefined on input line 662.
-
-
-
-LaTeX Warning: Citation `Mlodinow.2013' on page 10 undefined on input line 663.
-
-
-
-LaTeX Warning: Citation `Duhigg.2012' on page 10 undefined on input line 664.
-
-
-LaTeX Warning: Citation `Nate.2012' on page 10 undefined on input line 665.
-
-[10]
-
-LaTeX Warning: Citation `Harsanyi.1968' on page 11 undefined on input line 672.
-
-
-
-LaTeX Warning: Citation `Nash.1950' on page 11 undefined on input line 673.
-
-
-LaTeX Warning: Citation `Nash.1953' on page 11 undefined on input line 674.
-
-
-LaTeX Warning: Citation `JoseFigueiredo.2004' on page 11 undefined on input lin
-e 675.
-
-
-LaTeX Warning: Citation `Eisert.1999' on page 11 undefined on input line 676.
-
-
-LaTeX Warning: Citation `Flitney.2007' on page 11 undefined on input line 677.
-
-
-LaTeX Warning: Citation `Iqbal.2002' on page 11 undefined on input line 678.
-
-
-LaTeX Warning: Citation `Dai.2004' on page 11 undefined on input line 678.
-
-
-LaTeX Warning: Citation `Iqbal.2014' on page 11 undefined on input line 679.
-
-
-LaTeX Warning: Citation `Azhar.2015' on page 11 undefined on input line 680.
+LaTeX Warning: Citation `Dai.2004' on page 11 undefined on input line 680.
 
 (Artigo.bbl (Artigo.brf)
 \tf@brf=\write5
@@ -2043,14 +1657,14 @@ LaTeX Warning: Citation `Azhar.2015' on page 11 undefined on input line 680.
 
 
 bibitemlist
-[11] [12] [13] [14] [15] [16]) [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 702.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 702.
+[11] [12] [13] [14] [15] [16] [17] [18] [19]) [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 704.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 704.
  (Artigo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 702.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 702.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 704.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 704.
 Package rerunfilecheck Info: File `Artigo.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 4FA9E9180DFB1484EBCB8158163552AE;7210.
 
 
 LaTeX Warning: There were undefined references.
@@ -2058,30 +1672,34 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 702.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 704.
  ) 
 Here is how much of TeX's memory you used:
- 15754 strings out of 493634
- 229526 string characters out of 3143747
- 356341 words of memory out of 3000000
- 18264 multiletter control sequences out of 15000+200000
- 167470 words of font info for 447 fonts, out of 3000000 for 9000
+ 16183 strings out of 493634
+ 236127 string characters out of 3143747
+ 379450 words of memory out of 3000000
+ 18637 multiletter control sequences out of 15000+200000
+ 165846 words of font info for 466 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 39i,12n,35p,1366b,674s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
-MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/f
-ourier-mex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fourier-
-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/symbols/msam7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/adobe/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/
-putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Artigo.pdf (17 pages, 509021 bytes).
+ 39i,12n,35p,1756b,739s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cite.R.2016++TEXT} has been referenced but does n
+ot exist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dv
+ips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fou
+rier-mex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ml
+it.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/symbols/msam7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Artigo.pdf (20 pages, 626901 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 62611 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 876 PDF objects out of 1000 (max. 8388607)
+ 190 named destinations out of 1000 (max. 500000)
+ 62091 words of extra memory for PDF output out of 74296 (max. 10000000)
 
