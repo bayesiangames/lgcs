@@ -14,6 +14,7 @@ setwd('J://Artigos//lgcs');
 Sys.setenv(TEXINPUTS = getwd(), BIBINPUTS = getwd(), BSTINPUTS = getwd()); 
 @
 
+
 \documentclass[
 	% -- opções da classe memoir --
 	article,			        % indica que é um artigo acadêmico
