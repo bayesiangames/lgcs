@@ -203,40 +203,24 @@ No ambiente da cadeia de suprimentos (CS) as decisões de cada organização ten
 \section*{Introdução}
 \addcontentsline{toc}{section}{Introdução}
 
-Na profusão do mundo profissional organizações deparam-se com decisões difíceis de serem tomadas, tanto pela importância de suas consequências, quanto pelos resultados, muitas vezes, incertos \cite{Bekman.2009}. \citeonline{Nate.2012} destaca que a incerteza\footnote{Incerteza é o risco difícil de aferir \cite{Nate.2012}.} é usualmente interpretada como risco\footnote{Risco, conforme \citeonline{Knigth.1921}, é algo em que você pode colocar um preço.}, complementando que:
-
-\begin{citacao}
-  Podemos ter uma consciência difusa dos demônios que nos espreitam lá fora. Podemos até estar bastante preocupados com eles. Mas, na realidade, não temos ideia de quantos são e de quando podem atacar \cite{Nate.2012}.
-\end{citacao}
+Na profusão do mundo profissional organizações deparam-se com decisões difíceis de serem tomadas, tanto pela importância de suas consequências, quanto pelos resultados, muitas vezes, incertos \cite{Bekman.2009}. \citeonline{Nate.2012} destaca que a incerteza\footnote{Incerteza é o risco difícil de aferir \cite{Nate.2012}.} é usualmente interpretada como risco\footnote{Risco, conforme \citeonline{Knigth.1921}, é algo em que você pode colocar um preço.} --- uma imprecisão mensurável ---; \citeonline{Tversky.1972} é remissivo ao uso da intuição em cenários de incerteza, um artifício comum no processo de eliminação\footnote{Escolhas são analisadas como um probabilístico processo de sucessivas eliminações \cite{Tversky.1972}.} de opções, e para \citeonline{Mlodinow.2009}, tomar decisões e realizar avaliações sábias sobre condições de incerteza é uma habilidade rara. Porém, como qualquer habilidade, pode ser aperfeiçoada.
 
 Na busca do julgamento perfeito, \citeonline{Condorcet.1785} formaliza o primeiro método de decisão ótima, utilizando probabilidade para quantificar opções. \citeonline{Davenport.2007} enfatizam o uso de ferramentas analíticas e de tomada de decisão para reduzir incertezas, agregar racionalidade e obter inteligência competitiva. Mas, para \citeonline{Kahneman.2012}, apesar de as pessoas em geral serem racionais, com decisões lógicas e sensatas, emoções como medo, apego e ódio explicam na maioria dos casos a irracionalidade das escolhas. Para \citeonline{Ariely.2009}, essa conduta define o conceito de economia comportamental, que considera como as pessoas se comportam e não como deveriam se comportar. 
 
-É natural do ser humano estabelecer comparações para fundamentar suas decisões, sendo influenciado por forças racionais. Entretanto, as pessoas nem sempre são tão racionais, existindo diversas situações em que podemos contar com sua previsível irracionalidade \cite{Ariely.2012}. Nos limites da racionalidade, psicologia e decisões econômicas \citeonline{Smith.1999} salienta:
-
-\begin{citacao}
-$\left [ ... \right ]$ os objetos primários de nossas percepções morais são as ações de outros homens; além disso, nossos juízos morais sobre nossa própria conduta são apenas aplicações, sobre nós mesmos, de decisões já proferidas a respeito da conduta do nosso próximo \cite{Smith.1999}.
-\end{citacao}
-
-À vista disso, \citeonline{Mesquita.2009} defende o uso de ferramentas matemáticas que equacionem a predição de eventos de interação. Assim, introduz o uso da teoria dos jogos como mecanismo para entender comportamentos:
-
-\begin{citacao}
-  A teoria dos jogos parte do ponto que as pessoas estão buscando o que é bom para elas. O que não parece ser tão chocante embora controverso para muitas pessoas: somos interessados em nós mesmos. E para buscar o que é melhor para si ou o que imaginamos ser melhor, as pessoas têm valores --- elas identificam o que querem e o que não querem \cite[min.~2:17--2:37]{MesquitaTED.2009}. 
-\end{citacao}
+É natural do ser humano estabelecer comparações para fundamentar suas decisões, sendo influenciado por forças racionais. Entretanto, as pessoas nem sempre são tão racionais, existindo diversas situações em que podemos contar com sua previsível irracionalidade \cite{Ariely.2012}. À vista disso, \citeonline{Mesquita.2009} defende o uso de ferramentas matemáticas que equacionem a predição de eventos de interação. Assim, introduz o uso da teoria dos jogos como mecanismo para entender comportamentos \cite[min.~2:17--2:37]{MesquitaTED.2009}.
 
 Originalmente estabelecida em \citeyear{Cournot.1838} por \citeauthoronline{Cournot.1838} a teoria ganhou proeminência a partir do livro \emph{The Theory of Games and Economic Behavior} de \citeonline{Neumann.1947} que formalizou modelos matemáticos para estudo do comportamento econômico, nas interações entre agentes, em cenários de conflito ou cooperação. Transcendendo o ramo econômico, a teoria dos jogos ganhou aplicações em diversas áreas como: militar \cite{Haywood.1954,RAND.2004}, jurídica \cite{Rosa.2014}, biológica \cite{Smith.1982}, filosófica \cite{Lewis.2002} e política \cite{Levy.2003}. No ambiente empresarial \citeonline{Golden.1993} discutem a aplicação da teoria dos jogos em alianças de cooperação e competições estratégicas e \citeonline{Wang.2007} destaca sua adoção como uma ferramenta de apoio para selecionar estratégias. \citeonline{Lygero.1996} utilizam modelos da teoria para desenvolver controles híbridos em sistemas complexos, \citeonline{Shen.2002} emprega a teoria para decisões de programação em ambiente de produção e \citeonline{Huang.2001} utiliza abordagem na paridade das relações de publicidade da cadeia de suprimentos fabricante--varejista.
 
-Para \citeonline{Campos.2012} não é raro que a aplicação dos conceitos de cadeia de suprimentos e logística\footnote{Logística é arte e ciência de mover as coisas de um lugar para outro e armazená-las ao longo do caminho \cite[p.~370]{Fawcett.2000}.} ocorra em um contexto multidisciplinar incorporando conhecimentos das áreas de custo, informática, estatística e matemática. \citeonline{Ayers.2006} delineia uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas à organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. No âmbito desse cenário, a chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afetam nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}. \citeonline{Pimentel.2007} evidencia a solução de dilemas com cooperação: 
+Para \citeonline{Campos.2012} não é raro que a aplicação dos conceitos de cadeia de suprimentos e logística\footnote{Logística é arte e ciência de mover as coisas de um lugar para outro e armazená-las ao longo do caminho \cite[p.~370]{Fawcett.2000}.} ocorra em um contexto multidisciplinar incorporando conhecimentos das áreas de custo, informática, estatística e matemática. \citeonline{Ayers.2006} delineia uma cadeia de suprimentos como um conjunto de empresas e pessoas que se relacionam trocando informações e produtos. Já o processo de GCS compreende atividades de decisão relacionadas à organização deste ambiente \cite{Fredendall.2001} e abrange planejamento, controle e coordenação dos canais de distribuição (fornecedores, prestadores de serviço, intermediários, clientes) \cite{Panitz.2007}. No âmbito dessa conjuntura, a chave da cooperação entre empresas está em conseguir a unidade de motivação pelo alinhamento de incentivos \cite{Cao.2012}. 
 
-\begin{citacao}
-As paixões podem nos motivar a agir, mas nem sempre são suficientes para prevalecer sobre todas as razões; da mesma forma, as razões, sozinhas, não são tão fortes que garantam que uma ação aconteça. Algumas vezes é preciso um \textbf{acordo} para resolver os nossos dilemas do prisioneiro \emph{internos}, o que envolve a possibilidade de cooperação na escolha que temos de fazer ao longo do tempo entre "prêmios", tais como recompensas, punições e sentimentos de culpa \cite[p.~132]{Pimentel.2007}.
-\end{citacao}
+Uma cadeia de suprimentos é beneficiada pela colaboração entre seus membros, que pode ocorrer pelo compartilhamento de informações, conhecimentos, custos, riscos e recompensas. Mesmo que as organizações constituam unidades autônomas, temos uma sequência ou rede de relações interdependentes que pode promover alianças estratégicas \cite{Chen.2004}. Em geral, a cooperação vem ganhando cada vez mais importância, principalmente em redes de alta complexidade \cite{Drechsel.2010} onde as decisões de cada um dos membros (agentes) afetam nas decisões dos demais e o acordo entre os agentes é a base da cooperação \cite{Young.1994}.
 
 Estudos sobre a aplicação da teoria dos jogos cooperativos no GCS versam como principal questão o gerenciamento harmonioso das decisões entre os elos da cadeia \cite{Dobos.2010a}. O pressuposto está na existência de uma estrutura comum entre agentes na qual o ganho ou custo seja compartilhado, seguindo critérios de justiça definidos por axiomas \cite{Bezerra.2009}. \citeonline{Brink.2002} caracteriza a propriedade de justiça e eficiência pelo modelo de jogo cooperativo \emph{Shapley Value}. 
 
 Introduzido em  \citeyear{Shapley.1952} por \citeauthoronline{Shapley.1952}, os mais recentes estudos do método --- análogo ou no domínio do GCS ---, abarcam soluções nas ambiências do desenvolvimento sustentável \cite{Bakr.2015}, Internet das Coisas \cite{Militano.2016,Kim.2016}, redes sociais \cite{Kim.2016}, distribuição de lucros\footnote{Pesquisa sobre distribuição de lucros no \href{https://prod.campusexpress.upenn.edu/}{Campus Express Alliance}.} 
 \cite{Zhuang.2016}, gerenciamento de projetos \cite{Ding.2016}, análise de impacto econômico\footnote{Impacto da expansão do \href{http://www.pancanal.com/eng/maritime/routes.html}{Canal do Panamá} no mercado de contêineres.} \cite{Liu.2016}, grafos\footnote{Relação entre elementos de um conjunto \cite{Deza.2014} --- interação dos agentes em uma coalizão.} \cite{Khmelnitskaya.2016}, estudos na alocação de custos para \emph{e--commerce} \cite{Dong.2016}, logística \cite{DeVos.2016}, cooperação vertical e horizontal\footnote{\citeauthoronline{Defryn.2016} relatam um estudo de caso de cooperação logística horizontal no setor das frutas e produtos hortícolas frescos.} no gerenciamento de inventário e transporte \cite{DeVos.2016,Defryn.2016}.
 
-O presente artigo é uma abordagem sobre a execução do modelo \emph{Shapley Value} para equacionar a contribuição marginal entre agentes de uma CS. Para tal fim, é proposta uma solução computacional gratuita e \emph{on-line}. Os exemplos são ilustrados por uma hipotética cadeia composta por três fornecedores que compartilham seus pontos de distribuição, um centro de apoio e o atendimento a um cliente.  O objetivo é balancear os custos itinerários, considerando todas as conexões possíveis no atendimento do cliente. A noção de justiça é alcançada pela aplicação \emph{Shapley Value} e viabilizada pela codificação do algoritmo na linguagem R\footnote{\citetext{R.2016}}. Ademais, a conclusão projeta novas lacunas com enlace para estudos em trabalhos futuros.
+O presente artigo é uma abordagem sobre a execução do modelo \emph{Shapley Value} para equacionar a contribuição marginal entre agentes de uma CS. A precípua está no rateio do custo rodoviário itinerário --- comensurado em Km ---. ilustrados por uma hipotética cadeia composta por três fornecedores que compartilham seus pontos de distribuição, um centro de apoio e o atendimento a um cliente.  O objetivo é balancear os custos itinerários, considerando todas as conexões possíveis no atendimento do cliente. A noção de justiça é alcançada pela aplicação \emph{Shapley Value} e viabilizada pela codificação do algoritmo na linguagem R\footnote{\citetext{R.2016}}. Ademais, a conclusão projeta novas lacunas com enlace para estudos em trabalhos futuros.
 
 % ----------------------------------------------------------
 % Estudo de caso
@@ -703,10 +687,29 @@ Definição de um jogo cooperativo.
 % ---
 \section{Conclusão}
 
+
+\begin{citacao}
+  Podemos ter uma consciência difusa dos demônios que nos espreitam lá fora. Podemos até estar bastante preocupados com eles. Mas, na realidade, não temos ideia de quantos são e de quando podem atacar \cite{Nate.2012}.
+\end{citacao}
+
 \begin{citacao}
 
 [...] toda medição e todo número do mundo real tem um quê de imprecisão, de incerteza. Trata-se de um reflexo imperfeito da realidade. Números são sempre impuros: uma mescla de verdade, erro e incerteza \cite{Seife.2012}.
 
+\end{citacao}
+
+
+\begin{citacao}
+$\left [ ... \right ]$ os objetos primários de nossas percepções morais são as ações de outros homens; além disso, nossos juízos morais sobre nossa própria conduta são apenas aplicações, sobre nós mesmos, de decisões já proferidas a respeito da conduta do nosso próximo \cite{Smith.1999}.
+\end{citacao}
+
+\begin{citacao}
+  A teoria dos jogos parte do ponto que as pessoas estão buscando o que é bom para elas. O que não parece ser tão chocante embora controverso para muitas pessoas: somos interessados em nós mesmos. E para buscar o que é melhor para si ou o que imaginamos ser melhor, as pessoas têm valores --- elas identificam o que querem e o que não querem \cite[min.~2:17--2:37]{MesquitaTED.2009}. 
+\end{citacao}
+
+
+\begin{citacao}
+As paixões podem nos motivar a agir, mas nem sempre são suficientes para prevalecer sobre todas as razões; da mesma forma, as razões, sozinhas, não são tão fortes que garantam que uma ação aconteça. Algumas vezes é preciso um \textbf{acordo} para resolver os nossos dilemas do prisioneiro \emph{internos}, o que envolve a possibilidade de cooperação na escolha que temos de fazer ao longo do tempo entre "prêmios", tais como recompensas, punições e sentimentos de culpa \cite[p.~132]{Pimentel.2007}.
 \end{citacao}
 
 

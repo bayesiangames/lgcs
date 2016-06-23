@@ -571,16 +571,17 @@ ISSN 1389-1286.
 Dispon{\'\i}vel em:
   \url{http://www.sciencedirect.com/science/article/pii/S1389128616300743}.}
 
+\bibitem[Mlodinow 2009]{Mlodinow.2009}
+\abntrefinfo{Mlodinow}{MLODINOW}{2009}
+{MLODINOW, L. \emph{O andar do b\'ebado}: Como o acaso determina nossas vidas.
+  Rio de Janeiro, RJ: Zahar, 2009.
+ISBN 9788537801550.}
+
 \bibitem[Mlodinow 2013]{Mlodinow.2013}
 \abntrefinfo{Mlodinow}{MLODINOW}{2013}
 {MLODINOW, L. \emph{Subliminar: Como o inconsciente influencia nossas vidas}.
   [S.l.]: Zahar, 2013.
 ISBN 9788537810538.}
-
-\bibitem[Mlodinow e Alfaro 2009]{Mlodinow.2009}
-\abntrefinfo{Mlodinow e Alfaro}{MLODINOW; ALFARO}{2009}
-{MLODINOW, L.; ALFARO, D. \emph{O andar do b\'ebado}. [S.l.]: Zahar, 2009.
-ISBN 9788537801550.}
 
 \bibitem[Moreira 2002]{Moreira.2002}
 \abntrefinfo{Moreira}{MOREIRA}{2002}
@@ -762,6 +763,11 @@ ISBN 9788521616498.}
 {TIJS, S.; OTTEN, G.-J. Compromise values in cooperative game theory.
 \emph{TOP - Official Journal of the Spanish Society of Statistics and
   Operations Research}, v.~1, 12 1993.}
+
+\bibitem[Tversky 1972]{Tversky.1972}
+\abntrefinfo{Tversky}{TVERSKY}{1972}
+{TVERSKY, A. Choice by elimination.
+\emph{Journal of Mathematical Psychology}, Elsevier Science, v.~9, 1972.}
 
 \bibitem[Wang 2007]{Wang.2007}
 \abntrefinfo{Wang}{WANG}{2007}
