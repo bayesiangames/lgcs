@@ -264,15 +264,13 @@ Estudos sobre a aplicação da teoria dos jogos cooperativos no GCS versam como 
 Introduzido em  \citeyear{Shapley.1952} por \citeauthoronline{Shapley.1952}, os mais recentes estudos do método --- análogo ou no domínio do GCS --- abarcam soluções nas ambiências do desenvolvimento sustentável \cite{Bakr.2015}, Internet das Coisas \cite{Militano.2016,Kim.2016}, redes sociais \cite{Kim.2016}, distribuição de lucros\footnote{Pesquisa sobre distribuição de lucros no \href{https://prod.campusexpress.upenn.edu/}{Campus Express Alliance}.} 
 \cite{Zhuang.2016}, gerenciamento de projetos \cite{Ding.2016}, análise de impacto econômico\footnote{Impacto da expansão do \href{http://www.pancanal.com/eng/maritime/routes.html}{Canal do Panamá} no mercado de contêineres.} \cite{Liu.2016}, grafos\footnote{Relação entre elementos de um conjunto \cite{Deza.2014} --- interação dos agentes em uma coalizão.} \cite{Khmelnitskaya.2016}, estudos na alocação de custos para \emph{e--commerce} \cite{Dong.2016}, logística \cite{DeVos.2016}, cooperação vertical e horizontal\footnote{\citeauthoronline{Defryn.2016} relatam um estudo de caso de cooperação logística horizontal no setor das frutas e produtos hortícolas frescos.} no gerenciamento de inventário e transporte \cite{DeVos.2016,Defryn.2016}.
 
-O presente artigo é uma abordagem sobre a execução do modelo \emph{Shapley Value} para equacionar a contribuição marginal entre agentes de uma CS. A precípua está no rateio do custo rodoviário itinerário --- comensurado em Km. Considerando uma hipotética coalizão formada por três fornecedores, adiciona-se indivíduos, um de cada vez, dando a cada um uma contribuição marginal $v(S \cup \{i\})$ --- $v(S)$ para $S$ indivíduos. Na medida em que os custos são ponderados atinge-se uma noção de justiça. A \fullref{sec:teoria} demonstra a aplicação teoria na ambiência do cenário fictício. Na \fullref{sec:R} o algorítmo é implementado na linguagem R\footnote{\citetext{R.2016}} viabilizando futuras simulações. Ademais, a \fullref{sec:conclusao} projeta novas lacunas com enlace para estudos em trabalhos futuros.
+O presente artigo é uma abordagem sobre a execução do modelo \emph{Shapley Value} para equacionar a contribuição marginal entre agentes de uma CS. A precípua está no rateio do custo rodoviário itinerário --- comensurado em Km. Considerando uma hipotética coalizão formada por três fornecedores, adiciona-se indivíduos, um de cada vez, dando a cada um uma contribuição marginal $v(S \cup \{i\})$ --- $v(S)$ para $S$ indivíduos. Na medida em que os custos são ponderados atinge-se uma noção de justiça. A \autoref{sec:caso} estrutura a narrativa do caso de estudo. Na \autoref{sec:teoria} estudam-se os conceitos da teoria, na ambiência do cenário fictício. A \autoref{sec:R} implementa o algorítmo na linguagem R\footnote{\citetext{R.2016}} --- viabilizando futuras simulações. Ademais, a \autoref{sec:conclusao} retoma a proposta adicionando um parecer de conclusão; e, em fim, a \autoref{sec:futuro} projetar novas lacunas com enlace para investigações em trabalhos futuros.
 
 % ----------------------------------------------------------
 % Estudo de caso
 % ----------------------------------------------------------
 \section{Estudo de caso}
-\label{sec:R}
-
-Considerando uma coalizão, formada por três fornecedores, adiciona-se indivíduos, um de cada vez, dando a cada um uma contribuição marginal $v(S \cup \{i\})$ --- $v(S)$ para $S$ indivíduos. Na medida em que os custos são ponderados atinge-se uma noção de justiça.
+\label{sec:caso}
 
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[H]
@@ -458,6 +456,9 @@ $\because$
     \item ggplot2: Elegant Graphics for Data Analysis \cite{Wickham.2009}
   \end{itemize}
 
+\section{Algorítmo}
+\label{sec:R}
+
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.949, 0.949, 0.949}\color{fgcolor}\begin{kframe}
 \begin{verbatim}
@@ -526,101 +527,6 @@ shapleyValue <- summary(shapleyValue)
     \item On axiomatizations of the Shapley value for assignment games \cite{Brink.2015}
   \end{itemize}
 
-% ----------------------------------------------------------
-% Completar artigo
-% ----------------------------------------------------------
-\section{\texttt{\color{red}...seguem referências para completar artigo...}}
-
-Definição de um jogo cooperativo.
-
-\begin{equation}
-  \label{eq:conceitoTJC}
-  \left \{ 
-    \emph{x} \in \Re^{\emph{n}} \mid f\left ( x,S \right ) \leq c\left ( S \right ), \forall \emph{S} \subseteq \emph{N}
-  \right\}
-\end{equation}
-
-
-  \texttt{\color{red}...seguem referências para completar seção...}
-  \begin{itemize}
-    \item Theory of games and economic behavior \cite{Neumann.1947}
-    \item Social choice and individual values \cite{Figueiredo.1994}
-    \item Teoria dos Jogos Cooperativos: Conceitos Fundamentais \cite{Moreira.2002}
-    \item Teoria Dos Jogos \cite{Fiani.2006}
-    \item Bayesian learning in negotiation \cite{Zeng.1998}
-    \item Teoria dos Jogos \cite{Tavares.2009}
-    \item Teoria dos Jogos \cite{Bierman.2010}
-    \item Cooperação e Conflito \cite{Fiani.2011}
-    \item Teoria dos Jogos: Crenas, Desejos e Escolhas \cite{Paula.2014}
-    \item A Way to Play Claims Problems \cite{Gimenez.2014}
-    \item Teoria dos Jogos \cite{Fiani.2015}
-    \item Entrevista com Bruce Bueno de Mesquita \cite{Mesquita.2012}
-    \item Linearity of unrestrictedly transferable utilities \cite{Aumann.1960}
-    \item Introduction to the Theory of Cooperative Games \cite{Peleg.2007}
-    \item Game Theory Cooperative Games with Transferable Utility \cite{Peters.2008}
-    \item A cooperative game approach to optimal saving theory: Toward a constitution for savings \cite{Forte.1994}
-    \item Water Costs Allocation in Complex Systems Using a Cooperative Game Theory Approach \cite{Sechi.2013}
-    \item Cooperative Game Theory in Sports \cite{Manuel.2013}
-    \item An intersection theorem in TU cooperative game theory \cite{Albeniz.2004}
-    \item Axiomatization in cooperative game theory \cite{yakov.2005}
-    \item Applying cooperative game theory to power relations \cite{Wiese.2009}
-    \item Cooperative game theory and its insurance applications \cite{Lemaire.1993}
-    \item A novel cooperative spectrum sensing method based on cooperative game theory \cite{KaitianCao.2010}
-    \item A cooperative game theory analysis for transmission loss allocation \cite{Lima.2008}
-    \item Social and Economic Networks in Cooperative Game Theory \cite{Ray.2002}
-    \item Game theory in cooperative communications \cite{Yang.2012}
-    \item Allocation of Unit Start-Up Costs Using Cooperative Game Theory \cite{Hu.2006}
-    \item Compromise values in cooperative game theory \cite{Tijs.1993}
-    \item Cooperative advertising, game theory and manufacturer--retailer supply chains \cite{Xie.2006}
-    \item Estimation of price policies in Senegal An empirical test of cooperative game theory \cite{Beghin.1991}
-    \item Information sharing in DEA: A cooperative game theory approach \cite{Lozano.2012}
-    \item Quality of service provisioning in worldwide interoperability for microwave access networks based on cooperative game theory \cite{Jiao.2011}
-    \item A conceptual application of cooperative game theory to liner shipping strategic alliances \cite{Song.2002}
-    \item Using cooperative game theory to optimize the feature selection problem \cite{Sun.2012}
-    \item Game Theory as a Theory of a Conflict Resolution - A Shapley Value for Cooperative Games with Quarrelling \cite{Rapoport.1974}
-    \item Introduction to Game Theory - N-Person Cooperative Games \cite{Morris.1994}    
-    \item Supplier bidding strategy based on non-cooperative game theory concepts in single auction power pools \cite{Kang.2007}
-    \item Aplicação de Teoria de Jogos à Alocação de Capacidade Firme em um Sistema Térmico \cite{Ayala.2008}
-    \item Value Solutions in Cooperative Games \cite{Mccain.2013} 
-    \item Cooperative Games, Solutions and Applications \cite{Driessen.2013}
-    \item A Teoria dos Jogos Aplicada ao Processo Penal \cite{Rosa.2014}
-    \item Towards a theory of supply chain management: the constructs and measurements \cite{Chen.2004}
-    \item Game Theory in Supply Chain Analysis \cite{Cachon.2004}
-    \item Supply Chain Games: Operations Management and Risk Valuation \cite{kogan.2007}
-    \item Cooperation: Game-Theoretic Approaches \cite{Hart.2012}
-    \item Quantitative Methods in Supply Chain Management: Models and Algorithms \cite{Christou.2012}
-    \item Cooperation in an HMMS-type supply chain: A management application of cooperative game theory \cite{Dobos.2010b}
-  \end{itemize}
-
-\section{Nucleolus}
-
-\subsection{Conceito}
-
-  \texttt{\color{red}...seguem referências para completar seção...}
-  \begin{itemize}
-    \item The Nucleolus of a Characteristic Function Game \cite{Schmeidler.1969}
-    \item Geometric Properties of the Kernel, Nucleolus, and Related Solution Concepts \cite{Maschler.1979}
-    \item Game theoretic analysis of a bankruptcy problem from the Talmud \cite{Aumann.1985}
-    \item Game Theory (An Introduction) \cite[p.~219--307]{Barron.2007}
-    \item Collective Rationality: Equilibrium in Cooperative Games \cite{Weirich.2009}
-    \item Prática na Teoria. Aplicações da Teoria dos Jogos e da Evolução aos Negócios \cite{Marinho.2011}
-    \item Common mistakes in computing the nucleolus \cite{Guajardo.2015}
-    \item O Dilema do Prisioneiro desde Hegel até Lacan: Tomo 1 \cite{Faveret.2015}
-  \end{itemize}
-
-\subsection{Aplicação no estudo de caso}
-
-\subsection{Implementac{c}ão computacional para o estudo de caso}
-
-
-\section{Análise comparativa}
-
-  \texttt{\color{red}...seguem referências para completar seção...}
-  \begin{itemize}
-    \item Comparative cooperative game theory \cite{Ichiishi.1990}
-    \item A cooperative game in search theory \cite{Hohzaki.2009}
-  \end{itemize}
-
 % ---
 % Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
 % ---
@@ -669,8 +575,8 @@ As paixões podem nos motivar a agir, mas nem sempre são suficientes para preva
     \item O sinal e o ruído \cite{Nate.2012}
   \end{itemize}
 
-\section{*Trabalhos futuros}
-
+\section{Trabalhos futuros}
+\label{sec:futuro}
   \texttt{\color{red}...seguem referências para completar seção...}
   \begin{itemize}
     \item Games with incomplete information played by ''Bayesian'' players part II. Bayesian equilibrium points \cite{Harsanyi.1968}
